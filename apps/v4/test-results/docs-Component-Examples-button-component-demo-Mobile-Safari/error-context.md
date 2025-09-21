@@ -1,0 +1,217 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - button "Toggle Menu Menu" [ref=e6]:
+          - generic [ref=e11]: Toggle Menu
+          - generic [ref=e12]: Menu
+        - generic [ref=e13]:
+          - link "95.1k" [ref=e14]:
+            - /url: https://github.com/shadcn-ui/ui
+            - img
+            - generic [ref=e15]: 95.1k
+          - button "Toggle theme" [ref=e16]:
+            - img
+            - generic [ref=e17]: Toggle theme
+    - main [ref=e18]:
+      - generic [ref=e24]:
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - heading "Button" [level=1] [ref=e28]
+            - generic [ref=e29]:
+              - generic [ref=e30]:
+                - button "Copy Page" [ref=e31]:
+                  - img
+                  - text: Copy Page
+                - button [ref=e32]:
+                  - img
+              - link "Previous" [ref=e33]:
+                - /url: /docs/components/breadcrumb
+                - img
+                - generic [ref=e34]: Previous
+              - link "Next" [ref=e35]:
+                - /url: /docs/components/calendar
+                - generic [ref=e36]: Next
+                - img
+          - paragraph [ref=e37]: Displays a button or a component that looks like a button.
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - tablist [ref=e42]:
+              - tab "Preview" [selected] [ref=e43]
+              - tab "Code" [ref=e44]
+            - button "Button" [ref=e49]
+          - heading "Installation" [level=2] [ref=e50]
+          - generic [ref=e51]:
+            - tablist [ref=e52]:
+              - tab "CLI" [selected] [ref=e53]
+              - tab "Manual" [ref=e54]
+            - tabpanel "CLI" [ref=e55]:
+              - figure [ref=e56]:
+                - generic [ref=e58]:
+                  - generic [ref=e59]:
+                    - generic [ref=e60]:
+                      - img [ref=e62]
+                      - tablist [ref=e64]:
+                        - tab "pnpm" [selected] [ref=e65]
+                        - tab "npm" [ref=e66]
+                        - tab "yarn" [ref=e67]
+                        - tab "bun" [ref=e68]
+                    - tabpanel "pnpm" [ref=e70]:
+                      - code [ref=e72]: pnpm dlx shadcn@latest add button
+                  - button "Copy" [ref=e73]:
+                    - generic [ref=e74]: Copy
+                    - img
+          - heading "Usage" [level=2] [ref=e75]
+          - figure [ref=e76]:
+            - generic [ref=e77]:
+              - button "Copy" [ref=e78]:
+                - generic [ref=e79]: Copy
+                - img
+              - code [ref=e80]:
+                - generic [ref=e81]:
+                  - generic [ref=e82]: import
+                  - generic [ref=e83]: "{ Button }"
+                  - generic [ref=e84]: from
+                  - generic [ref=e85]: "\"@/components/ui/button\""
+          - figure [ref=e86]:
+            - generic [ref=e87]:
+              - button "Copy" [ref=e88]:
+                - generic [ref=e89]: Copy
+                - img
+              - code [ref=e90]:
+                - generic [ref=e91]:
+                  - generic [ref=e92]: <
+                  - generic [ref=e93]: Button
+                  - generic [ref=e94]: variant
+                  - generic [ref=e95]: =
+                  - generic [ref=e96]: "\"outline\""
+                  - generic [ref=e97]: ">Button</"
+                  - generic [ref=e98]: Button
+                  - generic [ref=e99]: ">"
+          - heading "Link" [level=2] [ref=e100]
+          - paragraph [ref=e101]:
+            - text: You can use the
+            - code [ref=e102]: asChild
+            - text: prop to make another component look like a button. Here's an example of a link that looks like a button.
+          - figure [ref=e103]:
+            - generic [ref=e104]:
+              - button "Copy" [ref=e105]:
+                - generic [ref=e106]: Copy
+                - img
+              - code [ref=e107]:
+                - generic [ref=e108]:
+                  - generic [ref=e109]: import
+                  - generic [ref=e110]: "{ Link }"
+                  - generic [ref=e111]: from
+                  - generic [ref=e112]: "\"next/link\""
+                - generic [ref=e114]:
+                  - generic [ref=e115]: import
+                  - generic [ref=e116]: "{ Button }"
+                  - generic [ref=e117]: from
+                  - generic [ref=e118]: "\"@/components/ui/button\""
+                - generic [ref=e120]:
+                  - generic [ref=e121]: export
+                  - generic [ref=e122]: function
+                  - generic [ref=e123]: LinkAsButton
+                  - generic [ref=e124]: "() {"
+                - generic [ref=e125]:
+                  - generic [ref=e126]: return
+                  - generic [ref=e127]: (
+                - generic [ref=e128]:
+                  - generic [ref=e129]: <
+                  - generic [ref=e130]: Button
+                  - generic [ref=e131]: asChild
+                  - generic [ref=e132]: ">"
+                - generic [ref=e133]:
+                  - generic [ref=e134]: <
+                  - generic [ref=e135]: Link
+                  - generic [ref=e136]: href
+                  - generic [ref=e137]: =
+                  - generic [ref=e138]: "\"/login\""
+                  - generic [ref=e139]: ">Login</"
+                  - generic [ref=e140]: Link
+                  - generic [ref=e141]: ">"
+                - generic [ref=e142]:
+                  - generic [ref=e143]: </
+                  - generic [ref=e144]: Button
+                  - generic [ref=e145]: ">"
+                - generic [ref=e147]: )
+                - generic [ref=e149]: "}"
+          - heading "Examples" [level=2] [ref=e150]
+          - heading "Default" [level=3] [ref=e151]
+          - generic [ref=e152]:
+            - tablist [ref=e155]:
+              - tab "Preview" [selected] [ref=e156]
+              - tab "Code" [ref=e157]
+            - button "Button" [ref=e162]
+          - heading "Secondary" [level=3] [ref=e163]
+          - generic [ref=e164]:
+            - tablist [ref=e167]:
+              - tab "Preview" [selected] [ref=e168]
+              - tab "Code" [ref=e169]
+            - button "Secondary" [ref=e173]
+          - heading "Destructive" [level=3] [ref=e174]
+          - generic [ref=e175]:
+            - tablist [ref=e178]:
+              - tab "Preview" [selected] [ref=e179]
+              - tab "Code" [ref=e180]
+            - button "Destructive" [ref=e184]
+          - heading "Outline" [level=3] [ref=e185]
+          - generic [ref=e186]:
+            - tablist [ref=e189]:
+              - tab "Preview" [selected] [ref=e190]
+              - tab "Code" [ref=e191]
+            - button "Outline" [ref=e195]
+          - heading "Ghost" [level=3] [ref=e196]
+          - generic [ref=e197]:
+            - tablist [ref=e200]:
+              - tab "Preview" [selected] [ref=e201]
+              - tab "Code" [ref=e202]
+            - button "Ghost" [ref=e206]
+          - heading "Link" [level=3] [ref=e207]
+          - generic [ref=e208]:
+            - tablist [ref=e211]:
+              - tab "Preview" [selected] [ref=e212]
+              - tab "Code" [ref=e213]
+            - button "Link" [ref=e217]
+          - heading "Icon" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - tablist [ref=e222]:
+              - tab "Preview" [selected] [ref=e223]
+              - tab "Code" [ref=e224]
+            - button [ref=e228]:
+              - img
+          - heading "With Icon" [level=3] [ref=e229]
+          - generic [ref=e230]:
+            - tablist [ref=e233]:
+              - tab "Preview" [selected] [ref=e234]
+              - tab "Code" [ref=e235]
+            - button "New Branch" [ref=e239]:
+              - img
+              - text: New Branch
+          - heading "Loading" [level=3] [ref=e240]
+          - generic [ref=e241]:
+            - tablist [ref=e244]:
+              - tab "Preview" [selected] [ref=e245]
+              - tab "Code" [ref=e246]
+            - generic [ref=e249]:
+              - button "Please wait" [disabled]:
+                - img
+                - text: Please wait
+    - contentinfo [ref=e250]:
+      - generic [ref=e253]:
+        - text: Built by
+        - link "shadcn" [ref=e254]:
+          - /url: https://twitter.com/shadcn
+        - text: at
+        - link "Vercel" [ref=e255]:
+          - /url: https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+        - text: . The source code is available on
+        - link "GitHub" [ref=e256]:
+          - /url: https://github.com/shadcn-ui/ui
+        - text: .
+  - region "Notifications alt+T"
+```

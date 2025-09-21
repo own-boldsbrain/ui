@@ -1,0 +1,157 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - button "Toggle Menu Menu" [ref=e6]:
+          - generic [ref=e11]: Toggle Menu
+          - generic [ref=e12]: Menu
+        - generic [ref=e13]:
+          - link "95.1k" [ref=e14]:
+            - /url: https://github.com/shadcn-ui/ui
+            - img
+            - generic [ref=e15]: 95.1k
+          - button "Toggle theme" [ref=e16]:
+            - img
+            - generic [ref=e17]: Toggle theme
+    - main [ref=e18]:
+      - generic [ref=e24]:
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - heading "Components" [level=1] [ref=e28]
+            - generic [ref=e29]:
+              - generic [ref=e30]:
+                - button "Copy Page" [ref=e31]:
+                  - img
+                  - text: Copy Page
+                - button [ref=e32]:
+                  - img
+              - link "Previous" [ref=e33]:
+                - /url: /docs/legacy
+                - img
+                - generic [ref=e34]: Previous
+              - link "Next" [ref=e35]:
+                - /url: /docs/components/accordion
+                - generic [ref=e36]: Next
+                - img
+          - paragraph [ref=e37]: Here you can find all the components available in the library. We are working on adding more components.
+        - generic [ref=e39]:
+          - link "Accordion" [ref=e40]:
+            - /url: /docs/components/accordion
+          - link "Alert" [ref=e41]:
+            - /url: /docs/components/alert
+          - link "Alert Dialog" [ref=e42]:
+            - /url: /docs/components/alert-dialog
+          - link "Aspect Ratio" [ref=e43]:
+            - /url: /docs/components/aspect-ratio
+          - link "Avatar" [ref=e44]:
+            - /url: /docs/components/avatar
+          - link "Badge" [ref=e45]:
+            - /url: /docs/components/badge
+          - link "Breadcrumb" [ref=e46]:
+            - /url: /docs/components/breadcrumb
+          - link "Button" [ref=e47]:
+            - /url: /docs/components/button
+          - link "Calendar" [ref=e48]:
+            - /url: /docs/components/calendar
+          - link "Card" [ref=e49]:
+            - /url: /docs/components/card
+          - link "Carousel" [ref=e50]:
+            - /url: /docs/components/carousel
+          - link "Chart" [ref=e51]:
+            - /url: /docs/components/chart
+          - link "Checkbox" [ref=e52]:
+            - /url: /docs/components/checkbox
+          - link "Collapsible" [ref=e53]:
+            - /url: /docs/components/collapsible
+          - link "Combobox" [ref=e54]:
+            - /url: /docs/components/combobox
+          - link "Command" [ref=e55]:
+            - /url: /docs/components/command
+          - link "Context Menu" [ref=e56]:
+            - /url: /docs/components/context-menu
+          - link "Data Table" [ref=e57]:
+            - /url: /docs/components/data-table
+          - link "Date Picker" [ref=e58]:
+            - /url: /docs/components/date-picker
+          - link "Dialog" [ref=e59]:
+            - /url: /docs/components/dialog
+          - link "Drawer" [ref=e60]:
+            - /url: /docs/components/drawer
+          - link "Dropdown Menu" [ref=e61]:
+            - /url: /docs/components/dropdown-menu
+          - link "React Hook Form" [ref=e62]:
+            - /url: /docs/components/form
+          - link "Hover Card" [ref=e63]:
+            - /url: /docs/components/hover-card
+          - link "Input" [ref=e64]:
+            - /url: /docs/components/input
+          - link "Input OTP" [ref=e65]:
+            - /url: /docs/components/input-otp
+          - link "Label" [ref=e66]:
+            - /url: /docs/components/label
+          - link "Menubar" [ref=e67]:
+            - /url: /docs/components/menubar
+          - link "Navigation Menu" [ref=e68]:
+            - /url: /docs/components/navigation-menu
+          - link "Pagination" [ref=e69]:
+            - /url: /docs/components/pagination
+          - link "Popover" [ref=e70]:
+            - /url: /docs/components/popover
+          - link "Progress" [ref=e71]:
+            - /url: /docs/components/progress
+          - link "Radio Group" [ref=e72]:
+            - /url: /docs/components/radio-group
+          - link "Resizable" [ref=e73]:
+            - /url: /docs/components/resizable
+          - link "Scroll-area" [ref=e74]:
+            - /url: /docs/components/scroll-area
+          - link "Select" [ref=e75]:
+            - /url: /docs/components/select
+          - link "Separator" [ref=e76]:
+            - /url: /docs/components/separator
+          - link "Sheet" [ref=e77]:
+            - /url: /docs/components/sheet
+          - link "Sidebar" [ref=e78]:
+            - /url: /docs/components/sidebar
+          - link "Skeleton" [ref=e79]:
+            - /url: /docs/components/skeleton
+          - link "Slider" [ref=e80]:
+            - /url: /docs/components/slider
+          - link "Sonner" [ref=e81]:
+            - /url: /docs/components/sonner
+          - link "Switch" [ref=e82]:
+            - /url: /docs/components/switch
+          - link "Table" [ref=e83]:
+            - /url: /docs/components/table
+          - link "Tabs" [ref=e84]:
+            - /url: /docs/components/tabs
+          - link "Textarea" [ref=e85]:
+            - /url: /docs/components/textarea
+          - link "Toast" [ref=e86]:
+            - /url: /docs/components/toast
+          - link "Toggle" [ref=e87]:
+            - /url: /docs/components/toggle
+          - link "Toggle Group" [ref=e88]:
+            - /url: /docs/components/toggle-group
+          - link "Tooltip" [ref=e89]:
+            - /url: /docs/components/tooltip
+          - link "Typography" [ref=e90]:
+            - /url: /docs/components/typography
+    - contentinfo [ref=e91]:
+      - generic [ref=e94]:
+        - text: Built by
+        - link "shadcn" [ref=e95]:
+          - /url: https://twitter.com/shadcn
+        - text: at
+        - link "Vercel" [ref=e96]:
+          - /url: https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+        - text: . The source code is available on
+        - link "GitHub" [ref=e97]:
+          - /url: https://github.com/shadcn-ui/ui
+        - text: .
+  - region "Notifications alt+T"
+  - alert [ref=e98]
+```

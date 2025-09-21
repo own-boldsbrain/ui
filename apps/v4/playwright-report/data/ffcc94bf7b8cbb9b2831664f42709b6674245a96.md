@@ -1,0 +1,125 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - button "Toggle Menu Menu" [ref=e6]:
+          - generic [ref=e11]: Toggle Menu
+          - generic [ref=e12]: Menu
+        - generic [ref=e13]:
+          - link "95.1k" [ref=e14] [cursor=pointer]:
+            - /url: https://github.com/shadcn-ui/ui
+            - img
+            - generic [ref=e15] [cursor=pointer]: 95.1k
+          - button "Toggle theme" [ref=e16]:
+            - img
+            - generic [ref=e17]: Toggle theme
+    - main [ref=e18]:
+      - generic [ref=e24]:
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - heading "Introduction" [level=1] [ref=e28]
+            - generic [ref=e29]:
+              - generic [ref=e30]:
+                - button "Copy Page" [ref=e31]:
+                  - img
+                  - text: Copy Page
+                - button [ref=e32]:
+                  - img
+              - link "Next" [ref=e33] [cursor=pointer]:
+                - /url: /docs/installation
+                - generic [ref=e34] [cursor=pointer]: Next
+                - img
+          - paragraph [ref=e35]: shadcn/ui is a set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks and AI models. Open Source. Open Code.
+        - generic [ref=e36]:
+          - paragraph [ref=e37]:
+            - strong [ref=e38]: This is not a component library. It is how you build your component library.
+          - paragraph [ref=e39]: "You know how most traditional component libraries work: you install a package from NPM, import the components, and use them in your app."
+          - paragraph [ref=e40]:
+            - text: This approach works well until you need to customize a component to fit your design system or require one that isn’t included in the library.
+            - strong [ref=e41]: Often, you end up wrapping library components, writing workarounds to override styles, or mixing components from different libraries with incompatible APIs.
+          - paragraph [ref=e42]: "This is what shadcn/ui aims to solve. It is built around the following principles:"
+          - list [ref=e43]:
+            - listitem [ref=e44]:
+              - strong [ref=e45]: "Open Code:"
+              - text: The top layer of your component code is open for modification.
+            - listitem [ref=e46]:
+              - strong [ref=e47]: "Composition:"
+              - text: Every component uses a common, composable interface, making them predictable.
+            - listitem [ref=e48]:
+              - strong [ref=e49]: "Distribution:"
+              - text: A flat-file schema and command-line tool make it easy to distribute components.
+            - listitem [ref=e50]:
+              - strong [ref=e51]: "Beautiful Defaults:"
+              - text: Carefully chosen default styles, so you get great design out-of-the-box.
+            - listitem [ref=e52]:
+              - strong [ref=e53]: "AI-Ready:"
+              - text: Open code for LLMs to read, understand, and improve.
+          - heading "Open Code" [level=2] [ref=e54]
+          - paragraph [ref=e55]: "shadcn/ui hands you the actual component code. You have full control to customize and extend the components to your needs. This means:"
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - strong [ref=e58]: "Full Transparency:"
+              - text: You see exactly how each component is built.
+            - listitem [ref=e59]:
+              - strong [ref=e60]: "Easy Customization:"
+              - text: Modify any part of a component to fit your design and functionality requirements.
+            - listitem [ref=e61]:
+              - strong [ref=e62]: "AI Integration:"
+              - text: Access to the code makes it straightforward for LLMs to read, understand, and even improve your components.
+          - paragraph [ref=e63]:
+            - emphasis [ref=e64]: In a typical library, if you need to change a button’s behavior, you have to override styles or wrap the component. With shadcn/ui, you simply edit the button code directly.
+          - heading "How do I pull upstream updates in an Open Code approach?" [level=3] [ref=e67]:
+            - button "How do I pull upstream updates in an Open Code approach?" [ref=e68]:
+              - paragraph [ref=e69]: How do I pull upstream updates in an Open Code approach?
+              - img
+          - heading "Composition" [level=2] [ref=e70]
+          - paragraph [ref=e71]:
+            - text: Every component in shadcn/ui shares a common, composable interface.
+            - strong [ref=e72]: If a component does not exist, we bring it in, make it composable, and adjust its style to match and work with the rest of the design system.
+          - paragraph [ref=e73]:
+            - emphasis [ref=e74]: A shared, composable interface means it's predictable for both your team and LLMs. You are not learning different APIs for every new component. Even for third-party ones.
+          - heading "Distribution" [level=2] [ref=e75]
+          - paragraph [ref=e76]: shadcn/ui is also a code distribution system. It defines a schema for components and a CLI to distribute them.
+          - list [ref=e77]:
+            - listitem [ref=e78]:
+              - strong [ref=e79]: "Schema:"
+              - text: A flat-file structure that defines the components, their dependencies, and properties.
+            - listitem [ref=e80]:
+              - strong [ref=e81]: "CLI:"
+              - text: A command-line tool to distribute and install components across projects with cross-framework support.
+          - paragraph [ref=e82]:
+            - emphasis [ref=e83]: You can use the schema to distribute your components to other projects or have AI generate completely new components based on existing schema.
+          - heading "Beautiful Defaults" [level=2] [ref=e84]
+          - paragraph [ref=e85]: "shadcn/ui comes with a large collection of components that have carefully chosen default styles. They are designed to look good on their own and to work well together as a consistent system:"
+          - list [ref=e86]:
+            - listitem [ref=e87]:
+              - strong [ref=e88]: "Good Out-of-the-Box:"
+              - text: Your UI has a clean and minimal look without extra work.
+            - listitem [ref=e89]:
+              - strong [ref=e90]: "Unified Design:"
+              - text: Components naturally fit with one another. Each component is built to match the others, keeping your UI consistent.
+            - listitem [ref=e91]:
+              - strong [ref=e92]: "Easily Customizable:"
+              - text: If you want to change something, it's simple to override and extend the defaults.
+          - heading "AI-Ready" [level=2] [ref=e93]
+          - paragraph [ref=e94]: The design of shadcn/ui makes it easy for AI tools to work with your code. Its open code and consistent API allow AI models to read, understand, and even generate new components.
+          - paragraph [ref=e95]:
+            - emphasis [ref=e96]: An AI model can learn how your components work and suggest improvements or even create new components that integrate with your existing design.
+    - contentinfo [ref=e97]:
+      - generic [ref=e100]:
+        - text: Built by
+        - link "shadcn" [ref=e101] [cursor=pointer]:
+          - /url: https://twitter.com/shadcn
+        - text: at
+        - link "Vercel" [ref=e102] [cursor=pointer]:
+          - /url: https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+        - text: . The source code is available on
+        - link "GitHub" [ref=e103] [cursor=pointer]:
+          - /url: https://github.com/shadcn-ui/ui
+        - text: .
+  - region "Notifications alt+T"
+  - alert [ref=e104]
+```

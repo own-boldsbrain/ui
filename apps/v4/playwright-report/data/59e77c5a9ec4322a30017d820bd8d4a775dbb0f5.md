@@ -1,0 +1,89 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - button "Toggle Menu Menu" [ref=e6]:
+          - generic [ref=e11]: Toggle Menu
+          - generic [ref=e12]: Menu
+        - generic [ref=e13]:
+          - link "95.1k" [ref=e14]:
+            - /url: https://github.com/shadcn-ui/ui
+            - img
+            - generic [ref=e15]: 95.1k
+          - button "Toggle theme" [ref=e16]:
+            - img
+            - generic [ref=e17]: Toggle theme
+    - main [ref=e18]:
+      - generic [ref=e24]:
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - heading "Installation" [level=1] [ref=e28]
+            - generic [ref=e29]:
+              - generic [ref=e30]:
+                - button "Copy Page" [ref=e31]:
+                  - img
+                  - text: Copy Page
+                - button [ref=e32]:
+                  - img
+              - link "Previous" [ref=e33]:
+                - /url: /docs
+                - img
+                - generic [ref=e34]: Previous
+              - link "Next" [ref=e35]:
+                - /url: /docs/components-json
+                - generic [ref=e36]: Next
+                - img
+          - paragraph [ref=e37]: How to install dependencies and structure your app.
+        - generic [ref=e38]:
+          - heading "Pick Your Framework" [level=2] [ref=e39]
+          - paragraph [ref=e40]: Start by selecting your framework of choice. Then follow the instructions to install the dependencies and structure your app. shadcn/ui is built to work with all React frameworks.
+          - generic [ref=e41]:
+            - link "Next.js Next.js" [ref=e42]:
+              - /url: /docs/installation/next
+              - img "Next.js" [ref=e43]
+              - paragraph [ref=e45]: Next.js
+            - link "Vite Vite" [ref=e46]:
+              - /url: /docs/installation/vite
+              - img "Vite" [ref=e47]
+              - paragraph [ref=e49]: Vite
+            - link "Laravel" [ref=e50]:
+              - /url: /docs/installation/laravel
+              - img [ref=e51]
+              - paragraph [ref=e53]: Laravel
+            - link "React Router" [ref=e54]:
+              - /url: /docs/installation/react-router
+              - img [ref=e55]
+              - paragraph [ref=e57]: React Router
+            - link "Astro Astro" [ref=e58]:
+              - /url: /docs/installation/astro
+              - img "Astro" [ref=e59]
+              - paragraph [ref=e61]: Astro
+            - link "TanStack Start" [ref=e62]:
+              - /url: /docs/installation/tanstack
+              - img [ref=e63]
+              - paragraph [ref=e65]: TanStack Start
+            - link "TanStack Router" [ref=e66]:
+              - /url: /docs/installation/tanstack-router
+              - img [ref=e67]
+              - paragraph [ref=e69]: TanStack Router
+            - link "React Manual" [ref=e70]:
+              - /url: /docs/installation/manual
+              - img "React" [ref=e71]
+              - paragraph [ref=e73]: Manual
+    - contentinfo [ref=e74]:
+      - generic [ref=e77]:
+        - text: Built by
+        - link "shadcn" [ref=e78]:
+          - /url: https://twitter.com/shadcn
+        - text: at
+        - link "Vercel" [ref=e79]:
+          - /url: https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+        - text: . The source code is available on
+        - link "GitHub" [ref=e80]:
+          - /url: https://github.com/shadcn-ui/ui
+        - text: .
+  - region "Notifications alt+T"
+```

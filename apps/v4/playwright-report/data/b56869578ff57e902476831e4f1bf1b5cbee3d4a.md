@@ -1,0 +1,1056 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - link "shadcn/ui" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img
+          - generic [ref=e7] [cursor=pointer]: shadcn/ui
+        - navigation [ref=e8]:
+          - link "Docs" [ref=e9] [cursor=pointer]:
+            - /url: /docs/installation
+          - link "Components" [ref=e10] [cursor=pointer]:
+            - /url: /docs/components
+          - link "Blocks" [ref=e11] [cursor=pointer]:
+            - /url: /blocks
+          - link "Charts" [ref=e12] [cursor=pointer]:
+            - /url: /charts/area
+          - link "Themes" [ref=e13] [cursor=pointer]:
+            - /url: /themes
+          - link "Colors" [ref=e14] [cursor=pointer]:
+            - /url: /colors
+        - generic [ref=e15]:
+          - button "Search documentation... Ctrl K" [ref=e17]:
+            - generic [ref=e18]: Search documentation...
+            - generic [ref=e19]:
+              - generic: Ctrl
+              - generic: K
+          - link "95.1k" [ref=e20] [cursor=pointer]:
+            - /url: https://github.com/shadcn-ui/ui
+            - img
+            - generic [ref=e21] [cursor=pointer]: 95.1k
+          - button "Toggle theme" [ref=e22]:
+            - img
+            - generic [ref=e23]: Toggle theme
+    - main [ref=e24]:
+      - generic [ref=e26]:
+        - generic [ref=e28]:
+          - generic [ref=e30]:
+            - generic [ref=e31]: Sections
+            - list [ref=e33]:
+              - listitem [ref=e34]:
+                - link "Get Started" [ref=e35] [cursor=pointer]:
+                  - /url: /docs
+                  - text: Get Started
+              - listitem [ref=e37]:
+                - link "Components" [ref=e38] [cursor=pointer]:
+                  - /url: /docs/components
+                  - text: Components
+              - listitem [ref=e40]:
+                - link "Registry" [ref=e41] [cursor=pointer]:
+                  - /url: /docs/registry
+                  - text: Registry
+              - listitem [ref=e43]:
+                - link "MCP Server" [ref=e44] [cursor=pointer]:
+                  - /url: /docs/mcp
+                  - text: MCP Server
+              - listitem [ref=e46]:
+                - link "Changelog" [ref=e47] [cursor=pointer]:
+                  - /url: /docs/changelog
+                  - text: Changelog
+          - generic [ref=e49]:
+            - generic [ref=e50]: Get Started
+            - list [ref=e52]:
+              - listitem [ref=e53]:
+                - link "Installation" [ref=e54] [cursor=pointer]:
+                  - /url: /docs/installation
+                  - text: Installation
+              - listitem [ref=e56]:
+                - link "components.json" [ref=e57] [cursor=pointer]:
+                  - /url: /docs/components-json
+                  - text: components.json
+              - listitem [ref=e59]:
+                - link "Theming" [ref=e60] [cursor=pointer]:
+                  - /url: /docs/theming
+                  - text: Theming
+              - listitem [ref=e62]:
+                - link "Dark Mode" [ref=e63] [cursor=pointer]:
+                  - /url: /docs/dark-mode
+                  - text: Dark Mode
+              - listitem [ref=e65]:
+                - link "CLI" [ref=e66] [cursor=pointer]:
+                  - /url: /docs/cli
+                  - text: CLI
+              - listitem [ref=e68]:
+                - link "Monorepo" [ref=e69] [cursor=pointer]:
+                  - /url: /docs/monorepo
+                  - text: Monorepo
+              - listitem [ref=e71]:
+                - link "Open in v0" [ref=e72] [cursor=pointer]:
+                  - /url: /docs/v0
+                  - text: Open in v0
+              - listitem [ref=e74]:
+                - link "JavaScript" [ref=e75] [cursor=pointer]:
+                  - /url: /docs/javascript
+                  - text: JavaScript
+              - listitem [ref=e77]:
+                - link "Blocks" [ref=e78] [cursor=pointer]:
+                  - /url: /docs/blocks
+                  - text: Blocks
+              - listitem [ref=e80]:
+                - link "Figma" [ref=e81] [cursor=pointer]:
+                  - /url: /docs/figma
+                  - text: Figma
+              - listitem [ref=e83]:
+                - link "Legacy Docs" [ref=e84] [cursor=pointer]:
+                  - /url: /docs/legacy
+                  - text: Legacy Docs
+          - generic [ref=e86]:
+            - generic [ref=e87]: Components
+            - list [ref=e89]:
+              - listitem [ref=e90]:
+                - link "Accordion" [ref=e91] [cursor=pointer]:
+                  - /url: /docs/components/accordion
+                  - text: Accordion
+              - listitem [ref=e93]:
+                - link "Alert" [ref=e94] [cursor=pointer]:
+                  - /url: /docs/components/alert
+                  - text: Alert
+              - listitem [ref=e96]:
+                - link "Alert Dialog" [ref=e97] [cursor=pointer]:
+                  - /url: /docs/components/alert-dialog
+                  - text: Alert Dialog
+              - listitem [ref=e99]:
+                - link "Aspect Ratio" [ref=e100] [cursor=pointer]:
+                  - /url: /docs/components/aspect-ratio
+                  - text: Aspect Ratio
+              - listitem [ref=e102]:
+                - link "Avatar" [ref=e103] [cursor=pointer]:
+                  - /url: /docs/components/avatar
+                  - text: Avatar
+              - listitem [ref=e105]:
+                - link "Badge" [ref=e106] [cursor=pointer]:
+                  - /url: /docs/components/badge
+                  - text: Badge
+              - listitem [ref=e108]:
+                - link "Breadcrumb" [ref=e109] [cursor=pointer]:
+                  - /url: /docs/components/breadcrumb
+                  - text: Breadcrumb
+              - listitem [ref=e111]:
+                - link "Button" [ref=e112] [cursor=pointer]:
+                  - /url: /docs/components/button
+                  - text: Button
+              - listitem [ref=e114]:
+                - link "Calendar" [ref=e115] [cursor=pointer]:
+                  - /url: /docs/components/calendar
+                  - text: Calendar
+              - listitem [ref=e117]:
+                - link "Card" [ref=e118] [cursor=pointer]:
+                  - /url: /docs/components/card
+                  - text: Card
+              - listitem [ref=e120]:
+                - link "Carousel" [ref=e121] [cursor=pointer]:
+                  - /url: /docs/components/carousel
+                  - text: Carousel
+              - listitem [ref=e123]:
+                - link "Chart" [ref=e124] [cursor=pointer]:
+                  - /url: /docs/components/chart
+                  - text: Chart
+              - listitem [ref=e126]:
+                - link "Checkbox" [ref=e127] [cursor=pointer]:
+                  - /url: /docs/components/checkbox
+                  - text: Checkbox
+              - listitem [ref=e129]:
+                - link "Collapsible" [ref=e130] [cursor=pointer]:
+                  - /url: /docs/components/collapsible
+                  - text: Collapsible
+              - listitem [ref=e132]:
+                - link "Combobox" [ref=e133] [cursor=pointer]:
+                  - /url: /docs/components/combobox
+                  - text: Combobox
+              - listitem [ref=e135]:
+                - link "Command" [ref=e136] [cursor=pointer]:
+                  - /url: /docs/components/command
+                  - text: Command
+              - listitem [ref=e138]:
+                - link "Context Menu" [ref=e139] [cursor=pointer]:
+                  - /url: /docs/components/context-menu
+                  - text: Context Menu
+              - listitem [ref=e141]:
+                - link "Data Table" [ref=e142] [cursor=pointer]:
+                  - /url: /docs/components/data-table
+                  - text: Data Table
+              - listitem [ref=e144]:
+                - link "Date Picker" [ref=e145] [cursor=pointer]:
+                  - /url: /docs/components/date-picker
+                  - text: Date Picker
+              - listitem [ref=e147]:
+                - link "Dialog" [ref=e148] [cursor=pointer]:
+                  - /url: /docs/components/dialog
+                  - text: Dialog
+              - listitem [ref=e150]:
+                - link "Drawer" [ref=e151] [cursor=pointer]:
+                  - /url: /docs/components/drawer
+                  - text: Drawer
+              - listitem [ref=e153]:
+                - link "Dropdown Menu" [ref=e154] [cursor=pointer]:
+                  - /url: /docs/components/dropdown-menu
+                  - text: Dropdown Menu
+              - listitem [ref=e156]:
+                - link "React Hook Form" [ref=e157] [cursor=pointer]:
+                  - /url: /docs/components/form
+                  - text: React Hook Form
+              - listitem [ref=e159]:
+                - link "Hover Card" [ref=e160] [cursor=pointer]:
+                  - /url: /docs/components/hover-card
+                  - text: Hover Card
+              - listitem [ref=e162]:
+                - link "Input" [ref=e163] [cursor=pointer]:
+                  - /url: /docs/components/input
+                  - text: Input
+              - listitem [ref=e165]:
+                - link "Input OTP" [ref=e166] [cursor=pointer]:
+                  - /url: /docs/components/input-otp
+                  - text: Input OTP
+              - listitem [ref=e168]:
+                - link "Label" [ref=e169] [cursor=pointer]:
+                  - /url: /docs/components/label
+                  - text: Label
+              - listitem [ref=e171]:
+                - link "Menubar" [ref=e172] [cursor=pointer]:
+                  - /url: /docs/components/menubar
+                  - text: Menubar
+              - listitem [ref=e174]:
+                - link "Navigation Menu" [ref=e175] [cursor=pointer]:
+                  - /url: /docs/components/navigation-menu
+                  - text: Navigation Menu
+              - listitem [ref=e177]:
+                - link "Pagination" [ref=e178] [cursor=pointer]:
+                  - /url: /docs/components/pagination
+                  - text: Pagination
+              - listitem [ref=e180]:
+                - link "Popover" [ref=e181] [cursor=pointer]:
+                  - /url: /docs/components/popover
+                  - text: Popover
+              - listitem [ref=e183]:
+                - link "Progress" [ref=e184] [cursor=pointer]:
+                  - /url: /docs/components/progress
+                  - text: Progress
+              - listitem [ref=e186]:
+                - link "Radio Group" [ref=e187] [cursor=pointer]:
+                  - /url: /docs/components/radio-group
+                  - text: Radio Group
+              - listitem [ref=e189]:
+                - link "Resizable" [ref=e190] [cursor=pointer]:
+                  - /url: /docs/components/resizable
+                  - text: Resizable
+              - listitem [ref=e192]:
+                - link "Scroll-area" [ref=e193] [cursor=pointer]:
+                  - /url: /docs/components/scroll-area
+                  - text: Scroll-area
+              - listitem [ref=e195]:
+                - link "Select" [ref=e196] [cursor=pointer]:
+                  - /url: /docs/components/select
+                  - text: Select
+              - listitem [ref=e198]:
+                - link "Separator" [ref=e199] [cursor=pointer]:
+                  - /url: /docs/components/separator
+                  - text: Separator
+              - listitem [ref=e201]:
+                - link "Sheet" [ref=e202] [cursor=pointer]:
+                  - /url: /docs/components/sheet
+                  - text: Sheet
+              - listitem [ref=e204]:
+                - link "Sidebar" [ref=e205] [cursor=pointer]:
+                  - /url: /docs/components/sidebar
+                  - text: Sidebar
+              - listitem [ref=e207]:
+                - link "Skeleton" [ref=e208] [cursor=pointer]:
+                  - /url: /docs/components/skeleton
+                  - text: Skeleton
+              - listitem [ref=e210]:
+                - link "Slider" [ref=e211] [cursor=pointer]:
+                  - /url: /docs/components/slider
+                  - text: Slider
+              - listitem [ref=e213]:
+                - link "Sonner" [ref=e214] [cursor=pointer]:
+                  - /url: /docs/components/sonner
+                  - text: Sonner
+              - listitem [ref=e216]:
+                - link "Switch" [ref=e217] [cursor=pointer]:
+                  - /url: /docs/components/switch
+                  - text: Switch
+              - listitem [ref=e219]:
+                - link "Table" [ref=e220] [cursor=pointer]:
+                  - /url: /docs/components/table
+                  - text: Table
+              - listitem [ref=e222]:
+                - link "Tabs" [ref=e223] [cursor=pointer]:
+                  - /url: /docs/components/tabs
+                  - text: Tabs
+              - listitem [ref=e225]:
+                - link "Textarea" [ref=e226] [cursor=pointer]:
+                  - /url: /docs/components/textarea
+                  - text: Textarea
+              - listitem [ref=e228]:
+                - link "Toast" [ref=e229] [cursor=pointer]:
+                  - /url: /docs/components/toast
+                  - text: Toast
+              - listitem [ref=e231]:
+                - link "Toggle" [ref=e232] [cursor=pointer]:
+                  - /url: /docs/components/toggle
+                  - text: Toggle
+              - listitem [ref=e234]:
+                - link "Toggle Group" [ref=e235] [cursor=pointer]:
+                  - /url: /docs/components/toggle-group
+                  - text: Toggle Group
+              - listitem [ref=e237]:
+                - link "Tooltip" [ref=e238] [cursor=pointer]:
+                  - /url: /docs/components/tooltip
+                  - text: Tooltip
+              - listitem [ref=e240]:
+                - link "Typography" [ref=e241] [cursor=pointer]:
+                  - /url: /docs/components/typography
+                  - text: Typography
+          - generic [ref=e243]:
+            - generic [ref=e244]: Registry
+            - list [ref=e246]:
+              - listitem [ref=e247]:
+                - link "Introduction" [ref=e248] [cursor=pointer]:
+                  - /url: /docs/registry
+                  - text: Introduction
+              - listitem [ref=e250]:
+                - link "Getting Started" [ref=e251] [cursor=pointer]:
+                  - /url: /docs/registry/getting-started
+                  - text: Getting Started
+              - listitem [ref=e253]:
+                - link "Namespaces" [ref=e254] [cursor=pointer]:
+                  - /url: /docs/registry/namespace
+                  - text: Namespaces
+              - listitem [ref=e256]:
+                - link "Authentication" [ref=e257] [cursor=pointer]:
+                  - /url: /docs/registry/authentication
+                  - text: Authentication
+              - listitem [ref=e259]:
+                - link "Examples" [ref=e260] [cursor=pointer]:
+                  - /url: /docs/registry/examples
+                  - text: Examples
+              - listitem [ref=e262]:
+                - link "MCP Server" [ref=e263] [cursor=pointer]:
+                  - /url: /docs/registry/mcp
+                  - text: MCP Server
+              - listitem [ref=e265]:
+                - link "Index" [ref=e266] [cursor=pointer]:
+                  - /url: /docs/registry/registry-index
+                  - text: Index
+              - listitem [ref=e268]:
+                - link "Open in v0" [ref=e269] [cursor=pointer]:
+                  - /url: /docs/registry/open-in-v0
+                  - text: Open in v0
+              - listitem [ref=e271]:
+                - link "registry.json" [ref=e272] [cursor=pointer]:
+                  - /url: /docs/registry/registry-json
+                  - text: registry.json
+              - listitem [ref=e274]:
+                - link "registry-item.json" [ref=e275] [cursor=pointer]:
+                  - /url: /docs/registry/registry-item-json
+                  - text: registry-item.json
+        - generic [ref=e278]:
+          - generic [ref=e279]:
+            - generic [ref=e281]:
+              - generic [ref=e282]:
+                - generic [ref=e283]:
+                  - generic [ref=e284]:
+                    - heading "React Hook Form" [level=1] [ref=e285]
+                    - generic [ref=e286]:
+                      - generic [ref=e287]:
+                        - button "Copy Page" [ref=e288]:
+                          - img
+                          - text: Copy Page
+                        - button [ref=e289]:
+                          - img
+                      - link "Previous" [ref=e290] [cursor=pointer]:
+                        - /url: /docs/components/dropdown-menu
+                        - img
+                        - generic [ref=e291] [cursor=pointer]: Previous
+                      - link "Next" [ref=e292] [cursor=pointer]:
+                        - /url: /docs/components/hover-card
+                        - generic [ref=e293] [cursor=pointer]: Next
+                        - img
+                  - paragraph [ref=e294]: Building forms with React Hook Form and Zod.
+                - link "Docs" [ref=e296] [cursor=pointer]:
+                  - /url: https://react-hook-form.com
+                  - text: Docs
+                  - img
+              - generic [ref=e297]:
+                - paragraph [ref=e298]: Forms are tricky. They are one of the most common things you'll build in a web application, but also one of the most complex.
+                - paragraph [ref=e299]: "Well-designed HTML forms are:"
+                - list [ref=e300]:
+                  - listitem [ref=e301]: Well-structured and semantically correct.
+                  - listitem [ref=e302]: Easy to use and navigate (keyboard).
+                  - listitem [ref=e303]: Accessible with ARIA attributes and proper labels.
+                  - listitem [ref=e304]: Has support for client and server side validation.
+                  - listitem [ref=e305]: Well-styled and consistent with the rest of the application.
+                - paragraph [ref=e306]:
+                  - text: In this guide, we will take a look at building forms with
+                  - link "react-hook-form" [ref=e307] [cursor=pointer]:
+                    - /url: https://react-hook-form.com/
+                    - code [ref=e308] [cursor=pointer]: react-hook-form
+                  - text: and
+                  - link "zod" [ref=e309] [cursor=pointer]:
+                    - /url: https://zod.dev
+                    - code [ref=e310] [cursor=pointer]: zod
+                  - text: . We're going to use a
+                  - code [ref=e311]: <FormField>
+                  - text: component to compose accessible forms using Radix UI components.
+                - heading "Features" [level=2] [ref=e312]
+                - paragraph [ref=e313]:
+                  - text: The
+                  - code [ref=e314]: <Form />
+                  - text: component is a wrapper around the
+                  - code [ref=e315]: react-hook-form
+                  - text: "library. It provides a few things:"
+                - list [ref=e316]:
+                  - listitem [ref=e317]: Composable components for building forms.
+                  - listitem [ref=e318]:
+                    - text: A
+                    - code [ref=e319]: <FormField />
+                    - text: component for building controlled form fields.
+                  - listitem [ref=e320]:
+                    - text: Form validation using
+                    - code [ref=e321]: zod
+                    - text: .
+                  - listitem [ref=e322]: Handles accessibility and error messages.
+                  - listitem [ref=e323]:
+                    - text: Uses
+                    - code [ref=e324]: React.useId()
+                    - text: for generating unique IDs.
+                  - listitem [ref=e325]:
+                    - text: Applies the correct
+                    - code [ref=e326]: aria
+                    - text: attributes to form fields based on states.
+                  - listitem [ref=e327]: Built to work with all Radix UI components.
+                  - listitem [ref=e328]:
+                    - text: Bring your own schema library. We use
+                    - code [ref=e329]: zod
+                    - text: but you can use anything you want.
+                  - listitem [ref=e330]:
+                    - strong [ref=e331]: You have full control over the markup and styling.
+                - heading "Anatomy" [level=2] [ref=e332]
+                - figure [ref=e333]:
+                  - generic [ref=e334]:
+                    - button "Copy" [ref=e335]:
+                      - generic [ref=e336]: Copy
+                      - img
+                    - code [ref=e337]:
+                      - generic [ref=e338]:
+                        - generic [ref=e339]: <
+                        - generic [ref=e340]: Form
+                        - generic [ref=e341]: ">"
+                      - generic [ref=e342]:
+                        - generic [ref=e343]: <
+                        - generic [ref=e344]: FormField
+                      - generic [ref=e345]:
+                        - generic [ref=e346]: control
+                        - generic [ref=e347]: =
+                        - generic [ref=e348]: "{"
+                        - generic [ref=e349]: ...
+                        - generic [ref=e350]: "}"
+                      - generic [ref=e351]:
+                        - generic [ref=e352]: name
+                        - generic [ref=e353]: =
+                        - generic [ref=e354]: "\"...\""
+                      - generic [ref=e355]:
+                        - generic [ref=e356]: render
+                        - generic [ref=e357]: =
+                        - generic [ref=e358]: "{"
+                        - generic [ref=e359]: ()
+                        - generic [ref=e360]: =>
+                        - generic [ref=e361]: (
+                      - generic [ref=e362]:
+                        - generic [ref=e363]: <
+                        - generic [ref=e364]: FormItem
+                        - generic [ref=e365]: ">"
+                      - generic [ref=e366]:
+                        - generic [ref=e367]: <
+                        - generic [ref=e368]: FormLabel
+                        - generic [ref=e369]: />
+                      - generic [ref=e370]:
+                        - generic [ref=e371]: <
+                        - generic [ref=e372]: FormControl
+                        - generic [ref=e373]: ">"
+                      - generic [ref=e374]:
+                        - generic [ref=e375]: "{"
+                        - generic [ref=e376]: /* Your form field */
+                        - generic [ref=e377]: "}"
+                      - generic [ref=e378]:
+                        - generic [ref=e379]: </
+                        - generic [ref=e380]: FormControl
+                        - generic [ref=e381]: ">"
+                      - generic [ref=e382]:
+                        - generic [ref=e383]: <
+                        - generic [ref=e384]: FormDescription
+                        - generic [ref=e385]: />
+                      - generic [ref=e386]:
+                        - generic [ref=e387]: <
+                        - generic [ref=e388]: FormMessage
+                        - generic [ref=e389]: />
+                      - generic [ref=e390]:
+                        - generic [ref=e391]: </
+                        - generic [ref=e392]: FormItem
+                        - generic [ref=e393]: ">"
+                      - generic [ref=e394]:
+                        - generic [ref=e395]: )
+                        - generic [ref=e396]: "}"
+                      - generic [ref=e398]: />
+                      - generic [ref=e399]:
+                        - generic [ref=e400]: </
+                        - generic [ref=e401]: Form
+                        - generic [ref=e402]: ">"
+                - heading "Example" [level=2] [ref=e403]
+                - figure [ref=e404]:
+                  - generic [ref=e405]:
+                    - button "Copy" [ref=e406]:
+                      - generic [ref=e407]: Copy
+                      - img
+                    - code [ref=e408]:
+                      - generic [ref=e409]:
+                        - generic [ref=e410]: const
+                        - generic [ref=e411]: form
+                        - generic [ref=e412]: =
+                        - generic [ref=e413]: useForm
+                        - generic [ref=e414]: ()
+                      - generic [ref=e416]:
+                        - generic [ref=e417]: <
+                        - generic [ref=e418]: FormField
+                      - generic [ref=e419]:
+                        - generic [ref=e420]: control
+                        - generic [ref=e421]: =
+                        - generic [ref=e422]: "{"
+                        - generic [ref=e423]: form.control
+                        - generic [ref=e424]: "}"
+                      - generic [ref=e425]:
+                        - generic [ref=e426]: name
+                        - generic [ref=e427]: =
+                        - generic [ref=e428]: "\"username\""
+                      - generic [ref=e429]:
+                        - generic [ref=e430]: render
+                        - generic [ref=e431]: =
+                        - generic [ref=e432]: "{"
+                        - generic [ref=e433]: "({"
+                        - generic [ref=e434]: field
+                        - generic [ref=e435]: "})"
+                        - generic [ref=e436]: =>
+                        - generic [ref=e437]: (
+                      - generic [ref=e438]:
+                        - generic [ref=e439]: <
+                        - generic [ref=e440]: FormItem
+                        - generic [ref=e441]: ">"
+                      - generic [ref=e442]:
+                        - generic [ref=e443]: <
+                        - generic [ref=e444]: FormLabel
+                        - generic [ref=e445]: ">Username</"
+                        - generic [ref=e446]: FormLabel
+                        - generic [ref=e447]: ">"
+                      - generic [ref=e448]:
+                        - generic [ref=e449]: <
+                        - generic [ref=e450]: FormControl
+                        - generic [ref=e451]: ">"
+                      - generic [ref=e452]:
+                        - generic [ref=e453]: <
+                        - generic [ref=e454]: Input
+                        - generic [ref=e455]: placeholder
+                        - generic [ref=e456]: =
+                        - generic [ref=e457]: "\"shadcn\""
+                        - generic [ref=e458]: "{"
+                        - generic [ref=e459]: ...
+                        - generic [ref=e460]: field
+                        - generic [ref=e461]: "}"
+                        - generic [ref=e462]: />
+                      - generic [ref=e463]:
+                        - generic [ref=e464]: </
+                        - generic [ref=e465]: FormControl
+                        - generic [ref=e466]: ">"
+                      - generic [ref=e467]:
+                        - generic [ref=e468]: <
+                        - generic [ref=e469]: FormDescription
+                        - generic [ref=e470]: ">This is your public display name.</"
+                        - generic [ref=e471]: FormDescription
+                        - generic [ref=e472]: ">"
+                      - generic [ref=e473]:
+                        - generic [ref=e474]: <
+                        - generic [ref=e475]: FormMessage
+                        - generic [ref=e476]: />
+                      - generic [ref=e477]:
+                        - generic [ref=e478]: </
+                        - generic [ref=e479]: FormItem
+                        - generic [ref=e480]: ">"
+                      - generic [ref=e481]:
+                        - generic [ref=e482]: )
+                        - generic [ref=e483]: "}"
+                      - generic [ref=e485]: />
+                - heading "Installation" [level=2] [ref=e486]
+                - generic [ref=e487]:
+                  - tablist [ref=e488]:
+                    - tab "CLI" [selected] [ref=e489]
+                    - tab "Manual" [ref=e490]
+                  - tabpanel "CLI" [ref=e491]:
+                    - generic [ref=e492]:
+                      - heading "Command" [level=3] [ref=e493]
+                      - figure [ref=e494]:
+                        - generic [ref=e496]:
+                          - generic [ref=e497]:
+                            - generic [ref=e498]:
+                              - img [ref=e500]
+                              - tablist [ref=e502]:
+                                - tab "pnpm" [selected] [ref=e503]
+                                - tab "npm" [ref=e504]
+                                - tab "yarn" [ref=e505]
+                                - tab "bun" [ref=e506]
+                            - tabpanel "pnpm" [ref=e508]:
+                              - code [ref=e510]: pnpm dlx shadcn@latest add form
+                          - button "Copy" [ref=e511]:
+                            - generic [ref=e512]: Copy
+                            - img
+                - heading "Usage" [level=2] [ref=e513]
+                - generic [ref=e514]:
+                  - heading "Create a form schema" [level=3] [ref=e515]
+                  - paragraph [ref=e516]:
+                    - text: Define the shape of your form using a Zod schema. You can read more about using Zod in the
+                    - link "Zod documentation" [ref=e517] [cursor=pointer]:
+                      - /url: https://zod.dev
+                    - text: .
+                  - figure "components/example-form.tsx" [ref=e518]:
+                    - generic [ref=e519]:
+                      - img [ref=e520]
+                      - text: components/example-form.tsx
+                    - generic [ref=e522]:
+                      - button "Copy" [ref=e523]:
+                        - generic [ref=e524]: Copy
+                        - img
+                      - code [ref=e525]:
+                        - generic [ref=e527]: "\"use client\""
+                        - generic [ref=e529]:
+                          - generic [ref=e530]: import
+                          - generic [ref=e531]: "{ z }"
+                          - generic [ref=e532]: from
+                          - generic [ref=e533]: "\"zod\""
+                        - generic [ref=e535]:
+                          - generic [ref=e536]: const
+                          - generic [ref=e537]: formSchema
+                          - generic [ref=e538]: =
+                          - generic [ref=e539]: z.
+                          - generic [ref=e540]: object
+                          - generic [ref=e541]: "({"
+                        - generic [ref=e542]:
+                          - generic [ref=e543]: "username: z."
+                          - generic [ref=e544]: string
+                          - generic [ref=e545]: ().
+                          - generic [ref=e546]: min
+                          - generic [ref=e547]: (
+                          - generic [ref=e548]: "2"
+                          - generic [ref=e549]: ).
+                          - generic [ref=e550]: max
+                          - generic [ref=e551]: (
+                          - generic [ref=e552]: "50"
+                          - generic [ref=e553]: ),
+                        - generic [ref=e555]: "})"
+                  - heading "Define a form" [level=3] [ref=e556]
+                  - paragraph [ref=e557]:
+                    - text: Use the
+                    - code [ref=e558]: useForm
+                    - text: hook from
+                    - code [ref=e559]: react-hook-form
+                    - text: to create a form.
+                  - figure "components/example-form.tsx" [ref=e560]:
+                    - generic [ref=e561]:
+                      - img [ref=e562]
+                      - text: components/example-form.tsx
+                    - generic [ref=e564]:
+                      - button "Copy" [ref=e565]:
+                        - generic [ref=e566]: Copy
+                        - img
+                      - code [ref=e567]:
+                        - generic [ref=e569]: "\"use client\""
+                        - generic [ref=e571]:
+                          - generic [ref=e572]: import
+                          - generic [ref=e573]: "{ zodResolver }"
+                          - generic [ref=e574]: from
+                          - generic [ref=e575]: "\"@hookform/resolvers/zod\""
+                        - generic [ref=e576]:
+                          - generic [ref=e577]: import
+                          - generic [ref=e578]: "{ useForm }"
+                          - generic [ref=e579]: from
+                          - generic [ref=e580]: "\"react-hook-form\""
+                        - generic [ref=e581]:
+                          - generic [ref=e582]: import
+                          - generic [ref=e583]: "{ z }"
+                          - generic [ref=e584]: from
+                          - generic [ref=e585]: "\"zod\""
+                        - generic [ref=e587]:
+                          - generic [ref=e588]: const
+                          - generic [ref=e589]: formSchema
+                          - generic [ref=e590]: =
+                          - generic [ref=e591]: z.
+                          - generic [ref=e592]: object
+                          - generic [ref=e593]: "({"
+                        - generic [ref=e594]:
+                          - generic [ref=e595]: "username: z."
+                          - generic [ref=e596]: string
+                          - generic [ref=e597]: ().
+                          - generic [ref=e598]: min
+                          - generic [ref=e599]: (
+                          - generic [ref=e600]: "2"
+                          - generic [ref=e601]: ", {"
+                        - generic [ref=e602]:
+                          - generic [ref=e603]: "message:"
+                          - generic [ref=e604]: "\"Username must be at least 2 characters.\""
+                          - generic [ref=e605]: ","
+                        - generic [ref=e607]: "}),"
+                        - generic [ref=e609]: "})"
+                        - generic [ref=e611]:
+                          - generic [ref=e612]: export
+                          - generic [ref=e613]: function
+                          - generic [ref=e614]: ProfileForm
+                          - generic [ref=e615]: "() {"
+                        - generic [ref=e617]: // 1. Define your form.
+                        - generic [ref=e618]:
+                          - generic [ref=e619]: const
+                          - generic [ref=e620]: form
+                          - generic [ref=e621]: =
+                          - generic [ref=e622]: useForm
+                          - generic [ref=e623]: <
+                          - generic [ref=e624]: z
+                          - generic [ref=e625]: .
+                          - generic [ref=e626]: infer
+                          - generic [ref=e627]: <
+                          - generic [ref=e628]: typeof
+                          - generic [ref=e629]: "formSchema>>({"
+                        - generic [ref=e630]:
+                          - generic [ref=e631]: "resolver:"
+                          - generic [ref=e632]: zodResolver
+                          - generic [ref=e633]: (formSchema),
+                        - generic [ref=e635]: "defaultValues: {"
+                        - generic [ref=e636]:
+                          - generic [ref=e637]: "username:"
+                          - generic [ref=e638]: "\"\""
+                          - generic [ref=e639]: ","
+                        - generic [ref=e641]: "},"
+                        - generic [ref=e643]: "})"
+                        - generic [ref=e646]: // 2. Define a submit handler.
+                        - generic [ref=e647]:
+                          - generic [ref=e648]: function
+                          - generic [ref=e649]: onSubmit
+                          - generic [ref=e650]: (
+                          - generic [ref=e651]: values
+                          - generic [ref=e652]: ":"
+                          - generic [ref=e653]: z
+                          - generic [ref=e654]: .
+                          - generic [ref=e655]: infer
+                          - generic [ref=e656]: <
+                          - generic [ref=e657]: typeof
+                          - generic [ref=e658]: "formSchema>) {"
+                        - generic [ref=e660]: // Do something with the form values.
+                        - generic [ref=e662]: // ✅ This will be type-safe and validated.
+                        - generic [ref=e663]:
+                          - generic [ref=e664]: console.
+                          - generic [ref=e665]: log
+                          - generic [ref=e666]: (values)
+                        - generic [ref=e668]: "}"
+                        - generic [ref=e670]: "}"
+                  - paragraph [ref=e671]:
+                    - text: Since
+                    - code [ref=e672]: FormField
+                    - text: is using a controlled component, you need to provide a default value for the field. See the
+                    - link "React Hook Form docs" [ref=e673] [cursor=pointer]:
+                      - /url: https://react-hook-form.com/docs/usecontroller
+                    - text: to learn more about controlled components.
+                  - heading "Build your form" [level=3] [ref=e674]
+                  - paragraph [ref=e675]:
+                    - text: We can now use the
+                    - code [ref=e676]: <Form />
+                    - text: components to build our form.
+                  - figure "components/example-form.tsx" [ref=e677]:
+                    - generic [ref=e678]:
+                      - img [ref=e679]
+                      - text: components/example-form.tsx
+                    - generic [ref=e681]:
+                      - button "Copy" [ref=e682]:
+                        - generic [ref=e683]: Copy
+                        - img
+                      - code [ref=e684]:
+                        - generic [ref=e686]: "\"use client\""
+                        - generic [ref=e688]:
+                          - generic [ref=e689]: import
+                          - generic [ref=e690]: "{ zodResolver }"
+                          - generic [ref=e691]: from
+                          - generic [ref=e692]: "\"@hookform/resolvers/zod\""
+                        - generic [ref=e693]:
+                          - generic [ref=e694]: import
+                          - generic [ref=e695]: "{ useForm }"
+                          - generic [ref=e696]: from
+                          - generic [ref=e697]: "\"react-hook-form\""
+                        - generic [ref=e698]:
+                          - generic [ref=e699]: import
+                          - generic [ref=e700]: "{ z }"
+                          - generic [ref=e701]: from
+                          - generic [ref=e702]: "\"zod\""
+                        - generic [ref=e704]:
+                          - generic [ref=e705]: import
+                          - generic [ref=e706]: "{ Button }"
+                          - generic [ref=e707]: from
+                          - generic [ref=e708]: "\"@/components/ui/button\""
+                        - generic [ref=e709]:
+                          - generic [ref=e710]: import
+                          - generic [ref=e711]: "{"
+                        - generic [ref=e713]: Form,
+                        - generic [ref=e715]: FormControl,
+                        - generic [ref=e717]: FormDescription,
+                        - generic [ref=e719]: FormField,
+                        - generic [ref=e721]: FormItem,
+                        - generic [ref=e723]: FormLabel,
+                        - generic [ref=e725]: FormMessage,
+                        - generic [ref=e726]:
+                          - generic [ref=e727]: "}"
+                          - generic [ref=e728]: from
+                          - generic [ref=e729]: "\"@/components/ui/form\""
+                        - generic [ref=e730]:
+                          - generic [ref=e731]: import
+                          - generic [ref=e732]: "{ Input }"
+                          - generic [ref=e733]: from
+                          - generic [ref=e734]: "\"@/components/ui/input\""
+                        - generic [ref=e736]:
+                          - generic [ref=e737]: const
+                          - generic [ref=e738]: formSchema
+                          - generic [ref=e739]: =
+                          - generic [ref=e740]: z.
+                          - generic [ref=e741]: object
+                          - generic [ref=e742]: "({"
+                        - generic [ref=e743]:
+                          - generic [ref=e744]: "username: z."
+                          - generic [ref=e745]: string
+                          - generic [ref=e746]: ().
+                          - generic [ref=e747]: min
+                          - generic [ref=e748]: (
+                          - generic [ref=e749]: "2"
+                          - generic [ref=e750]: ", {"
+                        - generic [ref=e751]:
+                          - generic [ref=e752]: "message:"
+                          - generic [ref=e753]: "\"Username must be at least 2 characters.\""
+                          - generic [ref=e754]: ","
+                        - generic [ref=e756]: "}),"
+                        - generic [ref=e758]: "})"
+                        - generic [ref=e760]:
+                          - generic [ref=e761]: export
+                          - generic [ref=e762]: function
+                          - generic [ref=e763]: ProfileForm
+                          - generic [ref=e764]: "() {"
+                        - generic [ref=e766]: // ...
+                        - generic [ref=e768]:
+                          - generic [ref=e769]: return
+                          - generic [ref=e770]: (
+                        - generic [ref=e771]:
+                          - generic [ref=e772]: <
+                          - generic [ref=e773]: Form
+                          - generic [ref=e774]: "{"
+                          - generic [ref=e775]: ...
+                          - generic [ref=e776]: form
+                          - generic [ref=e777]: "}"
+                          - generic [ref=e778]: ">"
+                        - generic [ref=e779]:
+                          - generic [ref=e780]: <
+                          - generic [ref=e781]: form
+                          - generic [ref=e782]: onSubmit
+                          - generic [ref=e783]: =
+                          - generic [ref=e784]: "{"
+                          - generic [ref=e785]: form.
+                          - generic [ref=e786]: handleSubmit
+                          - generic [ref=e787]: (onSubmit)
+                          - generic [ref=e788]: "}"
+                          - generic [ref=e789]: className
+                          - generic [ref=e790]: =
+                          - generic [ref=e791]: "\"space-y-8\""
+                          - generic [ref=e792]: ">"
+                        - generic [ref=e793]:
+                          - generic [ref=e794]: <
+                          - generic [ref=e795]: FormField
+                        - generic [ref=e796]:
+                          - generic [ref=e797]: control
+                          - generic [ref=e798]: =
+                          - generic [ref=e799]: "{"
+                          - generic [ref=e800]: form.control
+                          - generic [ref=e801]: "}"
+                        - generic [ref=e802]:
+                          - generic [ref=e803]: name
+                          - generic [ref=e804]: =
+                          - generic [ref=e805]: "\"username\""
+                        - generic [ref=e806]:
+                          - generic [ref=e807]: render
+                          - generic [ref=e808]: =
+                          - generic [ref=e809]: "{"
+                          - generic [ref=e810]: "({"
+                          - generic [ref=e811]: field
+                          - generic [ref=e812]: "})"
+                          - generic [ref=e813]: =>
+                          - generic [ref=e814]: (
+                        - generic [ref=e815]:
+                          - generic [ref=e816]: <
+                          - generic [ref=e817]: FormItem
+                          - generic [ref=e818]: ">"
+                        - generic [ref=e819]:
+                          - generic [ref=e820]: <
+                          - generic [ref=e821]: FormLabel
+                          - generic [ref=e822]: ">Username</"
+                          - generic [ref=e823]: FormLabel
+                          - generic [ref=e824]: ">"
+                        - generic [ref=e825]:
+                          - generic [ref=e826]: <
+                          - generic [ref=e827]: FormControl
+                          - generic [ref=e828]: ">"
+                        - generic [ref=e829]:
+                          - generic [ref=e830]: <
+                          - generic [ref=e831]: Input
+                          - generic [ref=e832]: placeholder
+                          - generic [ref=e833]: =
+                          - generic [ref=e834]: "\"shadcn\""
+                          - generic [ref=e835]: "{"
+                          - generic [ref=e836]: ...
+                          - generic [ref=e837]: field
+                          - generic [ref=e838]: "}"
+                          - generic [ref=e839]: />
+                        - generic [ref=e840]:
+                          - generic [ref=e841]: </
+                          - generic [ref=e842]: FormControl
+                          - generic [ref=e843]: ">"
+                        - generic [ref=e844]:
+                          - generic [ref=e845]: <
+                          - generic [ref=e846]: FormDescription
+                          - generic [ref=e847]: ">"
+                        - generic [ref=e849]: This is your public display name.
+                        - generic [ref=e850]:
+                          - generic [ref=e851]: </
+                          - generic [ref=e852]: FormDescription
+                          - generic [ref=e853]: ">"
+                        - generic [ref=e854]:
+                          - generic [ref=e855]: <
+                          - generic [ref=e856]: FormMessage
+                          - generic [ref=e857]: />
+                        - generic [ref=e858]:
+                          - generic [ref=e859]: </
+                          - generic [ref=e860]: FormItem
+                          - generic [ref=e861]: ">"
+                        - generic [ref=e862]:
+                          - generic [ref=e863]: )
+                          - generic [ref=e864]: "}"
+                        - generic [ref=e866]: />
+                        - generic [ref=e867]:
+                          - generic [ref=e868]: <
+                          - generic [ref=e869]: Button
+                          - generic [ref=e870]: type
+                          - generic [ref=e871]: =
+                          - generic [ref=e872]: "\"submit\""
+                          - generic [ref=e873]: ">Submit</"
+                          - generic [ref=e874]: Button
+                          - generic [ref=e875]: ">"
+                        - generic [ref=e876]:
+                          - generic [ref=e877]: </
+                          - generic [ref=e878]: form
+                          - generic [ref=e879]: ">"
+                        - generic [ref=e880]:
+                          - generic [ref=e881]: </
+                          - generic [ref=e882]: Form
+                          - generic [ref=e883]: ">"
+                        - generic [ref=e885]: )
+                        - generic [ref=e887]: "}"
+                  - heading "Done" [level=3] [ref=e888]
+                  - paragraph [ref=e889]: That's it. You now have a fully accessible form that is type-safe with client-side validation.
+                - heading "Examples" [level=2] [ref=e892]
+                - paragraph [ref=e893]:
+                  - text: See the following links for more examples on how to use the
+                  - code [ref=e894]: <Form />
+                  - text: "component with other components:"
+                - list [ref=e895]:
+                  - listitem [ref=e896]:
+                    - link "Checkbox" [ref=e897] [cursor=pointer]:
+                      - /url: /docs/components/checkbox#form
+                  - listitem [ref=e898]:
+                    - link "Date Picker" [ref=e899] [cursor=pointer]:
+                      - /url: /docs/components/date-picker#form
+                  - listitem [ref=e900]:
+                    - link "Input" [ref=e901] [cursor=pointer]:
+                      - /url: /docs/components/input#form
+                  - listitem [ref=e902]:
+                    - link "Radio Group" [ref=e903] [cursor=pointer]:
+                      - /url: /docs/components/radio-group#form
+                  - listitem [ref=e904]:
+                    - link "Select" [ref=e905] [cursor=pointer]:
+                      - /url: /docs/components/select#form
+                  - listitem [ref=e906]:
+                    - link "Switch" [ref=e907] [cursor=pointer]:
+                      - /url: /docs/components/switch#form
+                  - listitem [ref=e908]:
+                    - link "Textarea" [ref=e909] [cursor=pointer]:
+                      - /url: /docs/components/textarea#form
+                  - listitem [ref=e910]:
+                    - link "Combobox" [ref=e911] [cursor=pointer]:
+                      - /url: /docs/components/combobox#form
+            - generic [ref=e912]:
+              - link "Dropdown Menu" [ref=e913] [cursor=pointer]:
+                - /url: /docs/components/dropdown-menu
+                - img
+                - text: Dropdown Menu
+              - link "Hover Card" [ref=e914] [cursor=pointer]:
+                - /url: /docs/components/hover-card
+                - text: Hover Card
+                - img
+          - generic [ref=e915]:
+            - generic [ref=e918]:
+              - paragraph [ref=e919]: On This Page
+              - link "Features" [ref=e920] [cursor=pointer]:
+                - /url: "#features"
+              - link "Anatomy" [ref=e921] [cursor=pointer]:
+                - /url: "#anatomy"
+              - link "Example" [ref=e922] [cursor=pointer]:
+                - /url: "#example"
+              - link "Installation" [ref=e923] [cursor=pointer]:
+                - /url: "#installation"
+              - link "Command" [ref=e924] [cursor=pointer]:
+                - /url: "#command"
+              - link "Usage" [ref=e925] [cursor=pointer]:
+                - /url: "#usage"
+              - link "Create a form schema" [ref=e926] [cursor=pointer]:
+                - /url: "#create-a-form-schema"
+              - link "Define a form" [ref=e927] [cursor=pointer]:
+                - /url: "#define-a-form"
+              - link "Build your form" [ref=e928] [cursor=pointer]:
+                - /url: "#build-your-form"
+              - link "Done" [ref=e929] [cursor=pointer]:
+                - /url: "#done"
+              - link "Examples" [ref=e930] [cursor=pointer]:
+                - /url: "#examples"
+            - generic [ref=e933]:
+              - generic [ref=e934]: Deploy your shadcn/ui app on Vercel
+              - generic [ref=e935]: Trusted by OpenAI, Sonos, Adobe, and more.
+              - generic [ref=e936]: Vercel provides tools and infrastructure to deploy apps and features at scale.
+              - button "Deploy Now" [ref=e937]
+              - link "Deploy to Vercel" [ref=e938] [cursor=pointer]:
+                - /url: https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+                - generic [ref=e939] [cursor=pointer]: Deploy to Vercel
+    - contentinfo [ref=e940]:
+      - generic [ref=e943]:
+        - text: Built by
+        - link "shadcn" [ref=e944] [cursor=pointer]:
+          - /url: https://twitter.com/shadcn
+        - text: at
+        - link "Vercel" [ref=e945] [cursor=pointer]:
+          - /url: https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+        - text: . The source code is available on
+        - link "GitHub" [ref=e946] [cursor=pointer]:
+          - /url: https://github.com/shadcn-ui/ui
+        - text: .
+  - region "Notifications alt+T"
+  - alert [ref=e947]
+```

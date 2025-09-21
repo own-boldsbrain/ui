@@ -1,0 +1,48 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - button "Toggle Menu Menu" [ref=e6]:
+          - generic [ref=e11]: Toggle Menu
+          - generic [ref=e12]: Menu
+        - generic [ref=e13]:
+          - link "95.1k" [ref=e14] [cursor=pointer]:
+            - /url: https://github.com/shadcn-ui/ui
+            - img
+            - generic [ref=e15] [cursor=pointer]: 95.1k
+          - button "Toggle theme" [ref=e16]:
+            - img
+            - generic [ref=e17]: Toggle theme
+    - main [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e22]:
+          - 'link "Now available: shadcn CLI 3.0 and MCP Server" [ref=e23] [cursor=pointer]':
+            - /url: /docs/changelog
+            - text: "Now available: shadcn CLI 3.0 and MCP Server"
+            - img
+          - heading "The Foundation for your Design System" [level=1] [ref=e24]
+          - paragraph [ref=e25]: A set of beautifully designed components that you can customize, extend, and build on. Start here then make it your own. Open Source. Open Code.
+          - generic [ref=e26]:
+            - link "Get Started" [ref=e27] [cursor=pointer]:
+              - /url: /docs/installation
+            - link "View Components" [ref=e28] [cursor=pointer]:
+              - /url: /docs/components
+        - img "Dashboard" [ref=e32]
+    - contentinfo [ref=e33]:
+      - generic [ref=e36]:
+        - text: Built by
+        - link "shadcn" [ref=e37] [cursor=pointer]:
+          - /url: https://twitter.com/shadcn
+        - text: at
+        - link "Vercel" [ref=e38] [cursor=pointer]:
+          - /url: https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+        - text: . The source code is available on
+        - link "GitHub" [ref=e39] [cursor=pointer]:
+          - /url: https://github.com/shadcn-ui/ui
+        - text: .
+  - region "Notifications alt+T"
+  - alert [ref=e40]
+```

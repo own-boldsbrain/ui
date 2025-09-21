@@ -1,0 +1,455 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - link "shadcn/ui" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img
+          - generic [ref=e7] [cursor=pointer]: shadcn/ui
+        - navigation [ref=e8]:
+          - link "Docs" [ref=e9] [cursor=pointer]:
+            - /url: /docs/installation
+          - link "Components" [ref=e10] [cursor=pointer]:
+            - /url: /docs/components
+          - link "Blocks" [ref=e11] [cursor=pointer]:
+            - /url: /blocks
+          - link "Charts" [ref=e12] [cursor=pointer]:
+            - /url: /charts/area
+          - link "Themes" [ref=e13] [cursor=pointer]:
+            - /url: /themes
+          - link "Colors" [ref=e14] [cursor=pointer]:
+            - /url: /colors
+        - generic [ref=e15]:
+          - button "Search documentation... Ctrl K" [ref=e17]:
+            - generic [ref=e18]: Search documentation...
+            - generic [ref=e19]:
+              - generic: Ctrl
+              - generic: K
+          - link "95.1k" [ref=e20] [cursor=pointer]:
+            - /url: https://github.com/shadcn-ui/ui
+            - img
+            - generic [ref=e21] [cursor=pointer]: 95.1k
+          - button "Toggle theme" [ref=e22]:
+            - img
+            - generic [ref=e23]: Toggle theme
+    - main [ref=e24]:
+      - generic [ref=e26]:
+        - generic [ref=e28]:
+          - generic [ref=e30]:
+            - generic [ref=e31]: Sections
+            - list [ref=e33]:
+              - listitem [ref=e34]:
+                - link "Get Started" [ref=e35] [cursor=pointer]:
+                  - /url: /docs
+                  - text: Get Started
+              - listitem [ref=e37]:
+                - link "Components" [ref=e38] [cursor=pointer]:
+                  - /url: /docs/components
+                  - text: Components
+              - listitem [ref=e40]:
+                - link "Registry" [ref=e41] [cursor=pointer]:
+                  - /url: /docs/registry
+                  - text: Registry
+              - listitem [ref=e43]:
+                - link "MCP Server" [ref=e44] [cursor=pointer]:
+                  - /url: /docs/mcp
+                  - text: MCP Server
+              - listitem [ref=e46]:
+                - link "Changelog" [ref=e47] [cursor=pointer]:
+                  - /url: /docs/changelog
+                  - text: Changelog
+          - generic [ref=e49]:
+            - generic [ref=e50]: Get Started
+            - list [ref=e52]:
+              - listitem [ref=e53]:
+                - link "Installation" [ref=e54] [cursor=pointer]:
+                  - /url: /docs/installation
+                  - text: Installation
+              - listitem [ref=e56]:
+                - link "components.json" [ref=e57] [cursor=pointer]:
+                  - /url: /docs/components-json
+                  - text: components.json
+              - listitem [ref=e59]:
+                - link "Theming" [ref=e60] [cursor=pointer]:
+                  - /url: /docs/theming
+                  - text: Theming
+              - listitem [ref=e62]:
+                - link "Dark Mode" [ref=e63] [cursor=pointer]:
+                  - /url: /docs/dark-mode
+                  - text: Dark Mode
+              - listitem [ref=e65]:
+                - link "CLI" [ref=e66] [cursor=pointer]:
+                  - /url: /docs/cli
+                  - text: CLI
+              - listitem [ref=e68]:
+                - link "Monorepo" [ref=e69] [cursor=pointer]:
+                  - /url: /docs/monorepo
+                  - text: Monorepo
+              - listitem [ref=e71]:
+                - link "Open in v0" [ref=e72] [cursor=pointer]:
+                  - /url: /docs/v0
+                  - text: Open in v0
+              - listitem [ref=e74]:
+                - link "JavaScript" [ref=e75] [cursor=pointer]:
+                  - /url: /docs/javascript
+                  - text: JavaScript
+              - listitem [ref=e77]:
+                - link "Blocks" [ref=e78] [cursor=pointer]:
+                  - /url: /docs/blocks
+                  - text: Blocks
+              - listitem [ref=e80]:
+                - link "Figma" [ref=e81] [cursor=pointer]:
+                  - /url: /docs/figma
+                  - text: Figma
+              - listitem [ref=e83]:
+                - link "Legacy Docs" [ref=e84] [cursor=pointer]:
+                  - /url: /docs/legacy
+                  - text: Legacy Docs
+          - generic [ref=e86]:
+            - generic [ref=e87]: Components
+            - list [ref=e89]:
+              - listitem [ref=e90]:
+                - link "Accordion" [ref=e91] [cursor=pointer]:
+                  - /url: /docs/components/accordion
+                  - text: Accordion
+              - listitem [ref=e93]:
+                - link "Alert" [ref=e94] [cursor=pointer]:
+                  - /url: /docs/components/alert
+                  - text: Alert
+              - listitem [ref=e96]:
+                - link "Alert Dialog" [ref=e97] [cursor=pointer]:
+                  - /url: /docs/components/alert-dialog
+                  - text: Alert Dialog
+              - listitem [ref=e99]:
+                - link "Aspect Ratio" [ref=e100] [cursor=pointer]:
+                  - /url: /docs/components/aspect-ratio
+                  - text: Aspect Ratio
+              - listitem [ref=e102]:
+                - link "Avatar" [ref=e103] [cursor=pointer]:
+                  - /url: /docs/components/avatar
+                  - text: Avatar
+              - listitem [ref=e105]:
+                - link "Badge" [ref=e106] [cursor=pointer]:
+                  - /url: /docs/components/badge
+                  - text: Badge
+              - listitem [ref=e108]:
+                - link "Breadcrumb" [ref=e109] [cursor=pointer]:
+                  - /url: /docs/components/breadcrumb
+                  - text: Breadcrumb
+              - listitem [ref=e111]:
+                - link "Button" [ref=e112] [cursor=pointer]:
+                  - /url: /docs/components/button
+                  - text: Button
+              - listitem [ref=e114]:
+                - link "Calendar" [ref=e115] [cursor=pointer]:
+                  - /url: /docs/components/calendar
+                  - text: Calendar
+              - listitem [ref=e117]:
+                - link "Card" [ref=e118] [cursor=pointer]:
+                  - /url: /docs/components/card
+                  - text: Card
+              - listitem [ref=e120]:
+                - link "Carousel" [ref=e121] [cursor=pointer]:
+                  - /url: /docs/components/carousel
+                  - text: Carousel
+              - listitem [ref=e123]:
+                - link "Chart" [ref=e124] [cursor=pointer]:
+                  - /url: /docs/components/chart
+                  - text: Chart
+              - listitem [ref=e126]:
+                - link "Checkbox" [ref=e127] [cursor=pointer]:
+                  - /url: /docs/components/checkbox
+                  - text: Checkbox
+              - listitem [ref=e129]:
+                - link "Collapsible" [ref=e130] [cursor=pointer]:
+                  - /url: /docs/components/collapsible
+                  - text: Collapsible
+              - listitem [ref=e132]:
+                - link "Combobox" [ref=e133] [cursor=pointer]:
+                  - /url: /docs/components/combobox
+                  - text: Combobox
+              - listitem [ref=e135]:
+                - link "Command" [ref=e136] [cursor=pointer]:
+                  - /url: /docs/components/command
+                  - text: Command
+              - listitem [ref=e138]:
+                - link "Context Menu" [ref=e139] [cursor=pointer]:
+                  - /url: /docs/components/context-menu
+                  - text: Context Menu
+              - listitem [ref=e141]:
+                - link "Data Table" [ref=e142] [cursor=pointer]:
+                  - /url: /docs/components/data-table
+                  - text: Data Table
+              - listitem [ref=e144]:
+                - link "Date Picker" [ref=e145] [cursor=pointer]:
+                  - /url: /docs/components/date-picker
+                  - text: Date Picker
+              - listitem [ref=e147]:
+                - link "Dialog" [ref=e148] [cursor=pointer]:
+                  - /url: /docs/components/dialog
+                  - text: Dialog
+              - listitem [ref=e150]:
+                - link "Drawer" [ref=e151] [cursor=pointer]:
+                  - /url: /docs/components/drawer
+                  - text: Drawer
+              - listitem [ref=e153]:
+                - link "Dropdown Menu" [ref=e154] [cursor=pointer]:
+                  - /url: /docs/components/dropdown-menu
+                  - text: Dropdown Menu
+              - listitem [ref=e156]:
+                - link "React Hook Form" [ref=e157] [cursor=pointer]:
+                  - /url: /docs/components/form
+                  - text: React Hook Form
+              - listitem [ref=e159]:
+                - link "Hover Card" [ref=e160] [cursor=pointer]:
+                  - /url: /docs/components/hover-card
+                  - text: Hover Card
+              - listitem [ref=e162]:
+                - link "Input" [ref=e163] [cursor=pointer]:
+                  - /url: /docs/components/input
+                  - text: Input
+              - listitem [ref=e165]:
+                - link "Input OTP" [ref=e166] [cursor=pointer]:
+                  - /url: /docs/components/input-otp
+                  - text: Input OTP
+              - listitem [ref=e168]:
+                - link "Label" [ref=e169] [cursor=pointer]:
+                  - /url: /docs/components/label
+                  - text: Label
+              - listitem [ref=e171]:
+                - link "Menubar" [ref=e172] [cursor=pointer]:
+                  - /url: /docs/components/menubar
+                  - text: Menubar
+              - listitem [ref=e174]:
+                - link "Navigation Menu" [ref=e175] [cursor=pointer]:
+                  - /url: /docs/components/navigation-menu
+                  - text: Navigation Menu
+              - listitem [ref=e177]:
+                - link "Pagination" [ref=e178] [cursor=pointer]:
+                  - /url: /docs/components/pagination
+                  - text: Pagination
+              - listitem [ref=e180]:
+                - link "Popover" [ref=e181] [cursor=pointer]:
+                  - /url: /docs/components/popover
+                  - text: Popover
+              - listitem [ref=e183]:
+                - link "Progress" [ref=e184] [cursor=pointer]:
+                  - /url: /docs/components/progress
+                  - text: Progress
+              - listitem [ref=e186]:
+                - link "Radio Group" [ref=e187] [cursor=pointer]:
+                  - /url: /docs/components/radio-group
+                  - text: Radio Group
+              - listitem [ref=e189]:
+                - link "Resizable" [ref=e190] [cursor=pointer]:
+                  - /url: /docs/components/resizable
+                  - text: Resizable
+              - listitem [ref=e192]:
+                - link "Scroll-area" [ref=e193] [cursor=pointer]:
+                  - /url: /docs/components/scroll-area
+                  - text: Scroll-area
+              - listitem [ref=e195]:
+                - link "Select" [ref=e196] [cursor=pointer]:
+                  - /url: /docs/components/select
+                  - text: Select
+              - listitem [ref=e198]:
+                - link "Separator" [ref=e199] [cursor=pointer]:
+                  - /url: /docs/components/separator
+                  - text: Separator
+              - listitem [ref=e201]:
+                - link "Sheet" [ref=e202] [cursor=pointer]:
+                  - /url: /docs/components/sheet
+                  - text: Sheet
+              - listitem [ref=e204]:
+                - link "Sidebar" [ref=e205] [cursor=pointer]:
+                  - /url: /docs/components/sidebar
+                  - text: Sidebar
+              - listitem [ref=e207]:
+                - link "Skeleton" [ref=e208] [cursor=pointer]:
+                  - /url: /docs/components/skeleton
+                  - text: Skeleton
+              - listitem [ref=e210]:
+                - link "Slider" [ref=e211] [cursor=pointer]:
+                  - /url: /docs/components/slider
+                  - text: Slider
+              - listitem [ref=e213]:
+                - link "Sonner" [ref=e214] [cursor=pointer]:
+                  - /url: /docs/components/sonner
+                  - text: Sonner
+              - listitem [ref=e216]:
+                - link "Switch" [ref=e217] [cursor=pointer]:
+                  - /url: /docs/components/switch
+                  - text: Switch
+              - listitem [ref=e219]:
+                - link "Table" [ref=e220] [cursor=pointer]:
+                  - /url: /docs/components/table
+                  - text: Table
+              - listitem [ref=e222]:
+                - link "Tabs" [ref=e223] [cursor=pointer]:
+                  - /url: /docs/components/tabs
+                  - text: Tabs
+              - listitem [ref=e225]:
+                - link "Textarea" [ref=e226] [cursor=pointer]:
+                  - /url: /docs/components/textarea
+                  - text: Textarea
+              - listitem [ref=e228]:
+                - link "Toast" [ref=e229] [cursor=pointer]:
+                  - /url: /docs/components/toast
+                  - text: Toast
+              - listitem [ref=e231]:
+                - link "Toggle" [ref=e232] [cursor=pointer]:
+                  - /url: /docs/components/toggle
+                  - text: Toggle
+              - listitem [ref=e234]:
+                - link "Toggle Group" [ref=e235] [cursor=pointer]:
+                  - /url: /docs/components/toggle-group
+                  - text: Toggle Group
+              - listitem [ref=e237]:
+                - link "Tooltip" [ref=e238] [cursor=pointer]:
+                  - /url: /docs/components/tooltip
+                  - text: Tooltip
+              - listitem [ref=e240]:
+                - link "Typography" [ref=e241] [cursor=pointer]:
+                  - /url: /docs/components/typography
+                  - text: Typography
+          - generic [ref=e243]:
+            - generic [ref=e244]: Registry
+            - list [ref=e246]:
+              - listitem [ref=e247]:
+                - link "Introduction" [ref=e248] [cursor=pointer]:
+                  - /url: /docs/registry
+                  - text: Introduction
+              - listitem [ref=e250]:
+                - link "Getting Started" [ref=e251] [cursor=pointer]:
+                  - /url: /docs/registry/getting-started
+                  - text: Getting Started
+              - listitem [ref=e253]:
+                - link "Namespaces" [ref=e254] [cursor=pointer]:
+                  - /url: /docs/registry/namespace
+                  - text: Namespaces
+              - listitem [ref=e256]:
+                - link "Authentication" [ref=e257] [cursor=pointer]:
+                  - /url: /docs/registry/authentication
+                  - text: Authentication
+              - listitem [ref=e259]:
+                - link "Examples" [ref=e260] [cursor=pointer]:
+                  - /url: /docs/registry/examples
+                  - text: Examples
+              - listitem [ref=e262]:
+                - link "MCP Server" [ref=e263] [cursor=pointer]:
+                  - /url: /docs/registry/mcp
+                  - text: MCP Server
+              - listitem [ref=e265]:
+                - link "Index" [ref=e266] [cursor=pointer]:
+                  - /url: /docs/registry/registry-index
+                  - text: Index
+              - listitem [ref=e268]:
+                - link "Open in v0" [ref=e269] [cursor=pointer]:
+                  - /url: /docs/registry/open-in-v0
+                  - text: Open in v0
+              - listitem [ref=e271]:
+                - link "registry.json" [ref=e272] [cursor=pointer]:
+                  - /url: /docs/registry/registry-json
+                  - text: registry.json
+              - listitem [ref=e274]:
+                - link "registry-item.json" [ref=e275] [cursor=pointer]:
+                  - /url: /docs/registry/registry-item-json
+                  - text: registry-item.json
+        - generic [ref=e278]:
+          - generic [ref=e279]:
+            - generic [ref=e281]:
+              - generic [ref=e283]:
+                - generic [ref=e284]:
+                  - heading "Installation" [level=1] [ref=e285]
+                  - generic [ref=e286]:
+                    - generic [ref=e287]:
+                      - button "Copy Page" [ref=e288]:
+                        - img
+                        - text: Copy Page
+                      - button [ref=e289]:
+                        - img
+                    - link "Previous" [ref=e290] [cursor=pointer]:
+                      - /url: /docs
+                      - img
+                      - generic [ref=e291] [cursor=pointer]: Previous
+                    - link "Next" [ref=e292] [cursor=pointer]:
+                      - /url: /docs/components-json
+                      - generic [ref=e293] [cursor=pointer]: Next
+                      - img
+                - paragraph [ref=e294]: How to install dependencies and structure your app.
+              - generic [ref=e295]:
+                - heading "Pick Your Framework" [level=2] [ref=e296]
+                - paragraph [ref=e297]: Start by selecting your framework of choice. Then follow the instructions to install the dependencies and structure your app. shadcn/ui is built to work with all React frameworks.
+                - generic [ref=e298]:
+                  - link "Next.js Next.js" [ref=e299] [cursor=pointer]:
+                    - /url: /docs/installation/next
+                    - img "Next.js" [ref=e300] [cursor=pointer]
+                    - paragraph [ref=e302] [cursor=pointer]: Next.js
+                  - link "Vite Vite" [ref=e303] [cursor=pointer]:
+                    - /url: /docs/installation/vite
+                    - img "Vite" [ref=e304] [cursor=pointer]
+                    - paragraph [ref=e306] [cursor=pointer]: Vite
+                  - link "Laravel" [ref=e307] [cursor=pointer]:
+                    - /url: /docs/installation/laravel
+                    - img [ref=e308] [cursor=pointer]
+                    - paragraph [ref=e310] [cursor=pointer]: Laravel
+                  - link "React Router" [ref=e311] [cursor=pointer]:
+                    - /url: /docs/installation/react-router
+                    - img [ref=e312] [cursor=pointer]
+                    - paragraph [ref=e314] [cursor=pointer]: React Router
+                  - link "Astro Astro" [ref=e315] [cursor=pointer]:
+                    - /url: /docs/installation/astro
+                    - img "Astro" [ref=e316] [cursor=pointer]
+                    - paragraph [ref=e318] [cursor=pointer]: Astro
+                  - link "TanStack Start" [ref=e319] [cursor=pointer]:
+                    - /url: /docs/installation/tanstack
+                    - img [ref=e320] [cursor=pointer]
+                    - paragraph [ref=e322] [cursor=pointer]: TanStack Start
+                  - link "TanStack Router" [ref=e323] [cursor=pointer]:
+                    - /url: /docs/installation/tanstack-router
+                    - img [ref=e324] [cursor=pointer]
+                    - paragraph [ref=e326] [cursor=pointer]: TanStack Router
+                  - link "React Manual" [ref=e327] [cursor=pointer]:
+                    - /url: /docs/installation/manual
+                    - img "React" [ref=e328] [cursor=pointer]
+                    - paragraph [ref=e330] [cursor=pointer]: Manual
+            - generic [ref=e331]:
+              - link "Introduction" [ref=e332] [cursor=pointer]:
+                - /url: /docs
+                - img
+                - text: Introduction
+              - link "components.json" [ref=e333] [cursor=pointer]:
+                - /url: /docs/components-json
+                - text: components.json
+                - img
+          - generic [ref=e334]:
+            - generic [ref=e337]:
+              - paragraph [ref=e338]: On This Page
+              - link "Pick Your Framework" [ref=e339] [cursor=pointer]:
+                - /url: "#pick-your-framework"
+            - generic [ref=e342]:
+              - generic [ref=e343]: Deploy your shadcn/ui app on Vercel
+              - generic [ref=e344]: Trusted by OpenAI, Sonos, Adobe, and more.
+              - generic [ref=e345]: Vercel provides tools and infrastructure to deploy apps and features at scale.
+              - button "Deploy Now" [ref=e346]
+              - link "Deploy to Vercel" [ref=e347] [cursor=pointer]:
+                - /url: https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+                - generic [ref=e348] [cursor=pointer]: Deploy to Vercel
+    - contentinfo [ref=e349]:
+      - generic [ref=e352]:
+        - text: Built by
+        - link "shadcn" [ref=e353] [cursor=pointer]:
+          - /url: https://twitter.com/shadcn
+        - text: at
+        - link "Vercel" [ref=e354] [cursor=pointer]:
+          - /url: https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+        - text: . The source code is available on
+        - link "GitHub" [ref=e355] [cursor=pointer]:
+          - /url: https://github.com/shadcn-ui/ui
+        - text: .
+  - region "Notifications alt+T"
+  - alert [ref=e356]
+```

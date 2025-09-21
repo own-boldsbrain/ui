@@ -1,0 +1,606 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - link "shadcn/ui" [ref=e6]:
+          - /url: /
+          - img
+          - generic [ref=e7]: shadcn/ui
+        - navigation [ref=e8]:
+          - link "Docs" [ref=e9]:
+            - /url: /docs/installation
+          - link "Components" [ref=e10]:
+            - /url: /docs/components
+          - link "Blocks" [ref=e11]:
+            - /url: /blocks
+          - link "Charts" [ref=e12]:
+            - /url: /charts/area
+          - link "Themes" [ref=e13]:
+            - /url: /themes
+          - link "Colors" [ref=e14]:
+            - /url: /colors
+        - generic [ref=e15]:
+          - button "Search documentation... ⌘ K" [ref=e17]:
+            - generic [ref=e18]: Search documentation...
+            - generic [ref=e19]:
+              - generic: ⌘
+              - generic: K
+          - link "95.1k" [ref=e20]:
+            - /url: https://github.com/shadcn-ui/ui
+            - img
+            - generic [ref=e21]: 95.1k
+          - button "Toggle theme" [ref=e22]:
+            - img
+            - generic [ref=e23]: Toggle theme
+    - main [ref=e24]:
+      - generic [ref=e26]:
+        - generic [ref=e28]:
+          - generic [ref=e30]:
+            - generic [ref=e31]: Sections
+            - list [ref=e33]:
+              - listitem [ref=e34]:
+                - link "Get Started" [ref=e35]:
+                  - /url: /docs
+                  - text: Get Started
+              - listitem [ref=e37]:
+                - link "Components" [ref=e38]:
+                  - /url: /docs/components
+                  - text: Components
+              - listitem [ref=e40]:
+                - link "Registry" [ref=e41]:
+                  - /url: /docs/registry
+                  - text: Registry
+              - listitem [ref=e43]:
+                - link "MCP Server" [ref=e44]:
+                  - /url: /docs/mcp
+                  - text: MCP Server
+              - listitem [ref=e46]:
+                - link "Changelog" [ref=e47]:
+                  - /url: /docs/changelog
+                  - text: Changelog
+          - generic [ref=e49]:
+            - generic [ref=e50]: Get Started
+            - list [ref=e52]:
+              - listitem [ref=e53]:
+                - link "Installation" [ref=e54]:
+                  - /url: /docs/installation
+                  - text: Installation
+              - listitem [ref=e56]:
+                - link "components.json" [ref=e57]:
+                  - /url: /docs/components-json
+                  - text: components.json
+              - listitem [ref=e59]:
+                - link "Theming" [ref=e60]:
+                  - /url: /docs/theming
+                  - text: Theming
+              - listitem [ref=e62]:
+                - link "Dark Mode" [ref=e63]:
+                  - /url: /docs/dark-mode
+                  - text: Dark Mode
+              - listitem [ref=e65]:
+                - link "CLI" [ref=e66]:
+                  - /url: /docs/cli
+                  - text: CLI
+              - listitem [ref=e68]:
+                - link "Monorepo" [ref=e69]:
+                  - /url: /docs/monorepo
+                  - text: Monorepo
+              - listitem [ref=e71]:
+                - link "Open in v0" [ref=e72]:
+                  - /url: /docs/v0
+                  - text: Open in v0
+              - listitem [ref=e74]:
+                - link "JavaScript" [ref=e75]:
+                  - /url: /docs/javascript
+                  - text: JavaScript
+              - listitem [ref=e77]:
+                - link "Blocks" [ref=e78]:
+                  - /url: /docs/blocks
+                  - text: Blocks
+              - listitem [ref=e80]:
+                - link "Figma" [ref=e81]:
+                  - /url: /docs/figma
+                  - text: Figma
+              - listitem [ref=e83]:
+                - link "Legacy Docs" [ref=e84]:
+                  - /url: /docs/legacy
+                  - text: Legacy Docs
+          - generic [ref=e86]:
+            - generic [ref=e87]: Components
+            - list [ref=e89]:
+              - listitem [ref=e90]:
+                - link "Accordion" [ref=e91]:
+                  - /url: /docs/components/accordion
+                  - text: Accordion
+              - listitem [ref=e93]:
+                - link "Alert" [ref=e94]:
+                  - /url: /docs/components/alert
+                  - text: Alert
+              - listitem [ref=e96]:
+                - link "Alert Dialog" [ref=e97]:
+                  - /url: /docs/components/alert-dialog
+                  - text: Alert Dialog
+              - listitem [ref=e99]:
+                - link "Aspect Ratio" [ref=e100]:
+                  - /url: /docs/components/aspect-ratio
+                  - text: Aspect Ratio
+              - listitem [ref=e102]:
+                - link "Avatar" [ref=e103]:
+                  - /url: /docs/components/avatar
+                  - text: Avatar
+              - listitem [ref=e105]:
+                - link "Badge" [ref=e106]:
+                  - /url: /docs/components/badge
+                  - text: Badge
+              - listitem [ref=e108]:
+                - link "Breadcrumb" [ref=e109]:
+                  - /url: /docs/components/breadcrumb
+                  - text: Breadcrumb
+              - listitem [ref=e111]:
+                - link "Button" [ref=e112]:
+                  - /url: /docs/components/button
+                  - text: Button
+              - listitem [ref=e114]:
+                - link "Calendar" [ref=e115]:
+                  - /url: /docs/components/calendar
+                  - text: Calendar
+              - listitem [ref=e117]:
+                - link "Card" [ref=e118]:
+                  - /url: /docs/components/card
+                  - text: Card
+              - listitem [ref=e120]:
+                - link "Carousel" [ref=e121]:
+                  - /url: /docs/components/carousel
+                  - text: Carousel
+              - listitem [ref=e123]:
+                - link "Chart" [ref=e124]:
+                  - /url: /docs/components/chart
+                  - text: Chart
+              - listitem [ref=e126]:
+                - link "Checkbox" [ref=e127]:
+                  - /url: /docs/components/checkbox
+                  - text: Checkbox
+              - listitem [ref=e129]:
+                - link "Collapsible" [ref=e130]:
+                  - /url: /docs/components/collapsible
+                  - text: Collapsible
+              - listitem [ref=e132]:
+                - link "Combobox" [ref=e133]:
+                  - /url: /docs/components/combobox
+                  - text: Combobox
+              - listitem [ref=e135]:
+                - link "Command" [ref=e136]:
+                  - /url: /docs/components/command
+                  - text: Command
+              - listitem [ref=e138]:
+                - link "Context Menu" [ref=e139]:
+                  - /url: /docs/components/context-menu
+                  - text: Context Menu
+              - listitem [ref=e141]:
+                - link "Data Table" [ref=e142]:
+                  - /url: /docs/components/data-table
+                  - text: Data Table
+              - listitem [ref=e144]:
+                - link "Date Picker" [ref=e145]:
+                  - /url: /docs/components/date-picker
+                  - text: Date Picker
+              - listitem [ref=e147]:
+                - link "Dialog" [ref=e148]:
+                  - /url: /docs/components/dialog
+                  - text: Dialog
+              - listitem [ref=e150]:
+                - link "Drawer" [ref=e151]:
+                  - /url: /docs/components/drawer
+                  - text: Drawer
+              - listitem [ref=e153]:
+                - link "Dropdown Menu" [ref=e154]:
+                  - /url: /docs/components/dropdown-menu
+                  - text: Dropdown Menu
+              - listitem [ref=e156]:
+                - link "React Hook Form" [ref=e157]:
+                  - /url: /docs/components/form
+                  - text: React Hook Form
+              - listitem [ref=e159]:
+                - link "Hover Card" [ref=e160]:
+                  - /url: /docs/components/hover-card
+                  - text: Hover Card
+              - listitem [ref=e162]:
+                - link "Input" [ref=e163]:
+                  - /url: /docs/components/input
+                  - text: Input
+              - listitem [ref=e165]:
+                - link "Input OTP" [ref=e166]:
+                  - /url: /docs/components/input-otp
+                  - text: Input OTP
+              - listitem [ref=e168]:
+                - link "Label" [ref=e169]:
+                  - /url: /docs/components/label
+                  - text: Label
+              - listitem [ref=e171]:
+                - link "Menubar" [ref=e172]:
+                  - /url: /docs/components/menubar
+                  - text: Menubar
+              - listitem [ref=e174]:
+                - link "Navigation Menu" [ref=e175]:
+                  - /url: /docs/components/navigation-menu
+                  - text: Navigation Menu
+              - listitem [ref=e177]:
+                - link "Pagination" [ref=e178]:
+                  - /url: /docs/components/pagination
+                  - text: Pagination
+              - listitem [ref=e180]:
+                - link "Popover" [ref=e181]:
+                  - /url: /docs/components/popover
+                  - text: Popover
+              - listitem [ref=e183]:
+                - link "Progress" [ref=e184]:
+                  - /url: /docs/components/progress
+                  - text: Progress
+              - listitem [ref=e186]:
+                - link "Radio Group" [ref=e187]:
+                  - /url: /docs/components/radio-group
+                  - text: Radio Group
+              - listitem [ref=e189]:
+                - link "Resizable" [ref=e190]:
+                  - /url: /docs/components/resizable
+                  - text: Resizable
+              - listitem [ref=e192]:
+                - link "Scroll-area" [ref=e193]:
+                  - /url: /docs/components/scroll-area
+                  - text: Scroll-area
+              - listitem [ref=e195]:
+                - link "Select" [ref=e196]:
+                  - /url: /docs/components/select
+                  - text: Select
+              - listitem [ref=e198]:
+                - link "Separator" [ref=e199]:
+                  - /url: /docs/components/separator
+                  - text: Separator
+              - listitem [ref=e201]:
+                - link "Sheet" [ref=e202]:
+                  - /url: /docs/components/sheet
+                  - text: Sheet
+              - listitem [ref=e204]:
+                - link "Sidebar" [ref=e205]:
+                  - /url: /docs/components/sidebar
+                  - text: Sidebar
+              - listitem [ref=e207]:
+                - link "Skeleton" [ref=e208]:
+                  - /url: /docs/components/skeleton
+                  - text: Skeleton
+              - listitem [ref=e210]:
+                - link "Slider" [ref=e211]:
+                  - /url: /docs/components/slider
+                  - text: Slider
+              - listitem [ref=e213]:
+                - link "Sonner" [ref=e214]:
+                  - /url: /docs/components/sonner
+                  - text: Sonner
+              - listitem [ref=e216]:
+                - link "Switch" [ref=e217]:
+                  - /url: /docs/components/switch
+                  - text: Switch
+              - listitem [ref=e219]:
+                - link "Table" [ref=e220]:
+                  - /url: /docs/components/table
+                  - text: Table
+              - listitem [ref=e222]:
+                - link "Tabs" [ref=e223]:
+                  - /url: /docs/components/tabs
+                  - text: Tabs
+              - listitem [ref=e225]:
+                - link "Textarea" [ref=e226]:
+                  - /url: /docs/components/textarea
+                  - text: Textarea
+              - listitem [ref=e228]:
+                - link "Toast" [ref=e229]:
+                  - /url: /docs/components/toast
+                  - text: Toast
+              - listitem [ref=e231]:
+                - link "Toggle" [ref=e232]:
+                  - /url: /docs/components/toggle
+                  - text: Toggle
+              - listitem [ref=e234]:
+                - link "Toggle Group" [ref=e235]:
+                  - /url: /docs/components/toggle-group
+                  - text: Toggle Group
+              - listitem [ref=e237]:
+                - link "Tooltip" [ref=e238]:
+                  - /url: /docs/components/tooltip
+                  - text: Tooltip
+              - listitem [ref=e240]:
+                - link "Typography" [ref=e241]:
+                  - /url: /docs/components/typography
+                  - text: Typography
+          - generic [ref=e243]:
+            - generic [ref=e244]: Registry
+            - list [ref=e246]:
+              - listitem [ref=e247]:
+                - link "Introduction" [ref=e248]:
+                  - /url: /docs/registry
+                  - text: Introduction
+              - listitem [ref=e250]:
+                - link "Getting Started" [ref=e251]:
+                  - /url: /docs/registry/getting-started
+                  - text: Getting Started
+              - listitem [ref=e253]:
+                - link "Namespaces" [ref=e254]:
+                  - /url: /docs/registry/namespace
+                  - text: Namespaces
+              - listitem [ref=e256]:
+                - link "Authentication" [ref=e257]:
+                  - /url: /docs/registry/authentication
+                  - text: Authentication
+              - listitem [ref=e259]:
+                - link "Examples" [ref=e260]:
+                  - /url: /docs/registry/examples
+                  - text: Examples
+              - listitem [ref=e262]:
+                - link "MCP Server" [ref=e263]:
+                  - /url: /docs/registry/mcp
+                  - text: MCP Server
+              - listitem [ref=e265]:
+                - link "Index" [ref=e266]:
+                  - /url: /docs/registry/registry-index
+                  - text: Index
+              - listitem [ref=e268]:
+                - link "Open in v0" [ref=e269]:
+                  - /url: /docs/registry/open-in-v0
+                  - text: Open in v0
+              - listitem [ref=e271]:
+                - link "registry.json" [ref=e272]:
+                  - /url: /docs/registry/registry-json
+                  - text: registry.json
+              - listitem [ref=e274]:
+                - link "registry-item.json" [ref=e275]:
+                  - /url: /docs/registry/registry-item-json
+                  - text: registry-item.json
+        - generic [ref=e278]:
+          - generic [ref=e279]:
+            - generic [ref=e281]:
+              - generic [ref=e283]:
+                - generic [ref=e284]:
+                  - heading "Button" [level=1] [ref=e285]
+                  - generic [ref=e286]:
+                    - generic [ref=e287]:
+                      - button "Copy Page" [ref=e288]:
+                        - img
+                        - text: Copy Page
+                      - button [ref=e289]:
+                        - img
+                    - link "Previous" [ref=e290]:
+                      - /url: /docs/components/breadcrumb
+                      - img
+                      - generic [ref=e291]: Previous
+                    - link "Next" [ref=e292]:
+                      - /url: /docs/components/calendar
+                      - generic [ref=e293]: Next
+                      - img
+                - paragraph [ref=e294]: Displays a button or a component that looks like a button.
+              - generic [ref=e295]:
+                - generic [ref=e296]:
+                  - tablist [ref=e299]:
+                    - tab "Preview" [selected] [ref=e300]
+                    - tab "Code" [ref=e301]
+                  - button "Button" [ref=e306]
+                - heading "Installation" [level=2] [ref=e307]
+                - generic [ref=e308]:
+                  - tablist [ref=e309]:
+                    - tab "CLI" [selected] [ref=e310]
+                    - tab "Manual" [ref=e311]
+                  - tabpanel "CLI" [ref=e312]:
+                    - figure [ref=e313]:
+                      - generic [ref=e315]:
+                        - generic [ref=e316]:
+                          - generic [ref=e317]:
+                            - img [ref=e319]
+                            - tablist [ref=e321]:
+                              - tab "pnpm" [selected] [ref=e322]
+                              - tab "npm" [ref=e323]
+                              - tab "yarn" [ref=e324]
+                              - tab "bun" [ref=e325]
+                          - tabpanel "pnpm" [ref=e327]:
+                            - code [ref=e329]: pnpm dlx shadcn@latest add button
+                        - button "Copy" [ref=e330]:
+                          - generic [ref=e331]: Copy
+                          - img
+                - heading "Usage" [level=2] [ref=e332]
+                - figure [ref=e333]:
+                  - generic [ref=e334]:
+                    - button "Copy" [ref=e335]:
+                      - generic [ref=e336]: Copy
+                      - img
+                    - code [ref=e337]:
+                      - generic [ref=e338]:
+                        - generic [ref=e339]: import
+                        - generic [ref=e340]: "{ Button }"
+                        - generic [ref=e341]: from
+                        - generic [ref=e342]: "\"@/components/ui/button\""
+                - figure [ref=e343]:
+                  - generic [ref=e344]:
+                    - button "Copy" [ref=e345]:
+                      - generic [ref=e346]: Copy
+                      - img
+                    - code [ref=e347]:
+                      - generic [ref=e348]:
+                        - generic [ref=e349]: <
+                        - generic [ref=e350]: Button
+                        - generic [ref=e351]: variant
+                        - generic [ref=e352]: =
+                        - generic [ref=e353]: "\"outline\""
+                        - generic [ref=e354]: ">Button</"
+                        - generic [ref=e355]: Button
+                        - generic [ref=e356]: ">"
+                - heading "Link" [level=2] [ref=e357]
+                - paragraph [ref=e358]:
+                  - text: You can use the
+                  - code [ref=e359]: asChild
+                  - text: prop to make another component look like a button. Here's an example of a link that looks like a button.
+                - figure [ref=e360]:
+                  - generic [ref=e361]:
+                    - button "Copy" [ref=e362]:
+                      - generic [ref=e363]: Copy
+                      - img
+                    - code [ref=e364]:
+                      - generic [ref=e365]:
+                        - generic [ref=e366]: import
+                        - generic [ref=e367]: "{ Link }"
+                        - generic [ref=e368]: from
+                        - generic [ref=e369]: "\"next/link\""
+                      - generic [ref=e371]:
+                        - generic [ref=e372]: import
+                        - generic [ref=e373]: "{ Button }"
+                        - generic [ref=e374]: from
+                        - generic [ref=e375]: "\"@/components/ui/button\""
+                      - generic [ref=e377]:
+                        - generic [ref=e378]: export
+                        - generic [ref=e379]: function
+                        - generic [ref=e380]: LinkAsButton
+                        - generic [ref=e381]: "() {"
+                      - generic [ref=e382]:
+                        - generic [ref=e383]: return
+                        - generic [ref=e384]: (
+                      - generic [ref=e385]:
+                        - generic [ref=e386]: <
+                        - generic [ref=e387]: Button
+                        - generic [ref=e388]: asChild
+                        - generic [ref=e389]: ">"
+                      - generic [ref=e390]:
+                        - generic [ref=e391]: <
+                        - generic [ref=e392]: Link
+                        - generic [ref=e393]: href
+                        - generic [ref=e394]: =
+                        - generic [ref=e395]: "\"/login\""
+                        - generic [ref=e396]: ">Login</"
+                        - generic [ref=e397]: Link
+                        - generic [ref=e398]: ">"
+                      - generic [ref=e399]:
+                        - generic [ref=e400]: </
+                        - generic [ref=e401]: Button
+                        - generic [ref=e402]: ">"
+                      - generic [ref=e404]: )
+                      - generic [ref=e406]: "}"
+                - heading "Examples" [level=2] [ref=e407]
+                - heading "Default" [level=3] [ref=e408]
+                - generic [ref=e409]:
+                  - tablist [ref=e412]:
+                    - tab "Preview" [selected] [ref=e413]
+                    - tab "Code" [ref=e414]
+                  - button "Button" [ref=e419]
+                - heading "Secondary" [level=3] [ref=e420]
+                - generic [ref=e421]:
+                  - tablist [ref=e424]:
+                    - tab "Preview" [selected] [ref=e425]
+                    - tab "Code" [ref=e426]
+                  - button "Secondary" [ref=e430]
+                - heading "Destructive" [level=3] [ref=e431]
+                - generic [ref=e432]:
+                  - tablist [ref=e435]:
+                    - tab "Preview" [selected] [ref=e436]
+                    - tab "Code" [ref=e437]
+                  - button "Destructive" [ref=e441]
+                - heading "Outline" [level=3] [ref=e442]
+                - generic [ref=e443]:
+                  - tablist [ref=e446]:
+                    - tab "Preview" [selected] [ref=e447]
+                    - tab "Code" [ref=e448]
+                  - button "Outline" [ref=e452]
+                - heading "Ghost" [level=3] [ref=e453]
+                - generic [ref=e454]:
+                  - tablist [ref=e457]:
+                    - tab "Preview" [selected] [ref=e458]
+                    - tab "Code" [ref=e459]
+                  - button "Ghost" [ref=e463]
+                - heading "Link" [level=3] [ref=e464]
+                - generic [ref=e465]:
+                  - tablist [ref=e468]:
+                    - tab "Preview" [selected] [ref=e469]
+                    - tab "Code" [ref=e470]
+                  - button "Link" [ref=e474]
+                - heading "Icon" [level=3] [ref=e475]
+                - generic [ref=e476]:
+                  - tablist [ref=e479]:
+                    - tab "Preview" [selected] [ref=e480]
+                    - tab "Code" [ref=e481]
+                  - button [ref=e485]:
+                    - img
+                - heading "With Icon" [level=3] [ref=e486]
+                - generic [ref=e487]:
+                  - tablist [ref=e490]:
+                    - tab "Preview" [selected] [ref=e491]
+                    - tab "Code" [ref=e492]
+                  - button "New Branch" [ref=e496]:
+                    - img
+                    - text: New Branch
+                - heading "Loading" [level=3] [ref=e497]
+                - generic [ref=e498]:
+                  - tablist [ref=e501]:
+                    - tab "Preview" [selected] [ref=e502]
+                    - tab "Code" [ref=e503]
+                  - generic [ref=e506]:
+                    - button "Please wait" [disabled]:
+                      - img
+                      - text: Please wait
+            - generic [ref=e507]:
+              - link "Breadcrumb" [ref=e508]:
+                - /url: /docs/components/breadcrumb
+                - img
+                - text: Breadcrumb
+              - link "Calendar" [ref=e509]:
+                - /url: /docs/components/calendar
+                - text: Calendar
+                - img
+          - generic [ref=e510]:
+            - generic [ref=e513]:
+              - paragraph [ref=e514]: On This Page
+              - link "Installation" [ref=e515]:
+                - /url: "#installation"
+              - link "Usage" [ref=e516]:
+                - /url: "#usage"
+              - link "Link" [ref=e517]:
+                - /url: "#link"
+              - link "Examples" [ref=e518]:
+                - /url: "#examples"
+              - link "Default" [ref=e519]:
+                - /url: "#default"
+              - link "Secondary" [ref=e520]:
+                - /url: "#secondary"
+              - link "Destructive" [ref=e521]:
+                - /url: "#destructive"
+              - link "Outline" [ref=e522]:
+                - /url: "#outline"
+              - link "Ghost" [ref=e523]:
+                - /url: "#ghost"
+              - link "Link" [ref=e524]:
+                - /url: "#link-1"
+              - link "Icon" [ref=e525]:
+                - /url: "#icon"
+              - link "With Icon" [ref=e526]:
+                - /url: "#with-icon"
+              - link "Loading" [ref=e527]:
+                - /url: "#loading"
+            - generic [ref=e530]:
+              - generic [ref=e531]: Deploy your shadcn/ui app on Vercel
+              - generic [ref=e532]: Trusted by OpenAI, Sonos, Adobe, and more.
+              - generic [ref=e533]: Vercel provides tools and infrastructure to deploy apps and features at scale.
+              - button "Deploy Now" [ref=e534]
+              - link "Deploy to Vercel" [ref=e535]:
+                - /url: https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+                - generic [ref=e536]: Deploy to Vercel
+    - contentinfo [ref=e537]:
+      - generic [ref=e540]:
+        - text: Built by
+        - link "shadcn" [ref=e541]:
+          - /url: https://twitter.com/shadcn
+        - text: at
+        - link "Vercel" [ref=e542]:
+          - /url: https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+        - text: . The source code is available on
+        - link "GitHub" [ref=e543]:
+          - /url: https://github.com/shadcn-ui/ui
+        - text: .
+  - region "Notifications alt+T"
+```

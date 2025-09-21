@@ -1,0 +1,278 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - button "Toggle Menu Menu" [ref=e6]:
+          - generic [ref=e11]: Toggle Menu
+          - generic [ref=e12]: Menu
+        - generic [ref=e13]:
+          - link "95.1k" [ref=e14] [cursor=pointer]:
+            - /url: https://github.com/shadcn-ui/ui
+            - img
+            - generic [ref=e15] [cursor=pointer]: 95.1k
+          - button "Toggle theme" [ref=e16]:
+            - img
+            - generic [ref=e17]: Toggle theme
+    - main [ref=e18]:
+      - generic [ref=e24]:
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - heading "Table" [level=1] [ref=e28]
+            - generic [ref=e29]:
+              - generic [ref=e30]:
+                - button "Copy Page" [ref=e31]:
+                  - img
+                  - text: Copy Page
+                - button [ref=e32]:
+                  - img
+              - link "Previous" [ref=e33] [cursor=pointer]:
+                - /url: /docs/components/switch
+                - img
+                - generic [ref=e34] [cursor=pointer]: Previous
+              - link "Next" [ref=e35] [cursor=pointer]:
+                - /url: /docs/components/tabs
+                - generic [ref=e36] [cursor=pointer]: Next
+                - img
+          - paragraph [ref=e37]: A responsive table component.
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - tablist [ref=e42]:
+              - tab "Preview" [selected] [ref=e43]
+              - tab "Code" [ref=e44]
+            - table "A list of your recent invoices." [ref=e49]:
+              - caption [ref=e50]: A list of your recent invoices.
+              - rowgroup [ref=e51]:
+                - row "Invoice Status Method Amount" [ref=e52]:
+                  - cell "Invoice" [ref=e53]
+                  - cell "Status" [ref=e54]
+                  - cell "Method" [ref=e55]
+                  - cell "Amount" [ref=e56]
+              - rowgroup [ref=e57]:
+                - row "INV001 Paid Credit Card $250.00" [ref=e58]:
+                  - cell "INV001" [ref=e59]
+                  - cell "Paid" [ref=e60]
+                  - cell "Credit Card" [ref=e61]
+                  - cell "$250.00" [ref=e62]
+                - row "INV002 Pending PayPal $150.00" [ref=e63]:
+                  - cell "INV002" [ref=e64]
+                  - cell "Pending" [ref=e65]
+                  - cell "PayPal" [ref=e66]
+                  - cell "$150.00" [ref=e67]
+                - row "INV003 Unpaid Bank Transfer $350.00" [ref=e68]:
+                  - cell "INV003" [ref=e69]
+                  - cell "Unpaid" [ref=e70]
+                  - cell "Bank Transfer" [ref=e71]
+                  - cell "$350.00" [ref=e72]
+                - row "INV004 Paid Credit Card $450.00" [ref=e73]:
+                  - cell "INV004" [ref=e74]
+                  - cell "Paid" [ref=e75]
+                  - cell "Credit Card" [ref=e76]
+                  - cell "$450.00" [ref=e77]
+                - row "INV005 Paid PayPal $550.00" [ref=e78]:
+                  - cell "INV005" [ref=e79]
+                  - cell "Paid" [ref=e80]
+                  - cell "PayPal" [ref=e81]
+                  - cell "$550.00" [ref=e82]
+                - row "INV006 Pending Bank Transfer $200.00" [ref=e83]:
+                  - cell "INV006" [ref=e84]
+                  - cell "Pending" [ref=e85]
+                  - cell "Bank Transfer" [ref=e86]
+                  - cell "$200.00" [ref=e87]
+                - row "INV007 Unpaid Credit Card $300.00" [ref=e88]:
+                  - cell "INV007" [ref=e89]
+                  - cell "Unpaid" [ref=e90]
+                  - cell "Credit Card" [ref=e91]
+                  - cell "$300.00" [ref=e92]
+              - rowgroup [ref=e93]:
+                - row "Total $2,500.00" [ref=e94]:
+                  - cell "Total" [ref=e95]
+                  - cell "$2,500.00" [ref=e96]
+          - heading "Installation" [level=2] [ref=e97]
+          - generic [ref=e98]:
+            - tablist [ref=e99]:
+              - tab "CLI" [selected] [ref=e100]
+              - tab "Manual" [ref=e101]
+            - tabpanel "CLI" [ref=e102]:
+              - figure [ref=e103]:
+                - generic [ref=e105]:
+                  - generic [ref=e106]:
+                    - generic [ref=e107]:
+                      - img [ref=e109]
+                      - tablist [ref=e111]:
+                        - tab "pnpm" [selected] [ref=e112]
+                        - tab "npm" [ref=e113]
+                        - tab "yarn" [ref=e114]
+                        - tab "bun" [ref=e115]
+                    - tabpanel "pnpm" [ref=e117]:
+                      - code [ref=e119]: pnpm dlx shadcn@latest add table
+                  - button "Copy" [ref=e120]:
+                    - generic [ref=e121]: Copy
+                    - img
+          - heading "Usage" [level=2] [ref=e122]
+          - figure [ref=e123]:
+            - generic [ref=e124]:
+              - button "Copy" [ref=e125]:
+                - generic [ref=e126]: Copy
+                - img
+              - code [ref=e127]:
+                - generic [ref=e128]:
+                  - generic [ref=e129]: import
+                  - generic [ref=e130]: "{"
+                - generic [ref=e132]: Table,
+                - generic [ref=e134]: TableBody,
+                - generic [ref=e136]: TableCaption,
+                - generic [ref=e138]: TableCell,
+                - generic [ref=e140]: TableHead,
+                - generic [ref=e142]: TableHeader,
+                - generic [ref=e144]: TableRow,
+                - generic [ref=e145]:
+                  - generic [ref=e146]: "}"
+                  - generic [ref=e147]: from
+                  - generic [ref=e148]: "\"@/components/ui/table\""
+          - figure [ref=e149]:
+            - generic [ref=e150]:
+              - button "Copy" [ref=e151]:
+                - generic [ref=e152]: Copy
+                - img
+              - code [ref=e153]:
+                - generic [ref=e154]:
+                  - generic [ref=e155]: <
+                  - generic [ref=e156]: Table
+                  - generic [ref=e157]: ">"
+                - generic [ref=e158]:
+                  - generic [ref=e159]: <
+                  - generic [ref=e160]: TableCaption
+                  - generic [ref=e161]: ">A list of your recent invoices.</"
+                  - generic [ref=e162]: TableCaption
+                  - generic [ref=e163]: ">"
+                - generic [ref=e164]:
+                  - generic [ref=e165]: <
+                  - generic [ref=e166]: TableHeader
+                  - generic [ref=e167]: ">"
+                - generic [ref=e168]:
+                  - generic [ref=e169]: <
+                  - generic [ref=e170]: TableRow
+                  - generic [ref=e171]: ">"
+                - generic [ref=e172]:
+                  - generic [ref=e173]: <
+                  - generic [ref=e174]: TableHead
+                  - generic [ref=e175]: className
+                  - generic [ref=e176]: =
+                  - generic [ref=e177]: "\"w-[100px]\""
+                  - generic [ref=e178]: ">Invoice</"
+                  - generic [ref=e179]: TableHead
+                  - generic [ref=e180]: ">"
+                - generic [ref=e181]:
+                  - generic [ref=e182]: <
+                  - generic [ref=e183]: TableHead
+                  - generic [ref=e184]: ">Status</"
+                  - generic [ref=e185]: TableHead
+                  - generic [ref=e186]: ">"
+                - generic [ref=e187]:
+                  - generic [ref=e188]: <
+                  - generic [ref=e189]: TableHead
+                  - generic [ref=e190]: ">Method</"
+                  - generic [ref=e191]: TableHead
+                  - generic [ref=e192]: ">"
+                - generic [ref=e193]:
+                  - generic [ref=e194]: <
+                  - generic [ref=e195]: TableHead
+                  - generic [ref=e196]: className
+                  - generic [ref=e197]: =
+                  - generic [ref=e198]: "\"text-right\""
+                  - generic [ref=e199]: ">Amount</"
+                  - generic [ref=e200]: TableHead
+                  - generic [ref=e201]: ">"
+                - generic [ref=e202]:
+                  - generic [ref=e203]: </
+                  - generic [ref=e204]: TableRow
+                  - generic [ref=e205]: ">"
+                - generic [ref=e206]:
+                  - generic [ref=e207]: </
+                  - generic [ref=e208]: TableHeader
+                  - generic [ref=e209]: ">"
+                - generic [ref=e210]:
+                  - generic [ref=e211]: <
+                  - generic [ref=e212]: TableBody
+                  - generic [ref=e213]: ">"
+                - generic [ref=e214]:
+                  - generic [ref=e215]: <
+                  - generic [ref=e216]: TableRow
+                  - generic [ref=e217]: ">"
+                - generic [ref=e218]:
+                  - generic [ref=e219]: <
+                  - generic [ref=e220]: TableCell
+                  - generic [ref=e221]: className
+                  - generic [ref=e222]: =
+                  - generic [ref=e223]: "\"font-medium\""
+                  - generic [ref=e224]: ">INV001</"
+                  - generic [ref=e225]: TableCell
+                  - generic [ref=e226]: ">"
+                - generic [ref=e227]:
+                  - generic [ref=e228]: <
+                  - generic [ref=e229]: TableCell
+                  - generic [ref=e230]: ">Paid</"
+                  - generic [ref=e231]: TableCell
+                  - generic [ref=e232]: ">"
+                - generic [ref=e233]:
+                  - generic [ref=e234]: <
+                  - generic [ref=e235]: TableCell
+                  - generic [ref=e236]: ">Credit Card</"
+                  - generic [ref=e237]: TableCell
+                  - generic [ref=e238]: ">"
+                - generic [ref=e239]:
+                  - generic [ref=e240]: <
+                  - generic [ref=e241]: TableCell
+                  - generic [ref=e242]: className
+                  - generic [ref=e243]: =
+                  - generic [ref=e244]: "\"text-right\""
+                  - generic [ref=e245]: ">$250.00</"
+                  - generic [ref=e246]: TableCell
+                  - generic [ref=e247]: ">"
+                - generic [ref=e248]:
+                  - generic [ref=e249]: </
+                  - generic [ref=e250]: TableRow
+                  - generic [ref=e251]: ">"
+                - generic [ref=e252]:
+                  - generic [ref=e253]: </
+                  - generic [ref=e254]: TableBody
+                  - generic [ref=e255]: ">"
+                - generic [ref=e256]:
+                  - generic [ref=e257]: </
+                  - generic [ref=e258]: Table
+                  - generic [ref=e259]: ">"
+          - heading "Data Table" [level=2] [ref=e260]
+          - paragraph [ref=e261]:
+            - text: You can use the
+            - code [ref=e262]: <Table />
+            - text: component to build more complex data tables. Combine it with
+            - link "@tanstack/react-table" [ref=e263] [cursor=pointer]:
+              - /url: https://tanstack.com/table/v8
+            - text: to create tables with sorting, filtering and pagination.
+          - paragraph [ref=e264]:
+            - text: See the
+            - link "Data Table" [ref=e265] [cursor=pointer]:
+              - /url: /docs/components/data-table
+            - text: documentation for more information.
+          - paragraph [ref=e266]:
+            - text: You can also see an example of a data table in the
+            - link "Tasks" [ref=e267] [cursor=pointer]:
+              - /url: /examples/tasks
+            - text: demo.
+    - contentinfo [ref=e268]:
+      - generic [ref=e271]:
+        - text: Built by
+        - link "shadcn" [ref=e272] [cursor=pointer]:
+          - /url: https://twitter.com/shadcn
+        - text: at
+        - link "Vercel" [ref=e273] [cursor=pointer]:
+          - /url: https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+        - text: . The source code is available on
+        - link "GitHub" [ref=e274] [cursor=pointer]:
+          - /url: https://github.com/shadcn-ui/ui
+        - text: .
+  - region "Notifications alt+T"
+```

@@ -1,0 +1,156 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - button "Toggle Menu Menu" [ref=e6]:
+          - generic [ref=e11]: Toggle Menu
+          - generic [ref=e12]: Menu
+        - generic [ref=e13]:
+          - link "95.1k" [ref=e14] [cursor=pointer]:
+            - /url: https://github.com/shadcn-ui/ui
+            - img
+            - generic [ref=e15] [cursor=pointer]: 95.1k
+          - button "Toggle theme" [ref=e16]:
+            - img
+            - generic [ref=e17]: Toggle theme
+    - main [ref=e18]:
+      - generic [ref=e24]:
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - heading "Components" [level=1] [ref=e28]
+            - generic [ref=e29]:
+              - generic [ref=e30]:
+                - button "Copy Page" [ref=e31]:
+                  - img
+                  - text: Copy Page
+                - button [ref=e32]:
+                  - img
+              - link "Previous" [ref=e33] [cursor=pointer]:
+                - /url: /docs/legacy
+                - img
+                - generic [ref=e34] [cursor=pointer]: Previous
+              - link "Next" [ref=e35] [cursor=pointer]:
+                - /url: /docs/components/accordion
+                - generic [ref=e36] [cursor=pointer]: Next
+                - img
+          - paragraph [ref=e37]: Here you can find all the components available in the library. We are working on adding more components.
+        - generic [ref=e39]:
+          - link "Accordion" [ref=e40] [cursor=pointer]:
+            - /url: /docs/components/accordion
+          - link "Alert" [ref=e41] [cursor=pointer]:
+            - /url: /docs/components/alert
+          - link "Alert Dialog" [ref=e42] [cursor=pointer]:
+            - /url: /docs/components/alert-dialog
+          - link "Aspect Ratio" [ref=e43] [cursor=pointer]:
+            - /url: /docs/components/aspect-ratio
+          - link "Avatar" [ref=e44] [cursor=pointer]:
+            - /url: /docs/components/avatar
+          - link "Badge" [ref=e45] [cursor=pointer]:
+            - /url: /docs/components/badge
+          - link "Breadcrumb" [ref=e46] [cursor=pointer]:
+            - /url: /docs/components/breadcrumb
+          - link "Button" [ref=e47] [cursor=pointer]:
+            - /url: /docs/components/button
+          - link "Calendar" [ref=e48] [cursor=pointer]:
+            - /url: /docs/components/calendar
+          - link "Card" [ref=e49] [cursor=pointer]:
+            - /url: /docs/components/card
+          - link "Carousel" [ref=e50] [cursor=pointer]:
+            - /url: /docs/components/carousel
+          - link "Chart" [ref=e51] [cursor=pointer]:
+            - /url: /docs/components/chart
+          - link "Checkbox" [ref=e52] [cursor=pointer]:
+            - /url: /docs/components/checkbox
+          - link "Collapsible" [ref=e53] [cursor=pointer]:
+            - /url: /docs/components/collapsible
+          - link "Combobox" [ref=e54] [cursor=pointer]:
+            - /url: /docs/components/combobox
+          - link "Command" [ref=e55] [cursor=pointer]:
+            - /url: /docs/components/command
+          - link "Context Menu" [ref=e56] [cursor=pointer]:
+            - /url: /docs/components/context-menu
+          - link "Data Table" [ref=e57] [cursor=pointer]:
+            - /url: /docs/components/data-table
+          - link "Date Picker" [ref=e58] [cursor=pointer]:
+            - /url: /docs/components/date-picker
+          - link "Dialog" [ref=e59] [cursor=pointer]:
+            - /url: /docs/components/dialog
+          - link "Drawer" [ref=e60] [cursor=pointer]:
+            - /url: /docs/components/drawer
+          - link "Dropdown Menu" [ref=e61] [cursor=pointer]:
+            - /url: /docs/components/dropdown-menu
+          - link "React Hook Form" [ref=e62] [cursor=pointer]:
+            - /url: /docs/components/form
+          - link "Hover Card" [ref=e63] [cursor=pointer]:
+            - /url: /docs/components/hover-card
+          - link "Input" [ref=e64] [cursor=pointer]:
+            - /url: /docs/components/input
+          - link "Input OTP" [ref=e65] [cursor=pointer]:
+            - /url: /docs/components/input-otp
+          - link "Label" [ref=e66] [cursor=pointer]:
+            - /url: /docs/components/label
+          - link "Menubar" [ref=e67] [cursor=pointer]:
+            - /url: /docs/components/menubar
+          - link "Navigation Menu" [ref=e68] [cursor=pointer]:
+            - /url: /docs/components/navigation-menu
+          - link "Pagination" [ref=e69] [cursor=pointer]:
+            - /url: /docs/components/pagination
+          - link "Popover" [ref=e70] [cursor=pointer]:
+            - /url: /docs/components/popover
+          - link "Progress" [ref=e71] [cursor=pointer]:
+            - /url: /docs/components/progress
+          - link "Radio Group" [ref=e72] [cursor=pointer]:
+            - /url: /docs/components/radio-group
+          - link "Resizable" [ref=e73] [cursor=pointer]:
+            - /url: /docs/components/resizable
+          - link "Scroll-area" [ref=e74] [cursor=pointer]:
+            - /url: /docs/components/scroll-area
+          - link "Select" [ref=e75] [cursor=pointer]:
+            - /url: /docs/components/select
+          - link "Separator" [ref=e76] [cursor=pointer]:
+            - /url: /docs/components/separator
+          - link "Sheet" [ref=e77] [cursor=pointer]:
+            - /url: /docs/components/sheet
+          - link "Sidebar" [ref=e78] [cursor=pointer]:
+            - /url: /docs/components/sidebar
+          - link "Skeleton" [ref=e79] [cursor=pointer]:
+            - /url: /docs/components/skeleton
+          - link "Slider" [ref=e80] [cursor=pointer]:
+            - /url: /docs/components/slider
+          - link "Sonner" [ref=e81] [cursor=pointer]:
+            - /url: /docs/components/sonner
+          - link "Switch" [ref=e82] [cursor=pointer]:
+            - /url: /docs/components/switch
+          - link "Table" [ref=e83] [cursor=pointer]:
+            - /url: /docs/components/table
+          - link "Tabs" [ref=e84] [cursor=pointer]:
+            - /url: /docs/components/tabs
+          - link "Textarea" [ref=e85] [cursor=pointer]:
+            - /url: /docs/components/textarea
+          - link "Toast" [ref=e86] [cursor=pointer]:
+            - /url: /docs/components/toast
+          - link "Toggle" [ref=e87] [cursor=pointer]:
+            - /url: /docs/components/toggle
+          - link "Toggle Group" [ref=e88] [cursor=pointer]:
+            - /url: /docs/components/toggle-group
+          - link "Tooltip" [ref=e89] [cursor=pointer]:
+            - /url: /docs/components/tooltip
+          - link "Typography" [ref=e90] [cursor=pointer]:
+            - /url: /docs/components/typography
+    - contentinfo [ref=e91]:
+      - generic [ref=e94]:
+        - text: Built by
+        - link "shadcn" [ref=e95] [cursor=pointer]:
+          - /url: https://twitter.com/shadcn
+        - text: at
+        - link "Vercel" [ref=e96] [cursor=pointer]:
+          - /url: https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+        - text: . The source code is available on
+        - link "GitHub" [ref=e97] [cursor=pointer]:
+          - /url: https://github.com/shadcn-ui/ui
+        - text: .
+  - region "Notifications alt+T"
+```

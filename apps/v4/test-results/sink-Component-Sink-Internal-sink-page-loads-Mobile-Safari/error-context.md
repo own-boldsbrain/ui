@@ -1,0 +1,2469 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - button "Toggle Sidebar" [ref=e5]:
+        - img
+        - generic [ref=e6]: Toggle Sidebar
+      - heading "Kitchen Sink" [level=1] [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]: Theme
+        - combobox "Theme" [ref=e10]:
+          - generic [ref=e11]: "Theme:"
+          - generic: Default
+          - img
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e15]: Accordion
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - heading "Is it accessible?" [level=3] [ref=e20]:
+              - button "Is it accessible?" [ref=e21]:
+                - text: Is it accessible?
+                - img
+            - heading "Is it styled?" [level=3] [ref=e23]:
+              - button "Is it styled?" [ref=e24]:
+                - text: Is it styled?
+                - img
+            - heading "Is it animated?" [level=3] [ref=e26]:
+              - button "Is it animated?" [ref=e27]:
+                - text: Is it animated?
+                - img
+          - generic [ref=e28]:
+            - heading "What are the key considerations when implementing a comprehensive enterprise-level authentication system?" [level=3] [ref=e30]:
+              - button "What are the key considerations when implementing a comprehensive enterprise-level authentication system?" [ref=e31]:
+                - text: What are the key considerations when implementing a comprehensive enterprise-level authentication system?
+                - img
+            - heading "How does modern distributed system architecture handle eventual consistency and data synchronization across multiple regions?" [level=3] [ref=e33]:
+              - button "How does modern distributed system architecture handle eventual consistency and data synchronization across multiple regions?" [ref=e34]:
+                - text: How does modern distributed system architecture handle eventual consistency and data synchronization across multiple regions?
+                - img
+      - generic [ref=e35]:
+        - generic [ref=e37]: Alert
+        - generic [ref=e39]:
+          - alert [ref=e40]:
+            - img [ref=e41]
+            - generic [ref=e44]: Success! Your changes have been saved
+            - generic [ref=e45]: This is an alert with icon, title and description.
+          - alert [ref=e46]:
+            - img [ref=e47]: Heads up!
+            - generic [ref=e50]: This one has an icon and a description only. No title.
+          - alert [ref=e51]:
+            - generic [ref=e52]: This one has a description only. No title. No icon.
+          - alert [ref=e53]:
+            - img [ref=e54]
+            - generic [ref=e59]: Let's try one with icon and title.
+          - alert [ref=e60]:
+            - img [ref=e61]
+            - generic [ref=e63]: This is a very long alert title that demonstrates how the component handles extended text content and potentially wraps across multiple lines
+          - alert [ref=e64]:
+            - img [ref=e65]
+            - generic [ref=e69]: This is a very long alert description that demonstrates how the component handles extended text content and potentially wraps across multiple lines
+          - alert [ref=e70]:
+            - img [ref=e71]
+            - generic [ref=e73]: This is an extremely long alert title that spans multiple lines to demonstrate how the component handles very lengthy headings while maintaining readability and proper text wrapping behavior
+            - generic [ref=e74]: This is an equally long description that contains detailed information about the alert. It shows how the component can accommodate extensive content while preserving proper spacing, alignment, and readability across different screen sizes and viewport widths. This helps ensure the user experience remains consistent regardless of the content length.
+          - alert [ref=e75]:
+            - img [ref=e76]
+            - generic [ref=e78]: Something went wrong!
+            - generic [ref=e79]: Your session has expired. Please log in again.
+          - alert [ref=e80]:
+            - img [ref=e81]
+            - generic [ref=e83]: Unable to process your payment.
+            - generic [ref=e84]:
+              - paragraph [ref=e85]: Please verify your billing information and try again.
+              - list [ref=e86]:
+                - listitem [ref=e87]: Check your card details
+                - listitem [ref=e88]: Ensure sufficient funds
+                - listitem [ref=e89]: Verify billing address
+          - alert [ref=e90]:
+            - img [ref=e91]
+            - generic [ref=e94]: The selected emails have been marked as spam.
+            - button "Undo" [ref=e95]
+          - alert [ref=e96]:
+            - img [ref=e97]
+            - generic [ref=e100]: "Plot Twist: This Alert is Actually Amber!"
+            - generic [ref=e101]: This one has custom colors for light and dark mode.
+      - generic [ref=e102]:
+        - generic [ref=e104]: Alert Dialog
+        - button "Show Dialog" [ref=e106]
+      - generic [ref=e107]:
+        - generic [ref=e109]: Aspect Ratio
+        - generic [ref=e111]:
+          - img "Photo by Drew Beamer" [ref=e114]
+          - img "Photo by Drew Beamer" [ref=e117]
+      - generic [ref=e118]:
+        - generic [ref=e120]: Avatar
+        - generic [ref=e122]:
+          - img "@shadcn" [ref=e124]
+          - generic [ref=e126]: CN
+          - img "@shadcn" [ref=e128]
+          - img "@evilrabbit" [ref=e130]
+          - generic [ref=e131]:
+            - img "@shadcn" [ref=e133]
+            - img "@leerob" [ref=e135]
+            - img "@evilrabbit" [ref=e137]
+          - generic [ref=e138]:
+            - img "@shadcn" [ref=e140]
+            - img "@leerob" [ref=e142]
+            - img "@evilrabbit" [ref=e144]
+          - generic [ref=e145]:
+            - img "@shadcn" [ref=e147]
+            - img "@leerob" [ref=e149]
+            - img "@evilrabbit" [ref=e151]
+      - generic [ref=e152]:
+        - generic [ref=e154]: Badge
+        - generic [ref=e156]:
+          - generic [ref=e157]:
+            - generic [ref=e158]: Badge
+            - generic [ref=e159]: Secondary
+            - generic [ref=e160]: Destructive
+            - generic [ref=e161]: Outline
+            - generic [ref=e162]:
+              - img
+              - text: Badge
+            - generic [ref=e163]:
+              - img
+              - text: Alert
+            - generic [ref=e164]: "8"
+            - generic [ref=e165]: "99"
+            - generic [ref=e166]: 20+
+          - generic [ref=e167]:
+            - link "Link" [ref=e168]:
+              - /url: "#"
+              - text: Link
+              - img
+            - link "Link" [ref=e169]:
+              - /url: "#"
+              - text: Link
+              - img
+            - link "Link" [ref=e170]:
+              - /url: "#"
+              - text: Link
+              - img
+            - link "Link" [ref=e171]:
+              - /url: "#"
+              - text: Link
+              - img
+      - generic [ref=e172]:
+        - generic [ref=e174]: Breadcrumb
+        - navigation "breadcrumb" [ref=e176]:
+          - list [ref=e177]:
+            - listitem [ref=e178]:
+              - link "Home" [ref=e179]:
+                - /url: /
+            - listitem [ref=e180]:
+              - img [ref=e181]
+            - listitem [ref=e183]:
+              - button "Toggle menu" [ref=e184]:
+                - generic [ref=e185]:
+                  - img [ref=e186]
+                  - generic [ref=e190]: More
+                - generic [ref=e191]: Toggle menu
+            - listitem [ref=e192]:
+              - img [ref=e193]
+            - listitem [ref=e195]:
+              - link "Components" [ref=e196]:
+                - /url: /docs/components
+            - listitem [ref=e197]:
+              - img [ref=e198]
+            - listitem [ref=e200]:
+              - link "Breadcrumb" [disabled] [ref=e201]
+      - generic [ref=e202]:
+        - generic [ref=e204]: Button
+        - generic [ref=e206]:
+          - generic [ref=e207]:
+            - button "Button" [ref=e208]
+            - button "Outline" [ref=e209]
+            - button "Ghost" [ref=e210]
+            - button "Destructive" [ref=e211]
+            - button "Secondary" [ref=e212]
+            - button "Link" [ref=e213]
+            - button "Send" [ref=e214]:
+              - img
+              - text: Send
+            - button "Learn More" [ref=e215]:
+              - text: Learn More
+              - img
+            - button "Please wait" [disabled]:
+              - img
+              - text: Please wait
+          - generic [ref=e216]:
+            - button "Small" [ref=e217]
+            - button "Outline" [ref=e218]
+            - button "Ghost" [ref=e219]
+            - button "Destructive" [ref=e220]
+            - button "Secondary" [ref=e221]
+            - button "Link" [ref=e222]
+            - button "Send" [ref=e223]:
+              - img
+              - text: Send
+            - button "Learn More" [ref=e224]:
+              - text: Learn More
+              - img
+            - button "Please wait" [disabled]:
+              - img
+              - text: Please wait
+          - generic [ref=e225]:
+            - button "Large" [ref=e226]
+            - button "Outline" [ref=e227]
+            - button "Ghost" [ref=e228]
+            - button "Destructive" [ref=e229]
+            - button "Secondary" [ref=e230]
+            - button "Link" [ref=e231]
+            - button "Send" [ref=e232]:
+              - img
+              - text: Send
+            - button "Learn More" [ref=e233]:
+              - text: Learn More
+              - img
+            - button "Please wait" [disabled]:
+              - img
+              - text: Please wait
+      - generic [ref=e234]:
+        - generic [ref=e236]: Calendar
+        - generic [ref=e238]:
+          - generic [ref=e239]:
+            - generic [ref=e240]: Single Selection
+            - generic [ref=e242]:
+              - navigation [ref=e243]:
+                - button "Go to the Previous Month" [ref=e244]:
+                  - img
+                - button "Go to the Next Month" [ref=e245]:
+                  - img
+              - generic [ref=e246]:
+                - generic [ref=e248]:
+                  - generic [ref=e249]:
+                    - combobox "Choose the Month" [ref=e250]:
+                      - option "Jan"
+                      - option "Feb"
+                      - option "Mar"
+                      - option "Apr"
+                      - option "May"
+                      - option "Jun"
+                      - option "Jul"
+                      - option "Aug"
+                      - option "Sep" [selected]
+                      - option "Oct"
+                      - option "Nov"
+                      - option "Dec"
+                    - generic [ref=e251]:
+                      - text: Sep
+                      - img [ref=e252]
+                  - generic [ref=e254]:
+                    - combobox "Choose the Year" [ref=e255]:
+                      - option "1925"
+                      - option "1926"
+                      - option "1927"
+                      - option "1928"
+                      - option "1929"
+                      - option "1930"
+                      - option "1931"
+                      - option "1932"
+                      - option "1933"
+                      - option "1934"
+                      - option "1935"
+                      - option "1936"
+                      - option "1937"
+                      - option "1938"
+                      - option "1939"
+                      - option "1940"
+                      - option "1941"
+                      - option "1942"
+                      - option "1943"
+                      - option "1944"
+                      - option "1945"
+                      - option "1946"
+                      - option "1947"
+                      - option "1948"
+                      - option "1949"
+                      - option "1950"
+                      - option "1951"
+                      - option "1952"
+                      - option "1953"
+                      - option "1954"
+                      - option "1955"
+                      - option "1956"
+                      - option "1957"
+                      - option "1958"
+                      - option "1959"
+                      - option "1960"
+                      - option "1961"
+                      - option "1962"
+                      - option "1963"
+                      - option "1964"
+                      - option "1965"
+                      - option "1966"
+                      - option "1967"
+                      - option "1968"
+                      - option "1969"
+                      - option "1970"
+                      - option "1971"
+                      - option "1972"
+                      - option "1973"
+                      - option "1974"
+                      - option "1975"
+                      - option "1976"
+                      - option "1977"
+                      - option "1978"
+                      - option "1979"
+                      - option "1980"
+                      - option "1981"
+                      - option "1982"
+                      - option "1983"
+                      - option "1984"
+                      - option "1985"
+                      - option "1986"
+                      - option "1987"
+                      - option "1988"
+                      - option "1989"
+                      - option "1990"
+                      - option "1991"
+                      - option "1992"
+                      - option "1993"
+                      - option "1994"
+                      - option "1995"
+                      - option "1996"
+                      - option "1997"
+                      - option "1998"
+                      - option "1999"
+                      - option "2000"
+                      - option "2001"
+                      - option "2002"
+                      - option "2003"
+                      - option "2004"
+                      - option "2005"
+                      - option "2006"
+                      - option "2007"
+                      - option "2008"
+                      - option "2009"
+                      - option "2010"
+                      - option "2011"
+                      - option "2012"
+                      - option "2013"
+                      - option "2014"
+                      - option "2015"
+                      - option "2016"
+                      - option "2017"
+                      - option "2018"
+                      - option "2019"
+                      - option "2020"
+                      - option "2021"
+                      - option "2022"
+                      - option "2023"
+                      - option "2024"
+                      - option "2025" [selected]
+                    - generic [ref=e256]:
+                      - text: "2025"
+                      - img [ref=e257]
+                  - status [ref=e259]: September 2025
+                - grid "September 2025" [ref=e260]:
+                  - rowgroup [ref=e261]:
+                    - row [ref=e262]:
+                      - columnheader [ref=e263]: Su
+                      - columnheader [ref=e264]: Mo
+                      - columnheader [ref=e265]: Tu
+                      - columnheader [ref=e266]: We
+                      - columnheader [ref=e267]: Th
+                      - columnheader [ref=e268]: Fr
+                      - columnheader [ref=e269]: Sa
+                  - rowgroup [ref=e270]:
+                    - row "Sunday, August 31st, 2025 Monday, September 1st, 2025 Tuesday, September 2nd, 2025 Wednesday, September 3rd, 2025 Thursday, September 4th, 2025 Friday, September 5th, 2025 Saturday, September 6th, 2025" [ref=e271]:
+                      - gridcell "Sunday, August 31st, 2025" [ref=e272]:
+                        - button "Sunday, August 31st, 2025" [ref=e273]: "31"
+                      - gridcell "Monday, September 1st, 2025" [ref=e274]:
+                        - button "Monday, September 1st, 2025" [ref=e275]: "1"
+                      - gridcell "Tuesday, September 2nd, 2025" [ref=e276]:
+                        - button "Tuesday, September 2nd, 2025" [ref=e277]: "2"
+                      - gridcell "Wednesday, September 3rd, 2025" [ref=e278]:
+                        - button "Wednesday, September 3rd, 2025" [ref=e279]: "3"
+                      - gridcell "Thursday, September 4th, 2025" [ref=e280]:
+                        - button "Thursday, September 4th, 2025" [ref=e281]: "4"
+                      - gridcell "Friday, September 5th, 2025" [ref=e282]:
+                        - button "Friday, September 5th, 2025" [ref=e283]: "5"
+                      - gridcell "Saturday, September 6th, 2025" [ref=e284]:
+                        - button "Saturday, September 6th, 2025" [ref=e285]: "6"
+                    - row "Sunday, September 7th, 2025 Monday, September 8th, 2025 Tuesday, September 9th, 2025 Wednesday, September 10th, 2025 Thursday, September 11th, 2025 Friday, September 12th, 2025, selected Saturday, September 13th, 2025" [ref=e286]:
+                      - gridcell "Sunday, September 7th, 2025" [ref=e287]:
+                        - button "Sunday, September 7th, 2025" [ref=e288]: "7"
+                      - gridcell "Monday, September 8th, 2025" [ref=e289]:
+                        - button "Monday, September 8th, 2025" [ref=e290]: "8"
+                      - gridcell "Tuesday, September 9th, 2025" [ref=e291]:
+                        - button "Tuesday, September 9th, 2025" [ref=e292]: "9"
+                      - gridcell "Wednesday, September 10th, 2025" [ref=e293]:
+                        - button "Wednesday, September 10th, 2025" [ref=e294]: "10"
+                      - gridcell "Thursday, September 11th, 2025" [ref=e295]:
+                        - button "Thursday, September 11th, 2025" [ref=e296]: "11"
+                      - gridcell "Friday, September 12th, 2025, selected" [selected] [ref=e297]:
+                        - button "Friday, September 12th, 2025, selected" [ref=e298]: "12"
+                      - gridcell "Saturday, September 13th, 2025" [ref=e299]:
+                        - button "Saturday, September 13th, 2025" [ref=e300]: "13"
+                    - row "Sunday, September 14th, 2025 Monday, September 15th, 2025 Tuesday, September 16th, 2025 Wednesday, September 17th, 2025 Thursday, September 18th, 2025 Friday, September 19th, 2025 Saturday, September 20th, 2025" [ref=e301]:
+                      - gridcell "Sunday, September 14th, 2025" [ref=e302]:
+                        - button "Sunday, September 14th, 2025" [ref=e303]: "14"
+                      - gridcell "Monday, September 15th, 2025" [ref=e304]:
+                        - button "Monday, September 15th, 2025" [ref=e305]: "15"
+                      - gridcell "Tuesday, September 16th, 2025" [ref=e306]:
+                        - button "Tuesday, September 16th, 2025" [ref=e307]: "16"
+                      - gridcell "Wednesday, September 17th, 2025" [ref=e308]:
+                        - button "Wednesday, September 17th, 2025" [ref=e309]: "17"
+                      - gridcell "Thursday, September 18th, 2025" [ref=e310]:
+                        - button "Thursday, September 18th, 2025" [ref=e311]: "18"
+                      - gridcell "Friday, September 19th, 2025" [ref=e312]:
+                        - button "Friday, September 19th, 2025" [ref=e313]: "19"
+                      - gridcell "Saturday, September 20th, 2025" [ref=e314]:
+                        - button "Saturday, September 20th, 2025" [ref=e315]: "20"
+                    - row "Today, Sunday, September 21st, 2025 Monday, September 22nd, 2025 Tuesday, September 23rd, 2025 Wednesday, September 24th, 2025 Thursday, September 25th, 2025 Friday, September 26th, 2025 Saturday, September 27th, 2025" [ref=e316]:
+                      - gridcell "Today, Sunday, September 21st, 2025" [ref=e317]:
+                        - button "Today, Sunday, September 21st, 2025" [ref=e318]: "21"
+                      - gridcell "Monday, September 22nd, 2025" [ref=e319]:
+                        - button "Monday, September 22nd, 2025" [ref=e320]: "22"
+                      - gridcell "Tuesday, September 23rd, 2025" [ref=e321]:
+                        - button "Tuesday, September 23rd, 2025" [ref=e322]: "23"
+                      - gridcell "Wednesday, September 24th, 2025" [ref=e323]:
+                        - button "Wednesday, September 24th, 2025" [ref=e324]: "24"
+                      - gridcell "Thursday, September 25th, 2025" [ref=e325]:
+                        - button "Thursday, September 25th, 2025" [ref=e326]: "25"
+                      - gridcell "Friday, September 26th, 2025" [ref=e327]:
+                        - button "Friday, September 26th, 2025" [ref=e328]: "26"
+                      - gridcell "Saturday, September 27th, 2025" [ref=e329]:
+                        - button "Saturday, September 27th, 2025" [ref=e330]: "27"
+                    - row "Sunday, September 28th, 2025 Monday, September 29th, 2025 Tuesday, September 30th, 2025 Wednesday, October 1st, 2025 Thursday, October 2nd, 2025 Friday, October 3rd, 2025 Saturday, October 4th, 2025" [ref=e331]:
+                      - gridcell "Sunday, September 28th, 2025" [ref=e332]:
+                        - button "Sunday, September 28th, 2025" [ref=e333]: "28"
+                      - gridcell "Monday, September 29th, 2025" [ref=e334]:
+                        - button "Monday, September 29th, 2025" [ref=e335]: "29"
+                      - gridcell "Tuesday, September 30th, 2025" [ref=e336]:
+                        - button "Tuesday, September 30th, 2025" [ref=e337]: "30"
+                      - gridcell "Wednesday, October 1st, 2025" [ref=e338]:
+                        - button "Wednesday, October 1st, 2025" [ref=e339]: "1"
+                      - gridcell "Thursday, October 2nd, 2025" [ref=e340]:
+                        - button "Thursday, October 2nd, 2025" [ref=e341]: "2"
+                      - gridcell "Friday, October 3rd, 2025" [ref=e342]:
+                        - button "Friday, October 3rd, 2025" [ref=e343]: "3"
+                      - gridcell "Saturday, October 4th, 2025" [ref=e344]:
+                        - button "Saturday, October 4th, 2025" [ref=e345]: "4"
+          - generic [ref=e346]:
+            - generic [ref=e347]: Multiple Selection
+            - generic [ref=e349]:
+              - navigation [ref=e350]:
+                - button "Go to the Previous Month" [ref=e351]:
+                  - img
+                - button "Go to the Next Month" [ref=e352]:
+                  - img
+              - generic [ref=e353]:
+                - status [ref=e355]: September 2025
+                - grid "September 2025" [ref=e356]:
+                  - rowgroup [ref=e357]:
+                    - row [ref=e358]:
+                      - columnheader [ref=e359]: Su
+                      - columnheader [ref=e360]: Mo
+                      - columnheader [ref=e361]: Tu
+                      - columnheader [ref=e362]: We
+                      - columnheader [ref=e363]: Th
+                      - columnheader [ref=e364]: Fr
+                      - columnheader [ref=e365]: Sa
+                  - rowgroup [ref=e366]:
+                    - row "Sunday, August 31st, 2025 Monday, September 1st, 2025 Tuesday, September 2nd, 2025 Wednesday, September 3rd, 2025 Thursday, September 4th, 2025 Friday, September 5th, 2025 Saturday, September 6th, 2025" [ref=e367]:
+                      - gridcell "Sunday, August 31st, 2025" [ref=e368]:
+                        - button "Sunday, August 31st, 2025" [ref=e369]: "31"
+                      - gridcell "Monday, September 1st, 2025" [ref=e370]:
+                        - button "Monday, September 1st, 2025" [ref=e371]: "1"
+                      - gridcell "Tuesday, September 2nd, 2025" [ref=e372]:
+                        - button "Tuesday, September 2nd, 2025" [ref=e373]: "2"
+                      - gridcell "Wednesday, September 3rd, 2025" [ref=e374]:
+                        - button "Wednesday, September 3rd, 2025" [ref=e375]: "3"
+                      - gridcell "Thursday, September 4th, 2025" [ref=e376]:
+                        - button "Thursday, September 4th, 2025" [ref=e377]: "4"
+                      - gridcell "Friday, September 5th, 2025" [ref=e378]:
+                        - button "Friday, September 5th, 2025" [ref=e379]: "5"
+                      - gridcell "Saturday, September 6th, 2025" [ref=e380]:
+                        - button "Saturday, September 6th, 2025" [ref=e381]: "6"
+                    - row "Sunday, September 7th, 2025 Monday, September 8th, 2025 Tuesday, September 9th, 2025 Wednesday, September 10th, 2025 Thursday, September 11th, 2025 Friday, September 12th, 2025 Saturday, September 13th, 2025" [ref=e382]:
+                      - gridcell "Sunday, September 7th, 2025" [ref=e383]:
+                        - button "Sunday, September 7th, 2025" [ref=e384]: "7"
+                      - gridcell "Monday, September 8th, 2025" [ref=e385]:
+                        - button "Monday, September 8th, 2025" [ref=e386]: "8"
+                      - gridcell "Tuesday, September 9th, 2025" [ref=e387]:
+                        - button "Tuesday, September 9th, 2025" [ref=e388]: "9"
+                      - gridcell "Wednesday, September 10th, 2025" [ref=e389]:
+                        - button "Wednesday, September 10th, 2025" [ref=e390]: "10"
+                      - gridcell "Thursday, September 11th, 2025" [ref=e391]:
+                        - button "Thursday, September 11th, 2025" [ref=e392]: "11"
+                      - gridcell "Friday, September 12th, 2025" [ref=e393]:
+                        - button "Friday, September 12th, 2025" [ref=e394]: "12"
+                      - gridcell "Saturday, September 13th, 2025" [ref=e395]:
+                        - button "Saturday, September 13th, 2025" [ref=e396]: "13"
+                    - row "Sunday, September 14th, 2025 Monday, September 15th, 2025 Tuesday, September 16th, 2025 Wednesday, September 17th, 2025 Thursday, September 18th, 2025 Friday, September 19th, 2025 Saturday, September 20th, 2025" [ref=e397]:
+                      - gridcell "Sunday, September 14th, 2025" [ref=e398]:
+                        - button "Sunday, September 14th, 2025" [ref=e399]: "14"
+                      - gridcell "Monday, September 15th, 2025" [ref=e400]:
+                        - button "Monday, September 15th, 2025" [ref=e401]: "15"
+                      - gridcell "Tuesday, September 16th, 2025" [ref=e402]:
+                        - button "Tuesday, September 16th, 2025" [ref=e403]: "16"
+                      - gridcell "Wednesday, September 17th, 2025" [ref=e404]:
+                        - button "Wednesday, September 17th, 2025" [ref=e405]: "17"
+                      - gridcell "Thursday, September 18th, 2025" [ref=e406]:
+                        - button "Thursday, September 18th, 2025" [ref=e407]: "18"
+                      - gridcell "Friday, September 19th, 2025" [ref=e408]:
+                        - button "Friday, September 19th, 2025" [ref=e409]: "19"
+                      - gridcell "Saturday, September 20th, 2025" [ref=e410]:
+                        - button "Saturday, September 20th, 2025" [ref=e411]: "20"
+                    - row "Today, Sunday, September 21st, 2025 Monday, September 22nd, 2025 Tuesday, September 23rd, 2025 Wednesday, September 24th, 2025 Thursday, September 25th, 2025 Friday, September 26th, 2025 Saturday, September 27th, 2025" [ref=e412]:
+                      - gridcell "Today, Sunday, September 21st, 2025" [ref=e413]:
+                        - button "Today, Sunday, September 21st, 2025" [ref=e414]: "21"
+                      - gridcell "Monday, September 22nd, 2025" [ref=e415]:
+                        - button "Monday, September 22nd, 2025" [ref=e416]: "22"
+                      - gridcell "Tuesday, September 23rd, 2025" [ref=e417]:
+                        - button "Tuesday, September 23rd, 2025" [ref=e418]: "23"
+                      - gridcell "Wednesday, September 24th, 2025" [ref=e419]:
+                        - button "Wednesday, September 24th, 2025" [ref=e420]: "24"
+                      - gridcell "Thursday, September 25th, 2025" [ref=e421]:
+                        - button "Thursday, September 25th, 2025" [ref=e422]: "25"
+                      - gridcell "Friday, September 26th, 2025" [ref=e423]:
+                        - button "Friday, September 26th, 2025" [ref=e424]: "26"
+                      - gridcell "Saturday, September 27th, 2025" [ref=e425]:
+                        - button "Saturday, September 27th, 2025" [ref=e426]: "27"
+                    - row "Sunday, September 28th, 2025 Monday, September 29th, 2025 Tuesday, September 30th, 2025 Wednesday, October 1st, 2025 Thursday, October 2nd, 2025 Friday, October 3rd, 2025 Saturday, October 4th, 2025" [ref=e427]:
+                      - gridcell "Sunday, September 28th, 2025" [ref=e428]:
+                        - button "Sunday, September 28th, 2025" [ref=e429]: "28"
+                      - gridcell "Monday, September 29th, 2025" [ref=e430]:
+                        - button "Monday, September 29th, 2025" [ref=e431]: "29"
+                      - gridcell "Tuesday, September 30th, 2025" [ref=e432]:
+                        - button "Tuesday, September 30th, 2025" [ref=e433]: "30"
+                      - gridcell "Wednesday, October 1st, 2025" [ref=e434]:
+                        - button "Wednesday, October 1st, 2025" [ref=e435]: "1"
+                      - gridcell "Thursday, October 2nd, 2025" [ref=e436]:
+                        - button "Thursday, October 2nd, 2025" [ref=e437]: "2"
+                      - gridcell "Friday, October 3rd, 2025" [ref=e438]:
+                        - button "Friday, October 3rd, 2025" [ref=e439]: "3"
+                      - gridcell "Saturday, October 4th, 2025" [ref=e440]:
+                        - button "Saturday, October 4th, 2025" [ref=e441]: "4"
+          - generic [ref=e442]:
+            - generic [ref=e443]: Range Selection
+            - generic [ref=e445]:
+              - navigation [ref=e446]:
+                - button "Go to the Previous Month" [ref=e447]:
+                  - img
+                - button "Go to the Next Month" [ref=e448]:
+                  - img
+              - generic [ref=e449]:
+                - status [ref=e451]: January 2025
+                - grid "January 2025" [ref=e452]:
+                  - rowgroup [ref=e453]:
+                    - row [ref=e454]:
+                      - columnheader [ref=e455]: Su
+                      - columnheader [ref=e456]: Mo
+                      - columnheader [ref=e457]: Tu
+                      - columnheader [ref=e458]: We
+                      - columnheader [ref=e459]: Th
+                      - columnheader [ref=e460]: Fr
+                      - columnheader [ref=e461]: Sa
+                  - rowgroup [ref=e462]:
+                    - row "Sunday, December 29th, 2024 Monday, December 30th, 2024 Tuesday, December 31st, 2024 Wednesday, January 1st, 2025 Thursday, January 2nd, 2025 Friday, January 3rd, 2025 Saturday, January 4th, 2025" [ref=e463]:
+                      - gridcell "Sunday, December 29th, 2024" [ref=e464]:
+                        - button "Sunday, December 29th, 2024" [ref=e465]: "29"
+                      - gridcell "Monday, December 30th, 2024" [ref=e466]:
+                        - button "Monday, December 30th, 2024" [ref=e467]: "30"
+                      - gridcell "Tuesday, December 31st, 2024" [ref=e468]:
+                        - button "Tuesday, December 31st, 2024" [ref=e469]: "31"
+                      - gridcell "Wednesday, January 1st, 2025" [ref=e470]:
+                        - button "Wednesday, January 1st, 2025" [ref=e471]: "1"
+                      - gridcell "Thursday, January 2nd, 2025" [ref=e472]:
+                        - button "Thursday, January 2nd, 2025" [ref=e473]: "2"
+                      - gridcell "Friday, January 3rd, 2025" [ref=e474]:
+                        - button "Friday, January 3rd, 2025" [ref=e475]: "3"
+                      - gridcell "Saturday, January 4th, 2025" [ref=e476]:
+                        - button "Saturday, January 4th, 2025" [ref=e477]: "4"
+                    - row "Sunday, January 5th, 2025 Monday, January 6th, 2025 Tuesday, January 7th, 2025 Wednesday, January 8th, 2025 Thursday, January 9th, 2025 Friday, January 10th, 2025 Saturday, January 11th, 2025" [ref=e478]:
+                      - gridcell "Sunday, January 5th, 2025" [ref=e479]:
+                        - button "Sunday, January 5th, 2025" [ref=e480]: "5"
+                      - gridcell "Monday, January 6th, 2025" [ref=e481]:
+                        - button "Monday, January 6th, 2025" [ref=e482]: "6"
+                      - gridcell "Tuesday, January 7th, 2025" [ref=e483]:
+                        - button "Tuesday, January 7th, 2025" [ref=e484]: "7"
+                      - gridcell "Wednesday, January 8th, 2025" [ref=e485]:
+                        - button "Wednesday, January 8th, 2025" [ref=e486]: "8"
+                      - gridcell "Thursday, January 9th, 2025" [ref=e487]:
+                        - button "Thursday, January 9th, 2025" [ref=e488]: "9"
+                      - gridcell "Friday, January 10th, 2025" [ref=e489]:
+                        - button "Friday, January 10th, 2025" [ref=e490]: "10"
+                      - gridcell "Saturday, January 11th, 2025" [ref=e491]:
+                        - button "Saturday, January 11th, 2025" [ref=e492]: "11"
+                    - row "Sunday, January 12th, 2025, selected Monday, January 13th, 2025, selected Tuesday, January 14th, 2025, selected Wednesday, January 15th, 2025, selected Thursday, January 16th, 2025, selected Friday, January 17th, 2025, selected Saturday, January 18th, 2025, selected" [ref=e493]:
+                      - gridcell "Sunday, January 12th, 2025, selected" [selected] [ref=e494]:
+                        - button "Sunday, January 12th, 2025, selected" [ref=e495]: "12"
+                      - gridcell "Monday, January 13th, 2025, selected" [selected] [ref=e496]:
+                        - button "Monday, January 13th, 2025, selected" [ref=e497]: "13"
+                      - gridcell "Tuesday, January 14th, 2025, selected" [selected] [ref=e498]:
+                        - button "Tuesday, January 14th, 2025, selected" [ref=e499]: "14"
+                      - gridcell "Wednesday, January 15th, 2025, selected" [selected] [ref=e500]:
+                        - button "Wednesday, January 15th, 2025, selected" [ref=e501]: "15"
+                      - gridcell "Thursday, January 16th, 2025, selected" [selected] [ref=e502]:
+                        - button "Thursday, January 16th, 2025, selected" [ref=e503]: "16"
+                      - gridcell "Friday, January 17th, 2025, selected" [selected] [ref=e504]:
+                        - button "Friday, January 17th, 2025, selected" [ref=e505]: "17"
+                      - gridcell "Saturday, January 18th, 2025, selected" [selected] [ref=e506]:
+                        - button "Saturday, January 18th, 2025, selected" [ref=e507]: "18"
+                    - row "Sunday, January 19th, 2025, selected Monday, January 20th, 2025, selected Tuesday, January 21st, 2025, selected Wednesday, January 22nd, 2025, selected Thursday, January 23rd, 2025, selected Friday, January 24th, 2025, selected Saturday, January 25th, 2025, selected" [ref=e508]:
+                      - gridcell "Sunday, January 19th, 2025, selected" [selected] [ref=e509]:
+                        - button "Sunday, January 19th, 2025, selected" [ref=e510]: "19"
+                      - gridcell "Monday, January 20th, 2025, selected" [selected] [ref=e511]:
+                        - button "Monday, January 20th, 2025, selected" [ref=e512]: "20"
+                      - gridcell "Tuesday, January 21st, 2025, selected" [selected] [ref=e513]:
+                        - button "Tuesday, January 21st, 2025, selected" [ref=e514]: "21"
+                      - gridcell "Wednesday, January 22nd, 2025, selected" [selected] [ref=e515]:
+                        - button "Wednesday, January 22nd, 2025, selected" [ref=e516]: "22"
+                      - gridcell "Thursday, January 23rd, 2025, selected" [selected] [ref=e517]:
+                        - button "Thursday, January 23rd, 2025, selected" [ref=e518]: "23"
+                      - gridcell "Friday, January 24th, 2025, selected" [selected] [ref=e519]:
+                        - button "Friday, January 24th, 2025, selected" [ref=e520]: "24"
+                      - gridcell "Saturday, January 25th, 2025, selected" [selected] [ref=e521]:
+                        - button "Saturday, January 25th, 2025, selected" [ref=e522]: "25"
+                    - row "Sunday, January 26th, 2025, selected Monday, January 27th, 2025, selected Tuesday, January 28th, 2025, selected Wednesday, January 29th, 2025, selected Thursday, January 30th, 2025, selected Friday, January 31st, 2025, selected Saturday, February 1st, 2025, selected" [ref=e523]:
+                      - gridcell "Sunday, January 26th, 2025, selected" [selected] [ref=e524]:
+                        - button "Sunday, January 26th, 2025, selected" [ref=e525]: "26"
+                      - gridcell "Monday, January 27th, 2025, selected" [selected] [ref=e526]:
+                        - button "Monday, January 27th, 2025, selected" [ref=e527]: "27"
+                      - gridcell "Tuesday, January 28th, 2025, selected" [selected] [ref=e528]:
+                        - button "Tuesday, January 28th, 2025, selected" [ref=e529]: "28"
+                      - gridcell "Wednesday, January 29th, 2025, selected" [selected] [ref=e530]:
+                        - button "Wednesday, January 29th, 2025, selected" [ref=e531]: "29"
+                      - gridcell "Thursday, January 30th, 2025, selected" [selected] [ref=e532]:
+                        - button "Thursday, January 30th, 2025, selected" [ref=e533]: "30"
+                      - gridcell "Friday, January 31st, 2025, selected" [selected] [ref=e534]:
+                        - button "Friday, January 31st, 2025, selected" [ref=e535]: "31"
+                      - gridcell "Saturday, February 1st, 2025, selected" [selected] [ref=e536]:
+                        - button "Saturday, February 1st, 2025, selected" [ref=e537]: "1"
+              - generic [ref=e538]:
+                - status [ref=e540]: February 2025
+                - grid "February 2025" [ref=e541]:
+                  - rowgroup [ref=e542]:
+                    - row [ref=e543]:
+                      - columnheader [ref=e544]: Su
+                      - columnheader [ref=e545]: Mo
+                      - columnheader [ref=e546]: Tu
+                      - columnheader [ref=e547]: We
+                      - columnheader [ref=e548]: Th
+                      - columnheader [ref=e549]: Fr
+                      - columnheader [ref=e550]: Sa
+                  - rowgroup [ref=e551]:
+                    - row "Sunday, January 26th, 2025, selected Monday, January 27th, 2025, selected Tuesday, January 28th, 2025, selected Wednesday, January 29th, 2025, selected Thursday, January 30th, 2025, selected Friday, January 31st, 2025, selected Saturday, February 1st, 2025, selected" [ref=e552]:
+                      - gridcell "Sunday, January 26th, 2025, selected" [selected] [ref=e553]:
+                        - button "Sunday, January 26th, 2025, selected" [ref=e554]: "26"
+                      - gridcell "Monday, January 27th, 2025, selected" [selected] [ref=e555]:
+                        - button "Monday, January 27th, 2025, selected" [ref=e556]: "27"
+                      - gridcell "Tuesday, January 28th, 2025, selected" [selected] [ref=e557]:
+                        - button "Tuesday, January 28th, 2025, selected" [ref=e558]: "28"
+                      - gridcell "Wednesday, January 29th, 2025, selected" [selected] [ref=e559]:
+                        - button "Wednesday, January 29th, 2025, selected" [ref=e560]: "29"
+                      - gridcell "Thursday, January 30th, 2025, selected" [selected] [ref=e561]:
+                        - button "Thursday, January 30th, 2025, selected" [ref=e562]: "30"
+                      - gridcell "Friday, January 31st, 2025, selected" [selected] [ref=e563]:
+                        - button "Friday, January 31st, 2025, selected" [ref=e564]: "31"
+                      - gridcell "Saturday, February 1st, 2025, selected" [selected] [ref=e565]:
+                        - button "Saturday, February 1st, 2025, selected" [ref=e566]: "1"
+                    - row "Sunday, February 2nd, 2025, selected Monday, February 3rd, 2025, selected Tuesday, February 4th, 2025, selected Wednesday, February 5th, 2025, selected Thursday, February 6th, 2025, selected Friday, February 7th, 2025, selected Saturday, February 8th, 2025, selected" [ref=e567]:
+                      - gridcell "Sunday, February 2nd, 2025, selected" [selected] [ref=e568]:
+                        - button "Sunday, February 2nd, 2025, selected" [ref=e569]: "2"
+                      - gridcell "Monday, February 3rd, 2025, selected" [selected] [ref=e570]:
+                        - button "Monday, February 3rd, 2025, selected" [ref=e571]: "3"
+                      - gridcell "Tuesday, February 4th, 2025, selected" [selected] [ref=e572]:
+                        - button "Tuesday, February 4th, 2025, selected" [ref=e573]: "4"
+                      - gridcell "Wednesday, February 5th, 2025, selected" [selected] [ref=e574]:
+                        - button "Wednesday, February 5th, 2025, selected" [ref=e575]: "5"
+                      - gridcell "Thursday, February 6th, 2025, selected" [selected] [ref=e576]:
+                        - button "Thursday, February 6th, 2025, selected" [ref=e577]: "6"
+                      - gridcell "Friday, February 7th, 2025, selected" [selected] [ref=e578]:
+                        - button "Friday, February 7th, 2025, selected" [ref=e579]: "7"
+                      - gridcell "Saturday, February 8th, 2025, selected" [selected] [ref=e580]:
+                        - button "Saturday, February 8th, 2025, selected" [ref=e581]: "8"
+                    - row "Sunday, February 9th, 2025, selected Monday, February 10th, 2025, selected Tuesday, February 11th, 2025, selected Wednesday, February 12th, 2025 Thursday, February 13th, 2025 Friday, February 14th, 2025 Saturday, February 15th, 2025" [ref=e582]:
+                      - gridcell "Sunday, February 9th, 2025, selected" [selected] [ref=e583]:
+                        - button "Sunday, February 9th, 2025, selected" [ref=e584]: "9"
+                      - gridcell "Monday, February 10th, 2025, selected" [selected] [ref=e585]:
+                        - button "Monday, February 10th, 2025, selected" [ref=e586]: "10"
+                      - gridcell "Tuesday, February 11th, 2025, selected" [selected] [ref=e587]:
+                        - button "Tuesday, February 11th, 2025, selected" [ref=e588]: "11"
+                      - gridcell "Wednesday, February 12th, 2025" [ref=e589]:
+                        - button "Wednesday, February 12th, 2025" [ref=e590]: "12"
+                      - gridcell "Thursday, February 13th, 2025" [ref=e591]:
+                        - button "Thursday, February 13th, 2025" [ref=e592]: "13"
+                      - gridcell "Friday, February 14th, 2025" [ref=e593]:
+                        - button "Friday, February 14th, 2025" [ref=e594]: "14"
+                      - gridcell "Saturday, February 15th, 2025" [ref=e595]:
+                        - button "Saturday, February 15th, 2025" [ref=e596]: "15"
+                    - row "Sunday, February 16th, 2025 Monday, February 17th, 2025 Tuesday, February 18th, 2025 Wednesday, February 19th, 2025 Thursday, February 20th, 2025 Friday, February 21st, 2025 Saturday, February 22nd, 2025" [ref=e597]:
+                      - gridcell "Sunday, February 16th, 2025" [ref=e598]:
+                        - button "Sunday, February 16th, 2025" [ref=e599]: "16"
+                      - gridcell "Monday, February 17th, 2025" [ref=e600]:
+                        - button "Monday, February 17th, 2025" [ref=e601]: "17"
+                      - gridcell "Tuesday, February 18th, 2025" [ref=e602]:
+                        - button "Tuesday, February 18th, 2025" [ref=e603]: "18"
+                      - gridcell "Wednesday, February 19th, 2025" [ref=e604]:
+                        - button "Wednesday, February 19th, 2025" [ref=e605]: "19"
+                      - gridcell "Thursday, February 20th, 2025" [ref=e606]:
+                        - button "Thursday, February 20th, 2025" [ref=e607]: "20"
+                      - gridcell "Friday, February 21st, 2025" [ref=e608]:
+                        - button "Friday, February 21st, 2025" [ref=e609]: "21"
+                      - gridcell "Saturday, February 22nd, 2025" [ref=e610]:
+                        - button "Saturday, February 22nd, 2025" [ref=e611]: "22"
+                    - row "Sunday, February 23rd, 2025 Monday, February 24th, 2025 Tuesday, February 25th, 2025 Wednesday, February 26th, 2025 Thursday, February 27th, 2025 Friday, February 28th, 2025 Saturday, March 1st, 2025" [ref=e612]:
+                      - gridcell "Sunday, February 23rd, 2025" [ref=e613]:
+                        - button "Sunday, February 23rd, 2025" [ref=e614]: "23"
+                      - gridcell "Monday, February 24th, 2025" [ref=e615]:
+                        - button "Monday, February 24th, 2025" [ref=e616]: "24"
+                      - gridcell "Tuesday, February 25th, 2025" [ref=e617]:
+                        - button "Tuesday, February 25th, 2025" [ref=e618]: "25"
+                      - gridcell "Wednesday, February 26th, 2025" [ref=e619]:
+                        - button "Wednesday, February 26th, 2025" [ref=e620]: "26"
+                      - gridcell "Thursday, February 27th, 2025" [ref=e621]:
+                        - button "Thursday, February 27th, 2025" [ref=e622]: "27"
+                      - gridcell "Friday, February 28th, 2025" [ref=e623]:
+                        - button "Friday, February 28th, 2025" [ref=e624]: "28"
+                      - gridcell "Saturday, March 1st, 2025" [ref=e625]:
+                        - button "Saturday, March 1st, 2025" [ref=e626]: "1"
+          - generic [ref=e627]:
+            - generic [ref=e628]: With booked dates
+            - generic [ref=e630]:
+              - navigation [ref=e631]:
+                - button "Go to the Previous Month" [ref=e632]:
+                  - img
+                - button "Go to the Next Month" [ref=e633]:
+                  - img
+              - generic [ref=e634]:
+                - status [ref=e636]: February 2025
+                - grid "February 2025" [ref=e637]:
+                  - rowgroup [ref=e638]:
+                    - row [ref=e639]:
+                      - columnheader [ref=e640]: Su
+                      - columnheader [ref=e641]: Mo
+                      - columnheader [ref=e642]: Tu
+                      - columnheader [ref=e643]: We
+                      - columnheader [ref=e644]: Th
+                      - columnheader [ref=e645]: Fr
+                      - columnheader [ref=e646]: Sa
+                  - rowgroup [ref=e647]:
+                    - row "Sunday, January 26th, 2025 Monday, January 27th, 2025 Tuesday, January 28th, 2025 Wednesday, January 29th, 2025 Thursday, January 30th, 2025 Friday, January 31st, 2025 Saturday, February 1st, 2025" [ref=e648]:
+                      - gridcell "Sunday, January 26th, 2025" [ref=e649]:
+                        - button "Sunday, January 26th, 2025" [ref=e650]: "26"
+                      - gridcell "Monday, January 27th, 2025" [ref=e651]:
+                        - button "Monday, January 27th, 2025" [ref=e652]: "27"
+                      - gridcell "Tuesday, January 28th, 2025" [ref=e653]:
+                        - button "Tuesday, January 28th, 2025" [ref=e654]: "28"
+                      - gridcell "Wednesday, January 29th, 2025" [ref=e655]:
+                        - button "Wednesday, January 29th, 2025" [ref=e656]: "29"
+                      - gridcell "Thursday, January 30th, 2025" [ref=e657]:
+                        - button "Thursday, January 30th, 2025" [ref=e658]: "30"
+                      - gridcell "Friday, January 31st, 2025" [ref=e659]:
+                        - button "Friday, January 31st, 2025" [ref=e660]: "31"
+                      - gridcell "Saturday, February 1st, 2025" [ref=e661]:
+                        - button "Saturday, February 1st, 2025" [ref=e662]: "1"
+                    - row "Sunday, February 2nd, 2025 Monday, February 3rd, 2025, selected Tuesday, February 4th, 2025 Wednesday, February 5th, 2025 Thursday, February 6th, 2025 Friday, February 7th, 2025 Saturday, February 8th, 2025" [ref=e663]:
+                      - gridcell "Sunday, February 2nd, 2025" [ref=e664]:
+                        - button "Sunday, February 2nd, 2025" [ref=e665]: "2"
+                      - gridcell "Monday, February 3rd, 2025, selected" [selected] [ref=e666]:
+                        - button "Monday, February 3rd, 2025, selected" [ref=e667]: "3"
+                      - gridcell "Tuesday, February 4th, 2025" [ref=e668]:
+                        - button "Tuesday, February 4th, 2025" [ref=e669]: "4"
+                      - gridcell "Wednesday, February 5th, 2025" [ref=e670]:
+                        - button "Wednesday, February 5th, 2025" [ref=e671]: "5"
+                      - gridcell "Thursday, February 6th, 2025" [ref=e672]:
+                        - button "Thursday, February 6th, 2025" [ref=e673]: "6"
+                      - gridcell "Friday, February 7th, 2025" [ref=e674]:
+                        - button "Friday, February 7th, 2025" [ref=e675]: "7"
+                      - gridcell "Saturday, February 8th, 2025" [ref=e676]:
+                        - button "Saturday, February 8th, 2025" [ref=e677]: "8"
+                    - row "Sunday, February 9th, 2025 Monday, February 10th, 2025 Tuesday, February 11th, 2025 Wednesday, February 12th, 2025 Thursday, February 13th, 2025 Friday, February 14th, 2025 Saturday, February 15th, 2025" [ref=e678]:
+                      - gridcell "Sunday, February 9th, 2025" [ref=e679]:
+                        - button "Sunday, February 9th, 2025" [ref=e680]: "9"
+                      - gridcell "Monday, February 10th, 2025" [ref=e681]:
+                        - button "Monday, February 10th, 2025" [ref=e682]: "10"
+                      - gridcell "Tuesday, February 11th, 2025" [ref=e683]:
+                        - button "Tuesday, February 11th, 2025" [ref=e684]: "11"
+                      - gridcell "Wednesday, February 12th, 2025" [ref=e685]:
+                        - button "Wednesday, February 12th, 2025" [ref=e686]: "12"
+                      - gridcell "Thursday, February 13th, 2025" [ref=e687]:
+                        - button "Thursday, February 13th, 2025" [ref=e688]: "13"
+                      - gridcell "Friday, February 14th, 2025" [ref=e689]:
+                        - button "Friday, February 14th, 2025" [ref=e690]: "14"
+                      - gridcell "Saturday, February 15th, 2025" [ref=e691]:
+                        - button "Saturday, February 15th, 2025" [ref=e692]: "15"
+                    - row "Sunday, February 16th, 2025 Monday, February 17th, 2025 Tuesday, February 18th, 2025 Wednesday, February 19th, 2025 Thursday, February 20th, 2025 Friday, February 21st, 2025 Saturday, February 22nd, 2025" [ref=e693]:
+                      - gridcell "Sunday, February 16th, 2025" [ref=e694]:
+                        - button "Sunday, February 16th, 2025" [ref=e695]: "16"
+                      - gridcell "Monday, February 17th, 2025" [ref=e696]:
+                        - button "Monday, February 17th, 2025" [ref=e697]: "17"
+                      - gridcell "Tuesday, February 18th, 2025" [ref=e698]:
+                        - button "Tuesday, February 18th, 2025" [ref=e699]: "18"
+                      - gridcell "Wednesday, February 19th, 2025" [ref=e700]:
+                        - button "Wednesday, February 19th, 2025" [ref=e701]: "19"
+                      - gridcell "Thursday, February 20th, 2025" [ref=e702]:
+                        - button "Thursday, February 20th, 2025" [ref=e703]: "20"
+                      - gridcell "Friday, February 21st, 2025" [ref=e704]:
+                        - button "Friday, February 21st, 2025" [ref=e705]: "21"
+                      - gridcell "Saturday, February 22nd, 2025" [ref=e706]:
+                        - button "Saturday, February 22nd, 2025" [ref=e707]: "22"
+                    - row "Sunday, February 23rd, 2025 Monday, February 24th, 2025 Tuesday, February 25th, 2025 Wednesday, February 26th, 2025 Thursday, February 27th, 2025 Friday, February 28th, 2025 Saturday, March 1st, 2025" [ref=e708]:
+                      - gridcell "Sunday, February 23rd, 2025" [ref=e709]:
+                        - button "Sunday, February 23rd, 2025" [ref=e710]: "23"
+                      - gridcell "Monday, February 24th, 2025" [ref=e711]:
+                        - button "Monday, February 24th, 2025" [ref=e712]: "24"
+                      - gridcell "Tuesday, February 25th, 2025" [ref=e713]:
+                        - button "Tuesday, February 25th, 2025" [ref=e714]: "25"
+                      - gridcell "Wednesday, February 26th, 2025" [ref=e715]:
+                        - button "Wednesday, February 26th, 2025" [ref=e716]: "26"
+                      - gridcell "Thursday, February 27th, 2025" [ref=e717]:
+                        - button "Thursday, February 27th, 2025" [ref=e718]: "27"
+                      - gridcell "Friday, February 28th, 2025" [ref=e719]:
+                        - button "Friday, February 28th, 2025" [ref=e720]: "28"
+                      - gridcell "Saturday, March 1st, 2025" [ref=e721]:
+                        - button "Saturday, March 1st, 2025" [ref=e722]: "1"
+          - generic [ref=e723]:
+            - generic [ref=e724]: Range Selection + Locale
+            - generic [ref=e726]:
+              - navigation [ref=e727]:
+                - button "Go to the Previous Month" [ref=e728]:
+                  - img
+                - button "Go to the Next Month" [ref=e729]:
+                  - img
+              - generic [ref=e730]:
+                - status [ref=e732]: abril 2025
+                - grid "abril 2025" [ref=e733]:
+                  - rowgroup [ref=e734]:
+                    - row [ref=e735]:
+                      - columnheader [ref=e736]: lu
+                      - columnheader [ref=e737]: ma
+                      - columnheader [ref=e738]: mi
+                      - columnheader [ref=e739]: ju
+                      - columnheader [ref=e740]: vi
+                      - columnheader [ref=e741]: sá
+                      - columnheader [ref=e742]: do
+                  - rowgroup [ref=e743]:
+                    - row "lunes, 31 de marzo de 2025 martes, 1 de abril de 2025 miércoles, 2 de abril de 2025 jueves, 3 de abril de 2025 viernes, 4 de abril de 2025 sábado, 5 de abril de 2025 domingo, 6 de abril de 2025" [ref=e744]:
+                      - gridcell "lunes, 31 de marzo de 2025" [ref=e745]:
+                        - button "lunes, 31 de marzo de 2025" [ref=e746]: "31"
+                      - gridcell "martes, 1 de abril de 2025" [ref=e747]:
+                        - button "martes, 1 de abril de 2025" [ref=e748]: "1"
+                      - gridcell "miércoles, 2 de abril de 2025" [ref=e749]:
+                        - button "miércoles, 2 de abril de 2025" [ref=e750]: "2"
+                      - gridcell "jueves, 3 de abril de 2025" [ref=e751]:
+                        - button "jueves, 3 de abril de 2025" [ref=e752]: "3"
+                      - gridcell "viernes, 4 de abril de 2025" [ref=e753]:
+                        - button "viernes, 4 de abril de 2025" [ref=e754]: "4"
+                      - gridcell "sábado, 5 de abril de 2025" [ref=e755]:
+                        - button "sábado, 5 de abril de 2025" [ref=e756]: "5"
+                      - gridcell "domingo, 6 de abril de 2025" [ref=e757]:
+                        - button "domingo, 6 de abril de 2025" [ref=e758]: "6"
+                    - row "lunes, 7 de abril de 2025 martes, 8 de abril de 2025 miércoles, 9 de abril de 2025 jueves, 10 de abril de 2025 viernes, 11 de abril de 2025 sábado, 12 de abril de 2025, selected domingo, 13 de abril de 2025, selected" [ref=e759]:
+                      - gridcell "lunes, 7 de abril de 2025" [ref=e760]:
+                        - button "lunes, 7 de abril de 2025" [ref=e761]: "7"
+                      - gridcell "martes, 8 de abril de 2025" [ref=e762]:
+                        - button "martes, 8 de abril de 2025" [ref=e763]: "8"
+                      - gridcell "miércoles, 9 de abril de 2025" [ref=e764]:
+                        - button "miércoles, 9 de abril de 2025" [ref=e765]: "9"
+                      - gridcell "jueves, 10 de abril de 2025" [ref=e766]:
+                        - button "jueves, 10 de abril de 2025" [ref=e767]: "10"
+                      - gridcell "viernes, 11 de abril de 2025" [ref=e768]:
+                        - button "viernes, 11 de abril de 2025" [ref=e769]: "11"
+                      - gridcell "sábado, 12 de abril de 2025, selected" [selected] [ref=e770]:
+                        - button "sábado, 12 de abril de 2025, selected" [ref=e771]: "12"
+                      - gridcell "domingo, 13 de abril de 2025, selected" [selected] [ref=e772]:
+                        - button "domingo, 13 de abril de 2025, selected" [ref=e773]: "13"
+                    - row "lunes, 14 de abril de 2025, selected martes, 15 de abril de 2025, selected miércoles, 16 de abril de 2025, selected jueves, 17 de abril de 2025, selected viernes, 18 de abril de 2025, selected sábado, 19 de abril de 2025, selected domingo, 20 de abril de 2025, selected" [ref=e774]:
+                      - gridcell "lunes, 14 de abril de 2025, selected" [selected] [ref=e775]:
+                        - button "lunes, 14 de abril de 2025, selected" [ref=e776]: "14"
+                      - gridcell "martes, 15 de abril de 2025, selected" [selected] [ref=e777]:
+                        - button "martes, 15 de abril de 2025, selected" [ref=e778]: "15"
+                      - gridcell "miércoles, 16 de abril de 2025, selected" [selected] [ref=e779]:
+                        - button "miércoles, 16 de abril de 2025, selected" [ref=e780]: "16"
+                      - gridcell "jueves, 17 de abril de 2025, selected" [selected] [ref=e781]:
+                        - button "jueves, 17 de abril de 2025, selected" [ref=e782]: "17"
+                      - gridcell "viernes, 18 de abril de 2025, selected" [selected] [ref=e783]:
+                        - button "viernes, 18 de abril de 2025, selected" [ref=e784]: "18"
+                      - gridcell "sábado, 19 de abril de 2025, selected" [selected] [ref=e785]:
+                        - button "sábado, 19 de abril de 2025, selected" [ref=e786]: "19"
+                      - gridcell "domingo, 20 de abril de 2025, selected" [selected] [ref=e787]:
+                        - button "domingo, 20 de abril de 2025, selected" [ref=e788]: "20"
+                    - row "lunes, 21 de abril de 2025, selected martes, 22 de abril de 2025, selected miércoles, 23 de abril de 2025, selected jueves, 24 de abril de 2025, selected viernes, 25 de abril de 2025, selected sábado, 26 de abril de 2025, selected domingo, 27 de abril de 2025, selected" [ref=e789]:
+                      - gridcell "lunes, 21 de abril de 2025, selected" [selected] [ref=e790]:
+                        - button "lunes, 21 de abril de 2025, selected" [ref=e791]: "21"
+                      - gridcell "martes, 22 de abril de 2025, selected" [selected] [ref=e792]:
+                        - button "martes, 22 de abril de 2025, selected" [ref=e793]: "22"
+                      - gridcell "miércoles, 23 de abril de 2025, selected" [selected] [ref=e794]:
+                        - button "miércoles, 23 de abril de 2025, selected" [ref=e795]: "23"
+                      - gridcell "jueves, 24 de abril de 2025, selected" [selected] [ref=e796]:
+                        - button "jueves, 24 de abril de 2025, selected" [ref=e797]: "24"
+                      - gridcell "viernes, 25 de abril de 2025, selected" [selected] [ref=e798]:
+                        - button "viernes, 25 de abril de 2025, selected" [ref=e799]: "25"
+                      - gridcell "sábado, 26 de abril de 2025, selected" [selected] [ref=e800]:
+                        - button "sábado, 26 de abril de 2025, selected" [ref=e801]: "26"
+                      - gridcell "domingo, 27 de abril de 2025, selected" [selected] [ref=e802]:
+                        - button "domingo, 27 de abril de 2025, selected" [ref=e803]: "27"
+                    - row "lunes, 28 de abril de 2025, selected martes, 29 de abril de 2025, selected miércoles, 30 de abril de 2025, selected jueves, 1 de mayo de 2025, selected viernes, 2 de mayo de 2025, selected sábado, 3 de mayo de 2025, selected domingo, 4 de mayo de 2025, selected" [ref=e804]:
+                      - gridcell "lunes, 28 de abril de 2025, selected" [selected] [ref=e805]:
+                        - button "lunes, 28 de abril de 2025, selected" [ref=e806]: "28"
+                      - gridcell "martes, 29 de abril de 2025, selected" [selected] [ref=e807]:
+                        - button "martes, 29 de abril de 2025, selected" [ref=e808]: "29"
+                      - gridcell "miércoles, 30 de abril de 2025, selected" [selected] [ref=e809]:
+                        - button "miércoles, 30 de abril de 2025, selected" [ref=e810]: "30"
+                      - gridcell "jueves, 1 de mayo de 2025, selected" [selected] [ref=e811]:
+                        - button "jueves, 1 de mayo de 2025, selected" [ref=e812]: "1"
+                      - gridcell "viernes, 2 de mayo de 2025, selected" [selected] [ref=e813]:
+                        - button "viernes, 2 de mayo de 2025, selected" [ref=e814]: "2"
+                      - gridcell "sábado, 3 de mayo de 2025, selected" [selected] [ref=e815]:
+                        - button "sábado, 3 de mayo de 2025, selected" [ref=e816]: "3"
+                      - gridcell "domingo, 4 de mayo de 2025, selected" [selected] [ref=e817]:
+                        - button "domingo, 4 de mayo de 2025, selected" [ref=e818]: "4"
+                    - row "lunes, 5 de mayo de 2025, selected martes, 6 de mayo de 2025, selected miércoles, 7 de mayo de 2025, selected jueves, 8 de mayo de 2025, selected viernes, 9 de mayo de 2025, selected sábado, 10 de mayo de 2025, selected domingo, 11 de mayo de 2025, selected" [ref=e819]:
+                      - gridcell "lunes, 5 de mayo de 2025, selected" [selected] [ref=e820]:
+                        - button "lunes, 5 de mayo de 2025, selected" [ref=e821]: "5"
+                      - gridcell "martes, 6 de mayo de 2025, selected" [selected] [ref=e822]:
+                        - button "martes, 6 de mayo de 2025, selected" [ref=e823]: "6"
+                      - gridcell "miércoles, 7 de mayo de 2025, selected" [selected] [ref=e824]:
+                        - button "miércoles, 7 de mayo de 2025, selected" [ref=e825]: "7"
+                      - gridcell "jueves, 8 de mayo de 2025, selected" [selected] [ref=e826]:
+                        - button "jueves, 8 de mayo de 2025, selected" [ref=e827]: "8"
+                      - gridcell "viernes, 9 de mayo de 2025, selected" [selected] [ref=e828]:
+                        - button "viernes, 9 de mayo de 2025, selected" [ref=e829]: "9"
+                      - gridcell "sábado, 10 de mayo de 2025, selected" [selected] [ref=e830]:
+                        - button "sábado, 10 de mayo de 2025, selected" [ref=e831]: "10"
+                      - gridcell "domingo, 11 de mayo de 2025, selected" [selected] [ref=e832]:
+                        - button "domingo, 11 de mayo de 2025, selected" [ref=e833]: "11"
+              - generic [ref=e834]:
+                - status [ref=e836]: mayo 2025
+                - grid "mayo 2025" [ref=e837]:
+                  - rowgroup [ref=e838]:
+                    - row [ref=e839]:
+                      - columnheader [ref=e840]: lu
+                      - columnheader [ref=e841]: ma
+                      - columnheader [ref=e842]: mi
+                      - columnheader [ref=e843]: ju
+                      - columnheader [ref=e844]: vi
+                      - columnheader [ref=e845]: sá
+                      - columnheader [ref=e846]: do
+                  - rowgroup [ref=e847]:
+                    - row "lunes, 28 de abril de 2025, selected martes, 29 de abril de 2025, selected miércoles, 30 de abril de 2025, selected jueves, 1 de mayo de 2025, selected viernes, 2 de mayo de 2025, selected sábado, 3 de mayo de 2025, selected domingo, 4 de mayo de 2025, selected" [ref=e848]:
+                      - gridcell "lunes, 28 de abril de 2025, selected" [selected] [ref=e849]:
+                        - button "lunes, 28 de abril de 2025, selected" [ref=e850]: "28"
+                      - gridcell "martes, 29 de abril de 2025, selected" [selected] [ref=e851]:
+                        - button "martes, 29 de abril de 2025, selected" [ref=e852]: "29"
+                      - gridcell "miércoles, 30 de abril de 2025, selected" [selected] [ref=e853]:
+                        - button "miércoles, 30 de abril de 2025, selected" [ref=e854]: "30"
+                      - gridcell "jueves, 1 de mayo de 2025, selected" [selected] [ref=e855]:
+                        - button "jueves, 1 de mayo de 2025, selected" [ref=e856]: "1"
+                      - gridcell "viernes, 2 de mayo de 2025, selected" [selected] [ref=e857]:
+                        - button "viernes, 2 de mayo de 2025, selected" [ref=e858]: "2"
+                      - gridcell "sábado, 3 de mayo de 2025, selected" [selected] [ref=e859]:
+                        - button "sábado, 3 de mayo de 2025, selected" [ref=e860]: "3"
+                      - gridcell "domingo, 4 de mayo de 2025, selected" [selected] [ref=e861]:
+                        - button "domingo, 4 de mayo de 2025, selected" [ref=e862]: "4"
+                    - row "lunes, 5 de mayo de 2025, selected martes, 6 de mayo de 2025, selected miércoles, 7 de mayo de 2025, selected jueves, 8 de mayo de 2025, selected viernes, 9 de mayo de 2025, selected sábado, 10 de mayo de 2025, selected domingo, 11 de mayo de 2025, selected" [ref=e863]:
+                      - gridcell "lunes, 5 de mayo de 2025, selected" [selected] [ref=e864]:
+                        - button "lunes, 5 de mayo de 2025, selected" [ref=e865]: "5"
+                      - gridcell "martes, 6 de mayo de 2025, selected" [selected] [ref=e866]:
+                        - button "martes, 6 de mayo de 2025, selected" [ref=e867]: "6"
+                      - gridcell "miércoles, 7 de mayo de 2025, selected" [selected] [ref=e868]:
+                        - button "miércoles, 7 de mayo de 2025, selected" [ref=e869]: "7"
+                      - gridcell "jueves, 8 de mayo de 2025, selected" [selected] [ref=e870]:
+                        - button "jueves, 8 de mayo de 2025, selected" [ref=e871]: "8"
+                      - gridcell "viernes, 9 de mayo de 2025, selected" [selected] [ref=e872]:
+                        - button "viernes, 9 de mayo de 2025, selected" [ref=e873]: "9"
+                      - gridcell "sábado, 10 de mayo de 2025, selected" [selected] [ref=e874]:
+                        - button "sábado, 10 de mayo de 2025, selected" [ref=e875]: "10"
+                      - gridcell "domingo, 11 de mayo de 2025, selected" [selected] [ref=e876]:
+                        - button "domingo, 11 de mayo de 2025, selected" [ref=e877]: "11"
+                    - row "lunes, 12 de mayo de 2025, selected martes, 13 de mayo de 2025, selected miércoles, 14 de mayo de 2025, selected jueves, 15 de mayo de 2025, selected viernes, 16 de mayo de 2025, selected sábado, 17 de mayo de 2025, selected domingo, 18 de mayo de 2025, selected" [ref=e878]:
+                      - gridcell "lunes, 12 de mayo de 2025, selected" [selected] [ref=e879]:
+                        - button "lunes, 12 de mayo de 2025, selected" [ref=e880]: "12"
+                      - gridcell "martes, 13 de mayo de 2025, selected" [selected] [ref=e881]:
+                        - button "martes, 13 de mayo de 2025, selected" [ref=e882]: "13"
+                      - gridcell "miércoles, 14 de mayo de 2025, selected" [selected] [ref=e883]:
+                        - button "miércoles, 14 de mayo de 2025, selected" [ref=e884]: "14"
+                      - gridcell "jueves, 15 de mayo de 2025, selected" [selected] [ref=e885]:
+                        - button "jueves, 15 de mayo de 2025, selected" [ref=e886]: "15"
+                      - gridcell "viernes, 16 de mayo de 2025, selected" [selected] [ref=e887]:
+                        - button "viernes, 16 de mayo de 2025, selected" [ref=e888]: "16"
+                      - gridcell "sábado, 17 de mayo de 2025, selected" [selected] [ref=e889]:
+                        - button "sábado, 17 de mayo de 2025, selected" [ref=e890]: "17"
+                      - gridcell "domingo, 18 de mayo de 2025, selected" [selected] [ref=e891]:
+                        - button "domingo, 18 de mayo de 2025, selected" [ref=e892]: "18"
+                    - row "lunes, 19 de mayo de 2025, selected martes, 20 de mayo de 2025, selected miércoles, 21 de mayo de 2025, selected jueves, 22 de mayo de 2025, selected viernes, 23 de mayo de 2025, selected sábado, 24 de mayo de 2025, selected domingo, 25 de mayo de 2025, selected" [ref=e893]:
+                      - gridcell "lunes, 19 de mayo de 2025, selected" [selected] [ref=e894]:
+                        - button "lunes, 19 de mayo de 2025, selected" [ref=e895]: "19"
+                      - gridcell "martes, 20 de mayo de 2025, selected" [selected] [ref=e896]:
+                        - button "martes, 20 de mayo de 2025, selected" [ref=e897]: "20"
+                      - gridcell "miércoles, 21 de mayo de 2025, selected" [selected] [ref=e898]:
+                        - button "miércoles, 21 de mayo de 2025, selected" [ref=e899]: "21"
+                      - gridcell "jueves, 22 de mayo de 2025, selected" [selected] [ref=e900]:
+                        - button "jueves, 22 de mayo de 2025, selected" [ref=e901]: "22"
+                      - gridcell "viernes, 23 de mayo de 2025, selected" [selected] [ref=e902]:
+                        - button "viernes, 23 de mayo de 2025, selected" [ref=e903]: "23"
+                      - gridcell "sábado, 24 de mayo de 2025, selected" [selected] [ref=e904]:
+                        - button "sábado, 24 de mayo de 2025, selected" [ref=e905]: "24"
+                      - gridcell "domingo, 25 de mayo de 2025, selected" [selected] [ref=e906]:
+                        - button "domingo, 25 de mayo de 2025, selected" [ref=e907]: "25"
+                    - row "lunes, 26 de mayo de 2025, selected martes, 27 de mayo de 2025, selected miércoles, 28 de mayo de 2025, selected jueves, 29 de mayo de 2025, selected viernes, 30 de mayo de 2025, selected sábado, 31 de mayo de 2025, selected domingo, 1 de junio de 2025, selected" [ref=e908]:
+                      - gridcell "lunes, 26 de mayo de 2025, selected" [selected] [ref=e909]:
+                        - button "lunes, 26 de mayo de 2025, selected" [ref=e910]: "26"
+                      - gridcell "martes, 27 de mayo de 2025, selected" [selected] [ref=e911]:
+                        - button "martes, 27 de mayo de 2025, selected" [ref=e912]: "27"
+                      - gridcell "miércoles, 28 de mayo de 2025, selected" [selected] [ref=e913]:
+                        - button "miércoles, 28 de mayo de 2025, selected" [ref=e914]: "28"
+                      - gridcell "jueves, 29 de mayo de 2025, selected" [selected] [ref=e915]:
+                        - button "jueves, 29 de mayo de 2025, selected" [ref=e916]: "29"
+                      - gridcell "viernes, 30 de mayo de 2025, selected" [selected] [ref=e917]:
+                        - button "viernes, 30 de mayo de 2025, selected" [ref=e918]: "30"
+                      - gridcell "sábado, 31 de mayo de 2025, selected" [selected] [ref=e919]:
+                        - button "sábado, 31 de mayo de 2025, selected" [ref=e920]: "31"
+                      - gridcell "domingo, 1 de junio de 2025, selected" [selected] [ref=e921]:
+                        - button "domingo, 1 de junio de 2025, selected" [ref=e922]: "1"
+                    - row "lunes, 2 de junio de 2025, selected martes, 3 de junio de 2025, selected miércoles, 4 de junio de 2025, selected jueves, 5 de junio de 2025, selected viernes, 6 de junio de 2025, selected sábado, 7 de junio de 2025, selected domingo, 8 de junio de 2025, selected" [ref=e923]:
+                      - gridcell "lunes, 2 de junio de 2025, selected" [selected] [ref=e924]:
+                        - button "lunes, 2 de junio de 2025, selected" [ref=e925]: "2"
+                      - gridcell "martes, 3 de junio de 2025, selected" [selected] [ref=e926]:
+                        - button "martes, 3 de junio de 2025, selected" [ref=e927]: "3"
+                      - gridcell "miércoles, 4 de junio de 2025, selected" [selected] [ref=e928]:
+                        - button "miércoles, 4 de junio de 2025, selected" [ref=e929]: "4"
+                      - gridcell "jueves, 5 de junio de 2025, selected" [selected] [ref=e930]:
+                        - button "jueves, 5 de junio de 2025, selected" [ref=e931]: "5"
+                      - gridcell "viernes, 6 de junio de 2025, selected" [selected] [ref=e932]:
+                        - button "viernes, 6 de junio de 2025, selected" [ref=e933]: "6"
+                      - gridcell "sábado, 7 de junio de 2025, selected" [selected] [ref=e934]:
+                        - button "sábado, 7 de junio de 2025, selected" [ref=e935]: "7"
+                      - gridcell "domingo, 8 de junio de 2025, selected" [selected] [ref=e936]:
+                        - button "domingo, 8 de junio de 2025, selected" [ref=e937]: "8"
+              - generic [ref=e938]:
+                - status [ref=e940]: junio 2025
+                - grid "junio 2025" [ref=e941]:
+                  - rowgroup [ref=e942]:
+                    - row [ref=e943]:
+                      - columnheader [ref=e944]: lu
+                      - columnheader [ref=e945]: ma
+                      - columnheader [ref=e946]: mi
+                      - columnheader [ref=e947]: ju
+                      - columnheader [ref=e948]: vi
+                      - columnheader [ref=e949]: sá
+                      - columnheader [ref=e950]: do
+                  - rowgroup [ref=e951]:
+                    - row "lunes, 26 de mayo de 2025, selected martes, 27 de mayo de 2025, selected miércoles, 28 de mayo de 2025, selected jueves, 29 de mayo de 2025, selected viernes, 30 de mayo de 2025, selected sábado, 31 de mayo de 2025, selected domingo, 1 de junio de 2025, selected" [ref=e952]:
+                      - gridcell "lunes, 26 de mayo de 2025, selected" [selected] [ref=e953]:
+                        - button "lunes, 26 de mayo de 2025, selected" [ref=e954]: "26"
+                      - gridcell "martes, 27 de mayo de 2025, selected" [selected] [ref=e955]:
+                        - button "martes, 27 de mayo de 2025, selected" [ref=e956]: "27"
+                      - gridcell "miércoles, 28 de mayo de 2025, selected" [selected] [ref=e957]:
+                        - button "miércoles, 28 de mayo de 2025, selected" [ref=e958]: "28"
+                      - gridcell "jueves, 29 de mayo de 2025, selected" [selected] [ref=e959]:
+                        - button "jueves, 29 de mayo de 2025, selected" [ref=e960]: "29"
+                      - gridcell "viernes, 30 de mayo de 2025, selected" [selected] [ref=e961]:
+                        - button "viernes, 30 de mayo de 2025, selected" [ref=e962]: "30"
+                      - gridcell "sábado, 31 de mayo de 2025, selected" [selected] [ref=e963]:
+                        - button "sábado, 31 de mayo de 2025, selected" [ref=e964]: "31"
+                      - gridcell "domingo, 1 de junio de 2025, selected" [selected] [ref=e965]:
+                        - button "domingo, 1 de junio de 2025, selected" [ref=e966]: "1"
+                    - row "lunes, 2 de junio de 2025, selected martes, 3 de junio de 2025, selected miércoles, 4 de junio de 2025, selected jueves, 5 de junio de 2025, selected viernes, 6 de junio de 2025, selected sábado, 7 de junio de 2025, selected domingo, 8 de junio de 2025, selected" [ref=e967]:
+                      - gridcell "lunes, 2 de junio de 2025, selected" [selected] [ref=e968]:
+                        - button "lunes, 2 de junio de 2025, selected" [ref=e969]: "2"
+                      - gridcell "martes, 3 de junio de 2025, selected" [selected] [ref=e970]:
+                        - button "martes, 3 de junio de 2025, selected" [ref=e971]: "3"
+                      - gridcell "miércoles, 4 de junio de 2025, selected" [selected] [ref=e972]:
+                        - button "miércoles, 4 de junio de 2025, selected" [ref=e973]: "4"
+                      - gridcell "jueves, 5 de junio de 2025, selected" [selected] [ref=e974]:
+                        - button "jueves, 5 de junio de 2025, selected" [ref=e975]: "5"
+                      - gridcell "viernes, 6 de junio de 2025, selected" [selected] [ref=e976]:
+                        - button "viernes, 6 de junio de 2025, selected" [ref=e977]: "6"
+                      - gridcell "sábado, 7 de junio de 2025, selected" [selected] [ref=e978]:
+                        - button "sábado, 7 de junio de 2025, selected" [ref=e979]: "7"
+                      - gridcell "domingo, 8 de junio de 2025, selected" [selected] [ref=e980]:
+                        - button "domingo, 8 de junio de 2025, selected" [ref=e981]: "8"
+                    - row "lunes, 9 de junio de 2025, selected martes, 10 de junio de 2025, selected miércoles, 11 de junio de 2025, selected jueves, 12 de junio de 2025 viernes, 13 de junio de 2025 sábado, 14 de junio de 2025 domingo, 15 de junio de 2025" [ref=e982]:
+                      - gridcell "lunes, 9 de junio de 2025, selected" [selected] [ref=e983]:
+                        - button "lunes, 9 de junio de 2025, selected" [ref=e984]: "9"
+                      - gridcell "martes, 10 de junio de 2025, selected" [selected] [ref=e985]:
+                        - button "martes, 10 de junio de 2025, selected" [ref=e986]: "10"
+                      - gridcell "miércoles, 11 de junio de 2025, selected" [selected] [ref=e987]:
+                        - button "miércoles, 11 de junio de 2025, selected" [ref=e988]: "11"
+                      - gridcell "jueves, 12 de junio de 2025" [ref=e989]:
+                        - button "jueves, 12 de junio de 2025" [ref=e990]: "12"
+                      - gridcell "viernes, 13 de junio de 2025" [ref=e991]:
+                        - button "viernes, 13 de junio de 2025" [ref=e992]: "13"
+                      - gridcell "sábado, 14 de junio de 2025" [ref=e993]:
+                        - button "sábado, 14 de junio de 2025" [ref=e994]: "14"
+                      - gridcell "domingo, 15 de junio de 2025" [ref=e995]:
+                        - button "domingo, 15 de junio de 2025" [ref=e996]: "15"
+                    - row "lunes, 16 de junio de 2025 martes, 17 de junio de 2025 miércoles, 18 de junio de 2025 jueves, 19 de junio de 2025 viernes, 20 de junio de 2025 sábado, 21 de junio de 2025 domingo, 22 de junio de 2025" [ref=e997]:
+                      - gridcell "lunes, 16 de junio de 2025" [ref=e998]:
+                        - button "lunes, 16 de junio de 2025" [ref=e999]: "16"
+                      - gridcell "martes, 17 de junio de 2025" [ref=e1000]:
+                        - button "martes, 17 de junio de 2025" [ref=e1001]: "17"
+                      - gridcell "miércoles, 18 de junio de 2025" [ref=e1002]:
+                        - button "miércoles, 18 de junio de 2025" [ref=e1003]: "18"
+                      - gridcell "jueves, 19 de junio de 2025" [ref=e1004]:
+                        - button "jueves, 19 de junio de 2025" [ref=e1005]: "19"
+                      - gridcell "viernes, 20 de junio de 2025" [ref=e1006]:
+                        - button "viernes, 20 de junio de 2025" [ref=e1007]: "20"
+                      - gridcell "sábado, 21 de junio de 2025" [ref=e1008]:
+                        - button "sábado, 21 de junio de 2025" [ref=e1009]: "21"
+                      - gridcell "domingo, 22 de junio de 2025" [ref=e1010]:
+                        - button "domingo, 22 de junio de 2025" [ref=e1011]: "22"
+                    - row "lunes, 23 de junio de 2025 martes, 24 de junio de 2025 miércoles, 25 de junio de 2025 jueves, 26 de junio de 2025 viernes, 27 de junio de 2025 sábado, 28 de junio de 2025 domingo, 29 de junio de 2025" [ref=e1012]:
+                      - gridcell "lunes, 23 de junio de 2025" [ref=e1013]:
+                        - button "lunes, 23 de junio de 2025" [ref=e1014]: "23"
+                      - gridcell "martes, 24 de junio de 2025" [ref=e1015]:
+                        - button "martes, 24 de junio de 2025" [ref=e1016]: "24"
+                      - gridcell "miércoles, 25 de junio de 2025" [ref=e1017]:
+                        - button "miércoles, 25 de junio de 2025" [ref=e1018]: "25"
+                      - gridcell "jueves, 26 de junio de 2025" [ref=e1019]:
+                        - button "jueves, 26 de junio de 2025" [ref=e1020]: "26"
+                      - gridcell "viernes, 27 de junio de 2025" [ref=e1021]:
+                        - button "viernes, 27 de junio de 2025" [ref=e1022]: "27"
+                      - gridcell "sábado, 28 de junio de 2025" [ref=e1023]:
+                        - button "sábado, 28 de junio de 2025" [ref=e1024]: "28"
+                      - gridcell "domingo, 29 de junio de 2025" [ref=e1025]:
+                        - button "domingo, 29 de junio de 2025" [ref=e1026]: "29"
+                    - row "lunes, 30 de junio de 2025 martes, 1 de julio de 2025 miércoles, 2 de julio de 2025 jueves, 3 de julio de 2025 viernes, 4 de julio de 2025 sábado, 5 de julio de 2025 domingo, 6 de julio de 2025" [ref=e1027]:
+                      - gridcell "lunes, 30 de junio de 2025" [ref=e1028]:
+                        - button "lunes, 30 de junio de 2025" [ref=e1029]: "30"
+                      - gridcell "martes, 1 de julio de 2025" [ref=e1030]:
+                        - button "martes, 1 de julio de 2025" [ref=e1031]: "1"
+                      - gridcell "miércoles, 2 de julio de 2025" [ref=e1032]:
+                        - button "miércoles, 2 de julio de 2025" [ref=e1033]: "2"
+                      - gridcell "jueves, 3 de julio de 2025" [ref=e1034]:
+                        - button "jueves, 3 de julio de 2025" [ref=e1035]: "3"
+                      - gridcell "viernes, 4 de julio de 2025" [ref=e1036]:
+                        - button "viernes, 4 de julio de 2025" [ref=e1037]: "4"
+                      - gridcell "sábado, 5 de julio de 2025" [ref=e1038]:
+                        - button "sábado, 5 de julio de 2025" [ref=e1039]: "5"
+                      - gridcell "domingo, 6 de julio de 2025" [ref=e1040]:
+                        - button "domingo, 6 de julio de 2025" [ref=e1041]: "6"
+          - generic [ref=e1042]:
+            - generic [ref=e1043]: With Time Input
+            - generic [ref=e1044]:
+              - generic [ref=e1047]:
+                - navigation [ref=e1048]:
+                  - button "Go to the Previous Month" [ref=e1049]:
+                    - img
+                  - button "Go to the Next Month" [ref=e1050]:
+                    - img
+                - generic [ref=e1051]:
+                  - status [ref=e1053]: September 2025
+                  - grid "September 2025" [ref=e1054]:
+                    - rowgroup [ref=e1055]:
+                      - row [ref=e1056]:
+                        - columnheader [ref=e1057]: Su
+                        - columnheader [ref=e1058]: Mo
+                        - columnheader [ref=e1059]: Tu
+                        - columnheader [ref=e1060]: We
+                        - columnheader [ref=e1061]: Th
+                        - columnheader [ref=e1062]: Fr
+                        - columnheader [ref=e1063]: Sa
+                    - rowgroup [ref=e1064]:
+                      - row "Sunday, August 31st, 2025 Monday, September 1st, 2025 Tuesday, September 2nd, 2025 Wednesday, September 3rd, 2025 Thursday, September 4th, 2025 Friday, September 5th, 2025 Saturday, September 6th, 2025" [ref=e1065]:
+                        - gridcell "Sunday, August 31st, 2025" [ref=e1066]:
+                          - button "Sunday, August 31st, 2025" [ref=e1067]: "31"
+                        - gridcell "Monday, September 1st, 2025" [ref=e1068]:
+                          - button "Monday, September 1st, 2025" [ref=e1069]: "1"
+                        - gridcell "Tuesday, September 2nd, 2025" [ref=e1070]:
+                          - button "Tuesday, September 2nd, 2025" [ref=e1071]: "2"
+                        - gridcell "Wednesday, September 3rd, 2025" [ref=e1072]:
+                          - button "Wednesday, September 3rd, 2025" [ref=e1073]: "3"
+                        - gridcell "Thursday, September 4th, 2025" [ref=e1074]:
+                          - button "Thursday, September 4th, 2025" [ref=e1075]: "4"
+                        - gridcell "Friday, September 5th, 2025" [ref=e1076]:
+                          - button "Friday, September 5th, 2025" [ref=e1077]: "5"
+                        - gridcell "Saturday, September 6th, 2025" [ref=e1078]:
+                          - button "Saturday, September 6th, 2025" [ref=e1079]: "6"
+                      - row "Sunday, September 7th, 2025 Monday, September 8th, 2025 Tuesday, September 9th, 2025 Wednesday, September 10th, 2025 Thursday, September 11th, 2025 Friday, September 12th, 2025, selected Saturday, September 13th, 2025" [ref=e1080]:
+                        - gridcell "Sunday, September 7th, 2025" [ref=e1081]:
+                          - button "Sunday, September 7th, 2025" [ref=e1082]: "7"
+                        - gridcell "Monday, September 8th, 2025" [ref=e1083]:
+                          - button "Monday, September 8th, 2025" [ref=e1084]: "8"
+                        - gridcell "Tuesday, September 9th, 2025" [ref=e1085]:
+                          - button "Tuesday, September 9th, 2025" [ref=e1086]: "9"
+                        - gridcell "Wednesday, September 10th, 2025" [ref=e1087]:
+                          - button "Wednesday, September 10th, 2025" [ref=e1088]: "10"
+                        - gridcell "Thursday, September 11th, 2025" [ref=e1089]:
+                          - button "Thursday, September 11th, 2025" [ref=e1090]: "11"
+                        - gridcell "Friday, September 12th, 2025, selected" [selected] [ref=e1091]:
+                          - button "Friday, September 12th, 2025, selected" [ref=e1092]: "12"
+                        - gridcell "Saturday, September 13th, 2025" [ref=e1093]:
+                          - button "Saturday, September 13th, 2025" [ref=e1094]: "13"
+                      - row "Sunday, September 14th, 2025 Monday, September 15th, 2025 Tuesday, September 16th, 2025 Wednesday, September 17th, 2025 Thursday, September 18th, 2025 Friday, September 19th, 2025 Saturday, September 20th, 2025" [ref=e1095]:
+                        - gridcell "Sunday, September 14th, 2025" [ref=e1096]:
+                          - button "Sunday, September 14th, 2025" [ref=e1097]: "14"
+                        - gridcell "Monday, September 15th, 2025" [ref=e1098]:
+                          - button "Monday, September 15th, 2025" [ref=e1099]: "15"
+                        - gridcell "Tuesday, September 16th, 2025" [ref=e1100]:
+                          - button "Tuesday, September 16th, 2025" [ref=e1101]: "16"
+                        - gridcell "Wednesday, September 17th, 2025" [ref=e1102]:
+                          - button "Wednesday, September 17th, 2025" [ref=e1103]: "17"
+                        - gridcell "Thursday, September 18th, 2025" [ref=e1104]:
+                          - button "Thursday, September 18th, 2025" [ref=e1105]: "18"
+                        - gridcell "Friday, September 19th, 2025" [ref=e1106]:
+                          - button "Friday, September 19th, 2025" [ref=e1107]: "19"
+                        - gridcell "Saturday, September 20th, 2025" [ref=e1108]:
+                          - button "Saturday, September 20th, 2025" [ref=e1109]: "20"
+                      - row "Today, Sunday, September 21st, 2025 Monday, September 22nd, 2025 Tuesday, September 23rd, 2025 Wednesday, September 24th, 2025 Thursday, September 25th, 2025 Friday, September 26th, 2025 Saturday, September 27th, 2025" [ref=e1110]:
+                        - gridcell "Today, Sunday, September 21st, 2025" [ref=e1111]:
+                          - button "Today, Sunday, September 21st, 2025" [ref=e1112]: "21"
+                        - gridcell "Monday, September 22nd, 2025" [ref=e1113]:
+                          - button "Monday, September 22nd, 2025" [ref=e1114]: "22"
+                        - gridcell "Tuesday, September 23rd, 2025" [ref=e1115]:
+                          - button "Tuesday, September 23rd, 2025" [ref=e1116]: "23"
+                        - gridcell "Wednesday, September 24th, 2025" [ref=e1117]:
+                          - button "Wednesday, September 24th, 2025" [ref=e1118]: "24"
+                        - gridcell "Thursday, September 25th, 2025" [ref=e1119]:
+                          - button "Thursday, September 25th, 2025" [ref=e1120]: "25"
+                        - gridcell "Friday, September 26th, 2025" [ref=e1121]:
+                          - button "Friday, September 26th, 2025" [ref=e1122]: "26"
+                        - gridcell "Saturday, September 27th, 2025" [ref=e1123]:
+                          - button "Saturday, September 27th, 2025" [ref=e1124]: "27"
+                      - row "Sunday, September 28th, 2025 Monday, September 29th, 2025 Tuesday, September 30th, 2025 Wednesday, October 1st, 2025 Thursday, October 2nd, 2025 Friday, October 3rd, 2025 Saturday, October 4th, 2025" [ref=e1125]:
+                        - gridcell "Sunday, September 28th, 2025" [ref=e1126]:
+                          - button "Sunday, September 28th, 2025" [ref=e1127]: "28"
+                        - gridcell "Monday, September 29th, 2025" [ref=e1128]:
+                          - button "Monday, September 29th, 2025" [ref=e1129]: "29"
+                        - gridcell "Tuesday, September 30th, 2025" [ref=e1130]:
+                          - button "Tuesday, September 30th, 2025" [ref=e1131]: "30"
+                        - gridcell "Wednesday, October 1st, 2025" [ref=e1132]:
+                          - button "Wednesday, October 1st, 2025" [ref=e1133]: "1"
+                        - gridcell "Thursday, October 2nd, 2025" [ref=e1134]:
+                          - button "Thursday, October 2nd, 2025" [ref=e1135]: "2"
+                        - gridcell "Friday, October 3rd, 2025" [ref=e1136]:
+                          - button "Friday, October 3rd, 2025" [ref=e1137]: "3"
+                        - gridcell "Saturday, October 4th, 2025" [ref=e1138]:
+                          - button "Saturday, October 4th, 2025" [ref=e1139]: "4"
+              - generic [ref=e1140]:
+                - generic [ref=e1141]:
+                  - generic [ref=e1142]: Start Time
+                  - generic [ref=e1143]:
+                    - img
+                    - textbox "Start Time" [ref=e1144]: 10:30:00
+                - generic [ref=e1145]:
+                  - generic [ref=e1146]: End Time
+                  - generic [ref=e1147]:
+                    - img
+                    - textbox "End Time" [ref=e1148]: 12:30:00
+          - generic [ref=e1149]:
+            - generic [ref=e1150]: With Presets
+            - generic [ref=e1151]:
+              - generic [ref=e1154]:
+                - navigation [ref=e1155]:
+                  - button "Go to the Previous Month" [ref=e1156]:
+                    - img
+                  - button "Go to the Next Month" [ref=e1157]:
+                    - img
+                - generic [ref=e1158]:
+                  - status [ref=e1160]: September 2025
+                  - grid "September 2025" [ref=e1161]:
+                    - rowgroup [ref=e1162]:
+                      - row [ref=e1163]:
+                        - columnheader [ref=e1164]: Su
+                        - columnheader [ref=e1165]: Mo
+                        - columnheader [ref=e1166]: Tu
+                        - columnheader [ref=e1167]: We
+                        - columnheader [ref=e1168]: Th
+                        - columnheader [ref=e1169]: Fr
+                        - columnheader [ref=e1170]: Sa
+                    - rowgroup [ref=e1171]:
+                      - row "Sunday, August 31st, 2025 Monday, September 1st, 2025 Tuesday, September 2nd, 2025 Wednesday, September 3rd, 2025 Thursday, September 4th, 2025 Friday, September 5th, 2025 Saturday, September 6th, 2025" [ref=e1172]:
+                        - gridcell "Sunday, August 31st, 2025" [ref=e1173]:
+                          - button "Sunday, August 31st, 2025" [ref=e1174]: "31"
+                        - gridcell "Monday, September 1st, 2025" [ref=e1175]:
+                          - button "Monday, September 1st, 2025" [ref=e1176]: "1"
+                        - gridcell "Tuesday, September 2nd, 2025" [ref=e1177]:
+                          - button "Tuesday, September 2nd, 2025" [ref=e1178]: "2"
+                        - gridcell "Wednesday, September 3rd, 2025" [ref=e1179]:
+                          - button "Wednesday, September 3rd, 2025" [ref=e1180]: "3"
+                        - gridcell "Thursday, September 4th, 2025" [ref=e1181]:
+                          - button "Thursday, September 4th, 2025" [ref=e1182]: "4"
+                        - gridcell "Friday, September 5th, 2025" [ref=e1183]:
+                          - button "Friday, September 5th, 2025" [ref=e1184]: "5"
+                        - gridcell "Saturday, September 6th, 2025" [ref=e1185]:
+                          - button "Saturday, September 6th, 2025" [ref=e1186]: "6"
+                      - row "Sunday, September 7th, 2025 Monday, September 8th, 2025 Tuesday, September 9th, 2025 Wednesday, September 10th, 2025 Thursday, September 11th, 2025 Friday, September 12th, 2025 Saturday, September 13th, 2025" [ref=e1187]:
+                        - gridcell "Sunday, September 7th, 2025" [ref=e1188]:
+                          - button "Sunday, September 7th, 2025" [ref=e1189]: "7"
+                        - gridcell "Monday, September 8th, 2025" [ref=e1190]:
+                          - button "Monday, September 8th, 2025" [ref=e1191]: "8"
+                        - gridcell "Tuesday, September 9th, 2025" [ref=e1192]:
+                          - button "Tuesday, September 9th, 2025" [ref=e1193]: "9"
+                        - gridcell "Wednesday, September 10th, 2025" [ref=e1194]:
+                          - button "Wednesday, September 10th, 2025" [ref=e1195]: "10"
+                        - gridcell "Thursday, September 11th, 2025" [ref=e1196]:
+                          - button "Thursday, September 11th, 2025" [ref=e1197]: "11"
+                        - gridcell "Friday, September 12th, 2025" [ref=e1198]:
+                          - button "Friday, September 12th, 2025" [ref=e1199]: "12"
+                        - gridcell "Saturday, September 13th, 2025" [ref=e1200]:
+                          - button "Saturday, September 13th, 2025" [ref=e1201]: "13"
+                      - row "Sunday, September 14th, 2025 Monday, September 15th, 2025 Tuesday, September 16th, 2025 Wednesday, September 17th, 2025 Thursday, September 18th, 2025 Friday, September 19th, 2025 Saturday, September 20th, 2025" [ref=e1202]:
+                        - gridcell "Sunday, September 14th, 2025" [ref=e1203]:
+                          - button "Sunday, September 14th, 2025" [ref=e1204]: "14"
+                        - gridcell "Monday, September 15th, 2025" [ref=e1205]:
+                          - button "Monday, September 15th, 2025" [ref=e1206]: "15"
+                        - gridcell "Tuesday, September 16th, 2025" [ref=e1207]:
+                          - button "Tuesday, September 16th, 2025" [ref=e1208]: "16"
+                        - gridcell "Wednesday, September 17th, 2025" [ref=e1209]:
+                          - button "Wednesday, September 17th, 2025" [ref=e1210]: "17"
+                        - gridcell "Thursday, September 18th, 2025" [ref=e1211]:
+                          - button "Thursday, September 18th, 2025" [ref=e1212]: "18"
+                        - gridcell "Friday, September 19th, 2025" [ref=e1213]:
+                          - button "Friday, September 19th, 2025" [ref=e1214]: "19"
+                        - gridcell "Saturday, September 20th, 2025" [ref=e1215]:
+                          - button "Saturday, September 20th, 2025" [ref=e1216]: "20"
+                      - row "Today, Sunday, September 21st, 2025 Monday, September 22nd, 2025 Tuesday, September 23rd, 2025 Wednesday, September 24th, 2025 Thursday, September 25th, 2025 Friday, September 26th, 2025 Saturday, September 27th, 2025" [ref=e1217]:
+                        - gridcell "Today, Sunday, September 21st, 2025" [ref=e1218]:
+                          - button "Today, Sunday, September 21st, 2025" [ref=e1219]: "21"
+                        - gridcell "Monday, September 22nd, 2025" [ref=e1220]:
+                          - button "Monday, September 22nd, 2025" [ref=e1221]: "22"
+                        - gridcell "Tuesday, September 23rd, 2025" [ref=e1222]:
+                          - button "Tuesday, September 23rd, 2025" [ref=e1223]: "23"
+                        - gridcell "Wednesday, September 24th, 2025" [ref=e1224]:
+                          - button "Wednesday, September 24th, 2025" [ref=e1225]: "24"
+                        - gridcell "Thursday, September 25th, 2025" [ref=e1226]:
+                          - button "Thursday, September 25th, 2025" [ref=e1227]: "25"
+                        - gridcell "Friday, September 26th, 2025" [ref=e1228]:
+                          - button "Friday, September 26th, 2025" [ref=e1229]: "26"
+                        - gridcell "Saturday, September 27th, 2025" [ref=e1230]:
+                          - button "Saturday, September 27th, 2025" [ref=e1231]: "27"
+                      - row "Sunday, September 28th, 2025 Monday, September 29th, 2025 Tuesday, September 30th, 2025 Wednesday, October 1st, 2025 Thursday, October 2nd, 2025 Friday, October 3rd, 2025 Saturday, October 4th, 2025" [ref=e1232]:
+                        - gridcell "Sunday, September 28th, 2025" [ref=e1233]:
+                          - button "Sunday, September 28th, 2025" [ref=e1234]: "28"
+                        - gridcell "Monday, September 29th, 2025" [ref=e1235]:
+                          - button "Monday, September 29th, 2025" [ref=e1236]: "29"
+                        - gridcell "Tuesday, September 30th, 2025" [ref=e1237]:
+                          - button "Tuesday, September 30th, 2025" [ref=e1238]: "30"
+                        - gridcell "Wednesday, October 1st, 2025" [ref=e1239]:
+                          - button "Wednesday, October 1st, 2025" [ref=e1240]: "1"
+                        - gridcell "Thursday, October 2nd, 2025" [ref=e1241]:
+                          - button "Thursday, October 2nd, 2025" [ref=e1242]: "2"
+                        - gridcell "Friday, October 3rd, 2025" [ref=e1243]:
+                          - button "Friday, October 3rd, 2025" [ref=e1244]: "3"
+                        - gridcell "Saturday, October 4th, 2025" [ref=e1245]:
+                          - button "Saturday, October 4th, 2025" [ref=e1246]: "4"
+                      - row "Sunday, October 5th, 2025 Monday, October 6th, 2025 Tuesday, October 7th, 2025 Wednesday, October 8th, 2025 Thursday, October 9th, 2025 Friday, October 10th, 2025 Saturday, October 11th, 2025" [ref=e1247]:
+                        - gridcell "Sunday, October 5th, 2025" [ref=e1248]:
+                          - button "Sunday, October 5th, 2025" [ref=e1249]: "5"
+                        - gridcell "Monday, October 6th, 2025" [ref=e1250]:
+                          - button "Monday, October 6th, 2025" [ref=e1251]: "6"
+                        - gridcell "Tuesday, October 7th, 2025" [ref=e1252]:
+                          - button "Tuesday, October 7th, 2025" [ref=e1253]: "7"
+                        - gridcell "Wednesday, October 8th, 2025" [ref=e1254]:
+                          - button "Wednesday, October 8th, 2025" [ref=e1255]: "8"
+                        - gridcell "Thursday, October 9th, 2025" [ref=e1256]:
+                          - button "Thursday, October 9th, 2025" [ref=e1257]: "9"
+                        - gridcell "Friday, October 10th, 2025" [ref=e1258]:
+                          - button "Friday, October 10th, 2025" [ref=e1259]: "10"
+                        - gridcell "Saturday, October 11th, 2025" [ref=e1260]:
+                          - button "Saturday, October 11th, 2025" [ref=e1261]: "11"
+              - generic [ref=e1262]:
+                - button "Today" [ref=e1263]
+                - button "Tomorrow" [ref=e1264]
+                - button "In 3 days" [ref=e1265]
+                - button "In a week" [ref=e1266]
+                - button "In 2 weeks" [ref=e1267]
+          - generic [ref=e1268]:
+            - generic [ref=e1269]: With Custom Days and Formatters
+            - generic [ref=e1271]:
+              - navigation [ref=e1272]:
+                - button "Go to the Previous Month" [ref=e1273]:
+                  - img
+                - button "Go to the Next Month" [disabled] [ref=e1274]:
+                  - img
+              - generic [ref=e1275]:
+                - generic [ref=e1277]:
+                  - generic [ref=e1278]:
+                    - combobox "Choose the Month" [ref=e1279]:
+                      - option "January"
+                      - option "February"
+                      - option "March"
+                      - option "April"
+                      - option "May"
+                      - option "June"
+                      - option "July"
+                      - option "August"
+                      - option "September"
+                      - option "October"
+                      - option "November"
+                      - option "December" [selected]
+                    - generic [ref=e1280]:
+                      - text: December
+                      - img [ref=e1281]
+                  - generic [ref=e1283]:
+                    - combobox "Choose the Year" [ref=e1284]:
+                      - option "1925"
+                      - option "1926"
+                      - option "1927"
+                      - option "1928"
+                      - option "1929"
+                      - option "1930"
+                      - option "1931"
+                      - option "1932"
+                      - option "1933"
+                      - option "1934"
+                      - option "1935"
+                      - option "1936"
+                      - option "1937"
+                      - option "1938"
+                      - option "1939"
+                      - option "1940"
+                      - option "1941"
+                      - option "1942"
+                      - option "1943"
+                      - option "1944"
+                      - option "1945"
+                      - option "1946"
+                      - option "1947"
+                      - option "1948"
+                      - option "1949"
+                      - option "1950"
+                      - option "1951"
+                      - option "1952"
+                      - option "1953"
+                      - option "1954"
+                      - option "1955"
+                      - option "1956"
+                      - option "1957"
+                      - option "1958"
+                      - option "1959"
+                      - option "1960"
+                      - option "1961"
+                      - option "1962"
+                      - option "1963"
+                      - option "1964"
+                      - option "1965"
+                      - option "1966"
+                      - option "1967"
+                      - option "1968"
+                      - option "1969"
+                      - option "1970"
+                      - option "1971"
+                      - option "1972"
+                      - option "1973"
+                      - option "1974"
+                      - option "1975"
+                      - option "1976"
+                      - option "1977"
+                      - option "1978"
+                      - option "1979"
+                      - option "1980"
+                      - option "1981"
+                      - option "1982"
+                      - option "1983"
+                      - option "1984"
+                      - option "1985"
+                      - option "1986"
+                      - option "1987"
+                      - option "1988"
+                      - option "1989"
+                      - option "1990"
+                      - option "1991"
+                      - option "1992"
+                      - option "1993"
+                      - option "1994"
+                      - option "1995"
+                      - option "1996"
+                      - option "1997"
+                      - option "1998"
+                      - option "1999"
+                      - option "2000"
+                      - option "2001"
+                      - option "2002"
+                      - option "2003"
+                      - option "2004"
+                      - option "2005"
+                      - option "2006"
+                      - option "2007"
+                      - option "2008"
+                      - option "2009"
+                      - option "2010"
+                      - option "2011"
+                      - option "2012"
+                      - option "2013"
+                      - option "2014"
+                      - option "2015"
+                      - option "2016"
+                      - option "2017"
+                      - option "2018"
+                      - option "2019"
+                      - option "2020"
+                      - option "2021"
+                      - option "2022"
+                      - option "2023"
+                      - option "2024"
+                      - option "2025" [selected]
+                    - generic [ref=e1285]:
+                      - text: "2025"
+                      - img [ref=e1286]
+                  - status [ref=e1288]: December 2025
+                - grid "December 2025" [ref=e1289]:
+                  - rowgroup [ref=e1290]:
+                    - row [ref=e1291]:
+                      - columnheader [ref=e1292]: Su
+                      - columnheader [ref=e1293]: Mo
+                      - columnheader [ref=e1294]: Tu
+                      - columnheader [ref=e1295]: We
+                      - columnheader [ref=e1296]: Th
+                      - columnheader [ref=e1297]: Fr
+                      - columnheader [ref=e1298]: Sa
+                  - rowgroup [ref=e1299]:
+                    - row "Sunday, November 30th, 2025 Monday, December 1st, 2025 Tuesday, December 2nd, 2025 Wednesday, December 3rd, 2025 Thursday, December 4th, 2025 Friday, December 5th, 2025 Saturday, December 6th, 2025" [ref=e1300]:
+                      - gridcell "Sunday, November 30th, 2025" [ref=e1301]:
+                        - button "Sunday, November 30th, 2025" [ref=e1302]: "30"
+                      - gridcell "Monday, December 1st, 2025" [ref=e1303]:
+                        - button "Monday, December 1st, 2025" [ref=e1304]:
+                          - text: "1"
+                          - generic [ref=e1305]: $100
+                      - gridcell "Tuesday, December 2nd, 2025" [ref=e1306]:
+                        - button "Tuesday, December 2nd, 2025" [ref=e1307]:
+                          - text: "2"
+                          - generic [ref=e1308]: $100
+                      - gridcell "Wednesday, December 3rd, 2025" [ref=e1309]:
+                        - button "Wednesday, December 3rd, 2025" [ref=e1310]:
+                          - text: "3"
+                          - generic [ref=e1311]: $100
+                      - gridcell "Thursday, December 4th, 2025" [ref=e1312]:
+                        - button "Thursday, December 4th, 2025" [ref=e1313]:
+                          - text: "4"
+                          - generic [ref=e1314]: $100
+                      - gridcell "Friday, December 5th, 2025" [ref=e1315]:
+                        - button "Friday, December 5th, 2025" [ref=e1316]:
+                          - text: "5"
+                          - generic [ref=e1317]: $100
+                      - gridcell "Saturday, December 6th, 2025" [ref=e1318]:
+                        - button "Saturday, December 6th, 2025" [ref=e1319]:
+                          - text: "6"
+                          - generic [ref=e1320]: $120
+                    - row "Sunday, December 7th, 2025 Monday, December 8th, 2025, selected Tuesday, December 9th, 2025, selected Wednesday, December 10th, 2025, selected Thursday, December 11th, 2025, selected Friday, December 12th, 2025, selected Saturday, December 13th, 2025, selected" [ref=e1321]:
+                      - gridcell "Sunday, December 7th, 2025" [ref=e1322]:
+                        - button "Sunday, December 7th, 2025" [ref=e1323]:
+                          - text: "7"
+                          - generic [ref=e1324]: $120
+                      - gridcell "Monday, December 8th, 2025, selected" [selected] [ref=e1325]:
+                        - button "Monday, December 8th, 2025, selected" [ref=e1326]:
+                          - text: "8"
+                          - generic [ref=e1327]: $100
+                      - gridcell "Tuesday, December 9th, 2025, selected" [selected] [ref=e1328]:
+                        - button "Tuesday, December 9th, 2025, selected" [ref=e1329]:
+                          - text: "9"
+                          - generic [ref=e1330]: $100
+                      - gridcell "Wednesday, December 10th, 2025, selected" [selected] [ref=e1331]:
+                        - button "Wednesday, December 10th, 2025, selected" [ref=e1332]:
+                          - text: "10"
+                          - generic [ref=e1333]: $100
+                      - gridcell "Thursday, December 11th, 2025, selected" [selected] [ref=e1334]:
+                        - button "Thursday, December 11th, 2025, selected" [ref=e1335]:
+                          - text: "11"
+                          - generic [ref=e1336]: $100
+                      - gridcell "Friday, December 12th, 2025, selected" [selected] [ref=e1337]:
+                        - button "Friday, December 12th, 2025, selected" [ref=e1338]:
+                          - text: "12"
+                          - generic [ref=e1339]: $100
+                      - gridcell "Saturday, December 13th, 2025, selected" [selected] [ref=e1340]:
+                        - button "Saturday, December 13th, 2025, selected" [ref=e1341]:
+                          - text: "13"
+                          - generic [ref=e1342]: $120
+                    - row "Sunday, December 14th, 2025, selected Monday, December 15th, 2025, selected Tuesday, December 16th, 2025, selected Wednesday, December 17th, 2025, selected Thursday, December 18th, 2025, selected Friday, December 19th, 2025 Saturday, December 20th, 2025" [ref=e1343]:
+                      - gridcell "Sunday, December 14th, 2025, selected" [selected] [ref=e1344]:
+                        - button "Sunday, December 14th, 2025, selected" [ref=e1345]:
+                          - text: "14"
+                          - generic [ref=e1346]: $120
+                      - gridcell "Monday, December 15th, 2025, selected" [selected] [ref=e1347]:
+                        - button "Monday, December 15th, 2025, selected" [ref=e1348]:
+                          - text: "15"
+                          - generic [ref=e1349]: $100
+                      - gridcell "Tuesday, December 16th, 2025, selected" [selected] [ref=e1350]:
+                        - button "Tuesday, December 16th, 2025, selected" [ref=e1351]:
+                          - text: "16"
+                          - generic [ref=e1352]: $100
+                      - gridcell "Wednesday, December 17th, 2025, selected" [selected] [ref=e1353]:
+                        - button "Wednesday, December 17th, 2025, selected" [ref=e1354]:
+                          - text: "17"
+                          - generic [ref=e1355]: $100
+                      - gridcell "Thursday, December 18th, 2025, selected" [selected] [ref=e1356]:
+                        - button "Thursday, December 18th, 2025, selected" [ref=e1357]:
+                          - text: "18"
+                          - generic [ref=e1358]: $100
+                      - gridcell "Friday, December 19th, 2025" [ref=e1359]:
+                        - button "Friday, December 19th, 2025" [ref=e1360]:
+                          - text: "19"
+                          - generic [ref=e1361]: $100
+                      - gridcell "Saturday, December 20th, 2025" [ref=e1362]:
+                        - button "Saturday, December 20th, 2025" [ref=e1363]:
+                          - text: "20"
+                          - generic [ref=e1364]: $120
+                    - row "Sunday, December 21st, 2025 Monday, December 22nd, 2025 Tuesday, December 23rd, 2025 Wednesday, December 24th, 2025 Thursday, December 25th, 2025 Friday, December 26th, 2025 Saturday, December 27th, 2025" [ref=e1365]:
+                      - gridcell "Sunday, December 21st, 2025" [ref=e1366]:
+                        - button "Sunday, December 21st, 2025" [ref=e1367]:
+                          - text: "21"
+                          - generic [ref=e1368]: $120
+                      - gridcell "Monday, December 22nd, 2025" [ref=e1369]:
+                        - button "Monday, December 22nd, 2025" [ref=e1370]:
+                          - text: "22"
+                          - generic [ref=e1371]: $100
+                      - gridcell "Tuesday, December 23rd, 2025" [ref=e1372]:
+                        - button "Tuesday, December 23rd, 2025" [ref=e1373]:
+                          - text: "23"
+                          - generic [ref=e1374]: $100
+                      - gridcell "Wednesday, December 24th, 2025" [ref=e1375]:
+                        - button "Wednesday, December 24th, 2025" [ref=e1376]:
+                          - text: "24"
+                          - generic [ref=e1377]: $100
+                      - gridcell "Thursday, December 25th, 2025" [ref=e1378]:
+                        - button "Thursday, December 25th, 2025" [ref=e1379]:
+                          - text: "25"
+                          - generic [ref=e1380]: $100
+                      - gridcell "Friday, December 26th, 2025" [ref=e1381]:
+                        - button "Friday, December 26th, 2025" [ref=e1382]:
+                          - text: "26"
+                          - generic [ref=e1383]: $100
+                      - gridcell "Saturday, December 27th, 2025" [ref=e1384]:
+                        - button "Saturday, December 27th, 2025" [ref=e1385]:
+                          - text: "27"
+                          - generic [ref=e1386]: $120
+                    - row "Sunday, December 28th, 2025 Monday, December 29th, 2025 Tuesday, December 30th, 2025 Wednesday, December 31st, 2025" [ref=e1387]:
+                      - gridcell "Sunday, December 28th, 2025" [ref=e1388]:
+                        - button "Sunday, December 28th, 2025" [ref=e1389]:
+                          - text: "28"
+                          - generic [ref=e1390]: $120
+                      - gridcell "Monday, December 29th, 2025" [ref=e1391]:
+                        - button "Monday, December 29th, 2025" [ref=e1392]:
+                          - text: "29"
+                          - generic [ref=e1393]: $100
+                      - gridcell "Tuesday, December 30th, 2025" [ref=e1394]:
+                        - button "Tuesday, December 30th, 2025" [ref=e1395]:
+                          - text: "30"
+                          - generic [ref=e1396]: $100
+                      - gridcell "Wednesday, December 31st, 2025" [ref=e1397]:
+                        - button "Wednesday, December 31st, 2025" [ref=e1398]:
+                          - text: "31"
+                          - generic [ref=e1399]: $100
+      - generic [ref=e1400]:
+        - generic [ref=e1402]: Card
+        - generic [ref=e1404]:
+          - generic [ref=e1405]:
+            - generic [ref=e1406]:
+              - generic [ref=e1407]: Login to your account
+              - generic [ref=e1408]: Enter your email below to login to your account
+            - generic [ref=e1411]:
+              - generic [ref=e1412]:
+                - generic [ref=e1413]: Email
+                - textbox "Email" [ref=e1414]
+              - generic [ref=e1415]:
+                - generic [ref=e1416]:
+                  - generic [ref=e1417]: Password
+                  - link "Forgot your password?" [ref=e1418]:
+                    - /url: "#"
+                - textbox "Password" [ref=e1419]
+            - generic [ref=e1420]:
+              - button "Login" [ref=e1421]
+              - button "Login with Google" [ref=e1422]
+              - generic [ref=e1423]:
+                - text: Don't have an account?
+                - link "Sign up" [ref=e1424]:
+                  - /url: "#"
+          - generic [ref=e1425]:
+            - generic [ref=e1426]:
+              - generic [ref=e1427]: Meeting Notes
+              - generic [ref=e1428]: Transcript from the meeting with the client.
+            - generic [ref=e1429]:
+              - paragraph [ref=e1430]: Client requested dashboard redesign with focus on mobile responsiveness.
+              - list [ref=e1431]:
+                - listitem [ref=e1432]: New analytics widgets for daily/weekly metrics
+                - listitem [ref=e1433]: Simplified navigation menu
+                - listitem [ref=e1434]: Dark mode support
+                - listitem [ref=e1435]: "Timeline: 6 weeks"
+                - listitem [ref=e1436]: Follow-up meeting scheduled for next Tuesday
+            - generic [ref=e1438]:
+              - img "@shadcn" [ref=e1440]
+              - img "@leerob" [ref=e1442]
+              - img "@evilrabbit" [ref=e1444]
+          - generic [ref=e1445]:
+            - generic [ref=e1446]:
+              - generic [ref=e1447]: Is this an image?
+              - generic [ref=e1448]: This is a card with an image.
+            - img "Photo by Drew Beamer" [ref=e1450]
+            - generic [ref=e1451]:
+              - generic [ref=e1452]:
+                - img
+                - text: "4"
+              - generic [ref=e1453]:
+                - img
+                - text: "2"
+              - generic [ref=e1454]:
+                - img
+                - text: 350m²
+              - generic [ref=e1455]: $135,000
+          - generic [ref=e1456]:
+            - generic [ref=e1458]: Content Only
+            - generic [ref=e1460]:
+              - generic [ref=e1461]: Header Only
+              - generic [ref=e1462]: This is a card with a header and a description.
+            - generic [ref=e1463]:
+              - generic [ref=e1464]:
+                - generic [ref=e1465]: Header and Content
+                - generic [ref=e1466]: This is a card with a header and a content.
+              - generic [ref=e1467]: Content
+            - generic [ref=e1469]: Footer Only
+            - generic [ref=e1470]:
+              - generic [ref=e1471]:
+                - generic [ref=e1472]: Header + Footer
+                - generic [ref=e1473]: This is a card with a header and a footer.
+              - generic [ref=e1474]: Footer
+            - generic [ref=e1475]:
+              - generic [ref=e1476]: Content
+              - generic [ref=e1477]: Footer
+            - generic [ref=e1478]:
+              - generic [ref=e1479]:
+                - generic [ref=e1480]: Header + Footer
+                - generic [ref=e1481]: This is a card with a header and a footer.
+              - generic [ref=e1482]: Content
+              - generic [ref=e1483]: Footer
+      - generic [ref=e1486]: Carousel
+      - generic [ref=e1488]:
+        - generic [ref=e1490]: Chart
+        - generic [ref=e1492]:
+          - generic [ref=e1493]:
+            - generic [ref=e1494]:
+              - generic [ref=e1495]: Area Chart
+              - generic [ref=e1496]: Showing total visitors for the last 6 months
+            - application [ref=e1501]:
+              - generic [ref=e1506]:
+                - generic [ref=e1509]: Jan
+                - generic [ref=e1512]: Feb
+                - generic [ref=e1515]: Mar
+                - generic [ref=e1518]: Apr
+                - generic [ref=e1521]: May
+                - generic [ref=e1524]: Jun
+            - generic [ref=e1534]:
+              - generic [ref=e1535]:
+                - text: Trending up by 5.2% this month
+                - img [ref=e1536]
+              - generic [ref=e1539]: January - June 2024
+          - generic [ref=e1540]:
+            - generic [ref=e1541]:
+              - generic [ref=e1542]: Bar Chart - Multiple
+              - generic [ref=e1543]: January - June 2024
+            - application [ref=e1548]:
+              - generic [ref=e1553]:
+                - generic [ref=e1556]: Jan
+                - generic [ref=e1559]: Feb
+                - generic [ref=e1562]: Mar
+                - generic [ref=e1565]: Apr
+                - generic [ref=e1568]: May
+                - generic [ref=e1571]: Jun
+            - generic [ref=e1602]:
+              - generic [ref=e1603]:
+                - text: Trending up by 5.2% this month
+                - img [ref=e1604]
+              - generic [ref=e1607]: Showing total visitors for the last 6 months
+          - generic [ref=e1608]:
+            - generic [ref=e1609]:
+              - generic [ref=e1610]: Bar Chart - Mixed
+              - generic [ref=e1611]: January - June 2024
+            - application [ref=e1616]:
+              - generic [ref=e1619]:
+                - generic [ref=e1622]: Chrome
+                - generic [ref=e1625]: Safari
+                - generic [ref=e1628]: Firefox
+                - generic [ref=e1631]: Edge
+                - generic [ref=e1634]: Other
+            - generic [ref=e1648]:
+              - generic [ref=e1649]:
+                - text: Trending up by 5.2% this month
+                - img [ref=e1650]
+              - generic [ref=e1653]: Showing total visitors for the last 6 months
+          - generic [ref=e1655]:
+            - generic [ref=e1656]:
+              - generic [ref=e1657]: Line Chart - Multiple
+              - generic [ref=e1658]: January - June 2024
+            - application [ref=e1663]:
+              - generic [ref=e1668]:
+                - generic [ref=e1671]: Jan
+                - generic [ref=e1674]: Feb
+                - generic [ref=e1677]: Mar
+                - generic [ref=e1680]: Apr
+                - generic [ref=e1683]: May
+                - generic [ref=e1686]: Jun
+            - generic [ref=e1693]:
+              - generic [ref=e1694]:
+                - text: Trending up by 5.2% this month
+                - img [ref=e1695]
+              - generic [ref=e1698]: Showing total visitors for the last 6 months
+      - generic [ref=e1699]:
+        - generic [ref=e1701]: Checkbox
+        - generic [ref=e1703]:
+          - generic [ref=e1704]:
+            - checkbox "Accept terms and conditions" [ref=e1705]
+            - generic [ref=e1706]: Accept terms and conditions
+          - generic [ref=e1707]:
+            - checkbox "Accept terms and conditions" [checked] [ref=e1708]:
+              - generic:
+                - img
+            - generic [ref=e1709]:
+              - generic [ref=e1710]: Accept terms and conditions
+              - paragraph [ref=e1711]: By clicking this checkbox, you agree to the terms and conditions.
+          - generic [ref=e1712]:
+            - checkbox "Enable notifications" [disabled] [ref=e1713]
+            - generic [ref=e1714]: Enable notifications
+          - generic [ref=e1715]:
+            - checkbox "Enable notifications You can enable or disable notifications at any time." [checked] [ref=e1716]:
+              - generic:
+                - img
+            - generic [ref=e1717]:
+              - paragraph [ref=e1718]: Enable notifications
+              - paragraph [ref=e1719]: You can enable or disable notifications at any time.
+      - generic [ref=e1720]:
+        - generic [ref=e1722]: Collapsible
+        - generic [ref=e1724]:
+          - generic [ref=e1725]:
+            - heading "@peduarte starred 3 repositories" [level=4] [ref=e1726]
+            - button "Toggle" [ref=e1727]:
+              - img
+              - generic [ref=e1728]: Toggle
+          - generic [ref=e1729]: "@radix-ui/primitives"
+      - generic [ref=e1730]:
+        - generic [ref=e1732]: Combobox
+        - generic [ref=e1734]:
+          - combobox [ref=e1735]:
+            - text: Select framework...
+            - img
+          - combobox [ref=e1736]:
+            - generic [ref=e1737]:
+              - img [ref=e1739]
+              - text: shadcn
+            - img
+          - button "Americas (GMT-5) New York" [ref=e1740]:
+            - generic [ref=e1741]:
+              - generic [ref=e1742]: Americas
+              - generic [ref=e1743]: (GMT-5) New York
+            - img
+          - combobox [ref=e1744]:
+            - text: Select frameworks (multi-select)...
+            - img
+      - generic [ref=e1745]:
+        - generic [ref=e1747]: Command
+        - generic [ref=e1748]:
+          - paragraph [ref=e1749]:
+            - text: Press
+            - generic:
+              - generic: ⌘
+              - text: J
+          - generic [ref=e1750]:
+            - heading "Command Palette" [level=2] [ref=e1751]
+            - paragraph [ref=e1752]: Search for a command to run...
+      - generic [ref=e1753]:
+        - generic [ref=e1755]: Context Menu
+        - generic [ref=e1757]: Right click here
+      - generic [ref=e1758]:
+        - generic [ref=e1760]: Date Picker
+        - generic [ref=e1762]:
+          - button "Pick a date" [ref=e1763]:
+            - img
+            - generic [ref=e1764]: Pick a date
+          - button "Pick a date" [ref=e1765]:
+            - generic [ref=e1766]: Pick a date
+            - img
+          - button "Jan 20, 2025 - Feb 09, 2025" [ref=e1767]:
+            - img
+            - text: Jan 20, 2025 - Feb 09, 2025
+      - generic [ref=e1768]:
+        - generic [ref=e1770]: Dialog
+        - generic [ref=e1772]:
+          - button "Edit Profile" [ref=e1774]
+          - button "Scrollable Content" [ref=e1775]
+          - button "Sticky Footer" [ref=e1776]
+      - generic [ref=e1777]:
+        - generic [ref=e1779]: Drawer
+        - generic [ref=e1781]:
+          - button "Open Drawer" [ref=e1782]
+          - button "Scrollable Content" [ref=e1783]
+          - button "top" [ref=e1784]
+          - button "right" [ref=e1785]
+          - button "bottom" [ref=e1786]
+          - button "left" [ref=e1787]
+      - generic [ref=e1788]:
+        - generic [ref=e1790]: Dropdown Menu
+        - generic [ref=e1792]:
+          - button "Open" [ref=e1793]
+          - button "Checkboxes" [ref=e1794]
+          - button "Radio Group" [ref=e1795]
+          - button "Shadcn shadcn shadcn@example.com" [ref=e1796]:
+            - img "Shadcn" [ref=e1798]
+            - generic [ref=e1799]:
+              - generic [ref=e1800]: shadcn
+              - generic [ref=e1801]: shadcn@example.com
+            - img
+          - button "leerob" [ref=e1802]:
+            - img "leerob" [ref=e1804]
+          - button "Toggle menu" [ref=e1805]:
+            - img
+            - generic [ref=e1806]: Toggle menu
+      - generic [ref=e1807]:
+        - generic [ref=e1809]: Form
+        - generic [ref=e1811]:
+          - generic [ref=e1812]:
+            - generic [ref=e1813]: Username
+            - textbox "Username" [ref=e1814]
+            - paragraph [ref=e1815]: This is your public display name.
+          - generic [ref=e1816]:
+            - generic [ref=e1817]: Email
+            - combobox "Email" [ref=e1818]:
+              - generic: Select a verified email to display
+              - img
+            - combobox [ref=e1819]
+            - paragraph [ref=e1820]: You can manage email addresses in your email settings.
+          - generic [ref=e1821]:
+            - generic [ref=e1822]: Bio
+            - textbox "Bio" [ref=e1823]
+            - paragraph [ref=e1824]:
+              - text: You can
+              - generic [ref=e1825]: "@mention"
+              - text: other users and organizations.
+          - generic [ref=e1826]:
+            - generic [ref=e1827]: Notify me about...
+            - radiogroup [ref=e1828]:
+              - generic [ref=e1829]:
+                - radio "All new messages" [ref=e1830]
+                - radio
+                - generic [ref=e1831]: All new messages
+              - generic [ref=e1832]:
+                - radio "Direct messages and mentions" [ref=e1833]
+                - radio
+                - generic [ref=e1834]: Direct messages and mentions
+              - generic [ref=e1835]:
+                - radio "Nothing" [ref=e1836]
+                - radio
+                - generic [ref=e1837]: Nothing
+          - generic [ref=e1838]:
+            - checkbox "Use different settings for my mobile devices" [ref=e1839]
+            - checkbox
+            - generic [ref=e1840]:
+              - generic [ref=e1841]: Use different settings for my mobile devices
+              - paragraph [ref=e1842]: You can manage your mobile notifications in the mobile settings page.
+          - generic [ref=e1843]:
+            - generic [ref=e1844]:
+              - generic [ref=e1845]: Sidebar
+              - paragraph [ref=e1846]: Select the items you want to display in the sidebar.
+            - generic [ref=e1847]:
+              - generic [ref=e1848]:
+                - checkbox "Recents" [checked] [ref=e1849]:
+                  - generic:
+                    - img
+                - checkbox [checked]
+                - generic [ref=e1850]: Recents
+              - generic [ref=e1851]:
+                - checkbox "Home" [checked] [ref=e1852]:
+                  - generic:
+                    - img
+                - checkbox [checked]
+                - generic [ref=e1853]: Home
+              - generic [ref=e1854]:
+                - checkbox "Applications" [ref=e1855]
+                - checkbox
+                - generic [ref=e1856]: Applications
+              - generic [ref=e1857]:
+                - checkbox "Desktop" [ref=e1858]
+                - checkbox
+                - generic [ref=e1859]: Desktop
+              - generic [ref=e1860]:
+                - checkbox "Downloads" [ref=e1861]
+                - checkbox
+                - generic [ref=e1862]: Downloads
+              - generic [ref=e1863]:
+                - checkbox "Documents" [ref=e1864]
+                - checkbox
+                - generic [ref=e1865]: Documents
+          - generic [ref=e1866]:
+            - generic [ref=e1867]: Date of birth
+            - button "Date of birth" [ref=e1868]:
+              - generic [ref=e1869]: Pick a date
+              - img
+            - paragraph [ref=e1870]: Your date of birth is used to calculate your age.
+          - generic [ref=e1871]:
+            - heading "Email Notifications" [level=3] [ref=e1872]
+            - generic [ref=e1873]:
+              - generic [ref=e1874]:
+                - generic [ref=e1875]:
+                  - generic [ref=e1876]: Marketing emails
+                  - paragraph [ref=e1877]: Receive emails about new products, features, and more.
+                - switch "Marketing emails" [ref=e1878]
+                - checkbox
+              - generic [ref=e1879]:
+                - generic [ref=e1880]:
+                  - generic [ref=e1881]: Security emails
+                  - paragraph [ref=e1882]: Receive emails about your account security.
+                - switch "Security emails" [disabled] [ref=e1883]
+                - checkbox [disabled]
+          - button "Submit" [ref=e1884]
+      - generic [ref=e1885]:
+        - generic [ref=e1887]: Hover Card
+        - button "@nextjs" [ref=e1889]
+      - generic [ref=e1890]:
+        - generic [ref=e1892]: Input
+        - generic [ref=e1894]:
+          - textbox "Email" [ref=e1895]
+          - textbox "Error" [ref=e1896]
+          - textbox "Password" [ref=e1897]
+          - spinbutton [ref=e1898]
+          - button "Choose File" [ref=e1899]
+          - textbox "Tel" [ref=e1900]
+          - textbox "Text" [ref=e1901]
+          - textbox "URL" [ref=e1902]
+          - searchbox "Search" [ref=e1903]
+          - textbox "Date" [ref=e1904]
+          - textbox "Datetime Local" [ref=e1905]
+          - textbox [ref=e1906]
+          - textbox "Time" [ref=e1907]
+          - textbox [ref=e1908]
+          - textbox "Disabled" [disabled]
+      - generic [ref=e1909]:
+        - generic [ref=e1911]: Input Otp
+        - generic [ref=e1913]:
+          - generic [ref=e1914]:
+            - generic [ref=e1915]: Simple
+            - generic:
+              - separator:
+                - img
+              - textbox "Simple" [ref=e1916]
+          - generic [ref=e1917]:
+            - generic [ref=e1918]: Digits Only
+            - textbox "Digits Only" [ref=e1919]
+          - generic [ref=e1920]:
+            - generic [ref=e1921]: With Separator
+            - generic:
+              - generic:
+                - generic: "1"
+                - generic: "2"
+              - separator:
+                - img
+              - generic:
+                - generic: "3"
+                - generic: "4"
+              - separator:
+                - img
+              - generic:
+                - generic: "5"
+                - generic: "6"
+              - textbox "With Separator" [ref=e1922]: "123456"
+          - generic [ref=e1923]:
+            - generic [ref=e1924]: With Spacing
+            - textbox "With Spacing" [ref=e1925]
+      - generic [ref=e1926]:
+        - generic [ref=e1928]: Label
+        - generic [ref=e1930]:
+          - generic [ref=e1931]:
+            - checkbox "Accept terms and conditions" [ref=e1932]
+            - generic [ref=e1933]: Accept terms and conditions
+          - generic [ref=e1934]:
+            - generic [ref=e1935]: Username
+            - textbox "Username" [ref=e1936]
+          - generic [ref=e1937]:
+            - generic: Disabled
+            - textbox "Disabled" [disabled]
+          - generic [ref=e1938]:
+            - generic [ref=e1939]: Message
+            - textbox "Message" [ref=e1940]
+      - generic [ref=e1941]:
+        - generic [ref=e1943]: Menubar
+        - menubar [ref=e1945]:
+          - menuitem "File" [ref=e1946]
+          - menuitem "Edit" [ref=e1947]
+          - menuitem "View" [ref=e1948]
+          - menuitem "Profiles" [ref=e1949]
+          - menuitem "More" [ref=e1950]
+      - generic [ref=e1953]: Navigation Menu
+      - generic [ref=e1955]:
+        - generic [ref=e1957]: Pagination
+        - navigation "pagination" [ref=e1960]:
+          - list [ref=e1961]:
+            - listitem [ref=e1962]:
+              - link "Go to previous page" [ref=e1963]:
+                - /url: "#"
+                - img
+            - listitem [ref=e1964]:
+              - link "1" [ref=e1965]:
+                - /url: "#"
+            - listitem [ref=e1966]:
+              - link "2" [ref=e1967]:
+                - /url: "#"
+            - listitem [ref=e1968]:
+              - link "3" [ref=e1969]:
+                - /url: "#"
+            - listitem [ref=e1970]:
+              - generic [ref=e1971]:
+                - img [ref=e1972]
+                - generic [ref=e1976]: More pages
+            - listitem [ref=e1977]:
+              - link "Go to next page" [ref=e1978]:
+                - /url: "#"
+                - img
+      - generic [ref=e1979]:
+        - generic [ref=e1981]: Popover
+        - button "Open popover" [ref=e1983]
+      - generic [ref=e1984]:
+        - generic [ref=e1986]: Progress
+        - progressbar [ref=e1988]
+      - generic [ref=e1990]:
+        - generic [ref=e1992]: Radio Group
+        - generic [ref=e1994]:
+          - radiogroup [ref=e1995]:
+            - generic [ref=e1996]:
+              - radio "Default" [ref=e1997]
+              - generic [ref=e1998]: Default
+            - generic [ref=e1999]:
+              - radio "Comfortable" [checked] [ref=e2000]:
+                - img [ref=e2001]
+              - generic [ref=e2003]: Comfortable
+            - generic [ref=e2004]:
+              - radio "Compact" [ref=e2005]
+              - generic [ref=e2006]: Compact
+          - radiogroup [ref=e2007]:
+            - generic [ref=e2008]:
+              - radio "Starter Plan Perfect for small businesses getting started with our platform" [checked] [ref=e2009]:
+                - img [ref=e2010]
+              - generic [ref=e2012]:
+                - generic [ref=e2013]: Starter Plan
+                - generic [ref=e2014]: Perfect for small businesses getting started with our platform
+            - generic [ref=e2015]:
+              - radio "Pro Plan Advanced features for growing businesses with higher demands" [ref=e2016]
+              - generic [ref=e2017]:
+                - generic [ref=e2018]: Pro Plan
+                - generic [ref=e2019]: Advanced features for growing businesses with higher demands
+      - generic [ref=e2020]:
+        - generic [ref=e2022]: Resizable
+        - generic [ref=e2024]:
+          - generic [ref=e2025]:
+            - generic [ref=e2028]: One
+            - separator [ref=e2029]
+            - generic [ref=e2031]:
+              - generic [ref=e2034]: Two
+              - separator [ref=e2035]
+              - generic [ref=e2038]: Three
+          - generic [ref=e2039]:
+            - generic [ref=e2042]: Sidebar
+            - separator [ref=e2043]:
+              - img [ref=e2045]
+            - generic [ref=e2054]: Content
+          - generic [ref=e2055]:
+            - generic [ref=e2058]: Header
+            - separator [ref=e2059]
+            - generic [ref=e2062]: Content
+      - generic [ref=e2063]:
+        - generic [ref=e2065]: Scroll Area
+        - generic [ref=e2067]:
+          - generic [ref=e2072]:
+            - heading "Tags" [level=4] [ref=e2073]
+            - generic [ref=e2074]: v1.2.0-beta.50
+            - generic [ref=e2075]: v1.2.0-beta.49
+            - generic [ref=e2076]: v1.2.0-beta.48
+            - generic [ref=e2077]: v1.2.0-beta.47
+            - generic [ref=e2078]: v1.2.0-beta.46
+            - generic [ref=e2079]: v1.2.0-beta.45
+            - generic [ref=e2080]: v1.2.0-beta.44
+            - generic [ref=e2081]: v1.2.0-beta.43
+            - generic [ref=e2082]: v1.2.0-beta.42
+            - generic [ref=e2083]: v1.2.0-beta.41
+            - generic [ref=e2084]: v1.2.0-beta.40
+            - generic [ref=e2085]: v1.2.0-beta.39
+            - generic [ref=e2086]: v1.2.0-beta.38
+            - generic [ref=e2087]: v1.2.0-beta.37
+            - generic [ref=e2088]: v1.2.0-beta.36
+            - generic [ref=e2089]: v1.2.0-beta.35
+            - generic [ref=e2090]: v1.2.0-beta.34
+            - generic [ref=e2091]: v1.2.0-beta.33
+            - generic [ref=e2092]: v1.2.0-beta.32
+            - generic [ref=e2093]: v1.2.0-beta.31
+            - generic [ref=e2094]: v1.2.0-beta.30
+            - generic [ref=e2095]: v1.2.0-beta.29
+            - generic [ref=e2096]: v1.2.0-beta.28
+            - generic [ref=e2097]: v1.2.0-beta.27
+            - generic [ref=e2098]: v1.2.0-beta.26
+            - generic [ref=e2099]: v1.2.0-beta.25
+            - generic [ref=e2100]: v1.2.0-beta.24
+            - generic [ref=e2101]: v1.2.0-beta.23
+            - generic [ref=e2102]: v1.2.0-beta.22
+            - generic [ref=e2103]: v1.2.0-beta.21
+            - generic [ref=e2104]: v1.2.0-beta.20
+            - generic [ref=e2105]: v1.2.0-beta.19
+            - generic [ref=e2106]: v1.2.0-beta.18
+            - generic [ref=e2107]: v1.2.0-beta.17
+            - generic [ref=e2108]: v1.2.0-beta.16
+            - generic [ref=e2109]: v1.2.0-beta.15
+            - generic [ref=e2110]: v1.2.0-beta.14
+            - generic [ref=e2111]: v1.2.0-beta.13
+            - generic [ref=e2112]: v1.2.0-beta.12
+            - generic [ref=e2113]: v1.2.0-beta.11
+            - generic [ref=e2114]: v1.2.0-beta.10
+            - generic [ref=e2115]: v1.2.0-beta.9
+            - generic [ref=e2116]: v1.2.0-beta.8
+            - generic [ref=e2117]: v1.2.0-beta.7
+            - generic [ref=e2118]: v1.2.0-beta.6
+            - generic [ref=e2119]: v1.2.0-beta.5
+            - generic [ref=e2120]: v1.2.0-beta.4
+            - generic [ref=e2121]: v1.2.0-beta.3
+            - generic [ref=e2122]: v1.2.0-beta.2
+            - generic [ref=e2123]: v1.2.0-beta.1
+          - generic [ref=e2127]:
+            - figure "Photo by Ornella Binni" [ref=e2128]:
+              - generic:
+                - img "Photo by Ornella Binni"
+              - generic [ref=e2129]:
+                - text: Photo by
+                - generic [ref=e2130]: Ornella Binni
+            - figure "Photo by Tom Byrom" [ref=e2131]:
+              - generic:
+                - img "Photo by Tom Byrom"
+              - generic [ref=e2132]:
+                - text: Photo by
+                - generic [ref=e2133]: Tom Byrom
+            - figure "Photo by Vladimir Malyav" [ref=e2134]:
+              - generic:
+                - img "Photo by Vladimir Malyav"
+              - generic [ref=e2135]:
+                - text: Photo by
+                - generic [ref=e2136]: Vladimir Malyav
+      - generic [ref=e2137]:
+        - generic [ref=e2139]: Select
+        - generic [ref=e2141]:
+          - combobox [ref=e2142]:
+            - generic: Select a fruit
+            - img
+          - combobox [ref=e2143]:
+            - generic: Large List
+            - img
+          - combobox [disabled] [ref=e2144]:
+            - generic: Disabled
+            - img
+          - combobox [ref=e2145]:
+            - generic:
+              - img
+              - text: With Icon
+            - img
+      - generic [ref=e2146]:
+        - generic [ref=e2148]: Separator
+        - generic [ref=e2150]:
+          - generic [ref=e2151]:
+            - generic [ref=e2152]: Tailwind CSS
+            - generic [ref=e2153]: A utility-first CSS framework.
+          - generic [ref=e2154]:
+            - generic [ref=e2155]: Blog
+            - generic [ref=e2156]: Docs
+            - generic [ref=e2157]: Source
+      - generic [ref=e2158]:
+        - generic [ref=e2160]: Sheet
+        - generic [ref=e2162]:
+          - button "Open" [ref=e2163]
+          - generic [ref=e2164]:
+            - button "top" [ref=e2165]
+            - button "right" [ref=e2166]
+            - button "bottom" [ref=e2167]
+            - button "left" [ref=e2168]
+      - generic [ref=e2171]: Skeleton
+      - generic [ref=e2198]:
+        - generic [ref=e2200]: Slider
+        - generic [ref=e2202]:
+          - slider [ref=e2207]
+          - generic [ref=e2208]:
+            - slider "Minimum" [ref=e2212]
+            - slider "Maximum" [ref=e2214]
+          - generic [ref=e2215]:
+            - slider "Minimum" [ref=e2219]
+            - slider "Maximum" [ref=e2221]
+          - generic [ref=e2222]:
+            - slider [ref=e2227]
+            - slider [ref=e2232]
+          - generic [ref=e2233]:
+            - generic [ref=e2234]:
+              - generic [ref=e2235]: Temperature
+              - generic [ref=e2236]: 0.3, 0.7
+            - generic [ref=e2237]:
+              - slider "Minimum" [ref=e2241]
+              - slider "Maximum" [ref=e2243]
+      - generic [ref=e2244]:
+        - generic [ref=e2246]: Sonner
+        - generic [ref=e2248]:
+          - button "Give me a toast" [ref=e2249]
+          - button "Show Toast" [ref=e2250]
+          - button "Default" [ref=e2251]
+          - button "Description" [ref=e2252]
+          - button "Success" [ref=e2253]
+          - button "Info" [ref=e2254]
+          - button "Warning" [ref=e2255]
+          - button "Error" [ref=e2256]
+          - button "Action" [ref=e2257]
+          - button "Cancel" [ref=e2258]
+          - button "Promise" [ref=e2259]
+      - generic [ref=e2260]:
+        - generic [ref=e2262]: Switch
+        - generic [ref=e2264]:
+          - generic [ref=e2265]:
+            - switch "Airplane Mode" [ref=e2266]
+            - generic [ref=e2267]: Airplane Mode
+          - generic [ref=e2268]:
+            - switch "Bluetooth" [checked] [ref=e2269]
+            - generic [ref=e2270]: Bluetooth
+          - generic [ref=e2271]:
+            - generic [ref=e2272]:
+              - generic [ref=e2273]: Share across devices
+              - generic [ref=e2274]: Focus is shared across devices, and turns off when you leave the app.
+            - switch "Share across devices Focus is shared across devices, and turns off when you leave the app." [ref=e2275]
+      - generic [ref=e2276]:
+        - generic [ref=e2278]: Table
+        - table "A list of your recent invoices." [ref=e2281]:
+          - caption [ref=e2282]: A list of your recent invoices.
+          - rowgroup [ref=e2283]:
+            - row "Invoice Status Method Amount" [ref=e2284]:
+              - cell "Invoice" [ref=e2285]
+              - cell "Status" [ref=e2286]
+              - cell "Method" [ref=e2287]
+              - cell "Amount" [ref=e2288]
+          - rowgroup [ref=e2289]:
+            - row "INV001 Paid Credit Card $250.00" [ref=e2290]:
+              - cell "INV001" [ref=e2291]
+              - cell "Paid" [ref=e2292]
+              - cell "Credit Card" [ref=e2293]
+              - cell "$250.00" [ref=e2294]
+            - row "INV002 Pending PayPal $150.00" [ref=e2295]:
+              - cell "INV002" [ref=e2296]
+              - cell "Pending" [ref=e2297]
+              - cell "PayPal" [ref=e2298]
+              - cell "$150.00" [ref=e2299]
+            - row "INV003 Unpaid Bank Transfer $350.00" [ref=e2300]:
+              - cell "INV003" [ref=e2301]
+              - cell "Unpaid" [ref=e2302]
+              - cell "Bank Transfer" [ref=e2303]
+              - cell "$350.00" [ref=e2304]
+            - row "INV004 Paid Credit Card $450.00" [ref=e2305]:
+              - cell "INV004" [ref=e2306]
+              - cell "Paid" [ref=e2307]
+              - cell "Credit Card" [ref=e2308]
+              - cell "$450.00" [ref=e2309]
+            - row "INV005 Paid PayPal $550.00" [ref=e2310]:
+              - cell "INV005" [ref=e2311]
+              - cell "Paid" [ref=e2312]
+              - cell "PayPal" [ref=e2313]
+              - cell "$550.00" [ref=e2314]
+            - row "INV006 Pending Bank Transfer $200.00" [ref=e2315]:
+              - cell "INV006" [ref=e2316]
+              - cell "Pending" [ref=e2317]
+              - cell "Bank Transfer" [ref=e2318]
+              - cell "$200.00" [ref=e2319]
+            - row "INV007 Unpaid Credit Card $300.00" [ref=e2320]:
+              - cell "INV007" [ref=e2321]
+              - cell "Unpaid" [ref=e2322]
+              - cell "Credit Card" [ref=e2323]
+              - cell "$300.00" [ref=e2324]
+          - rowgroup [ref=e2325]:
+            - row "Total $2,500.00" [ref=e2326]:
+              - cell "Total" [ref=e2327]
+              - cell "$2,500.00" [ref=e2328]
+      - generic [ref=e2329]:
+        - generic [ref=e2331]: Tabs
+        - generic [ref=e2333]:
+          - generic [ref=e2334]:
+            - tablist [ref=e2335]:
+              - tab "Account" [selected] [ref=e2336]
+              - tab "Password" [ref=e2337]
+            - tabpanel "Account" [ref=e2338]:
+              - generic [ref=e2339]:
+                - generic [ref=e2340]:
+                  - generic [ref=e2341]: Account
+                  - generic [ref=e2342]: Make changes to your account here. Click save when you're done.
+                - generic [ref=e2343]:
+                  - generic [ref=e2344]:
+                    - generic [ref=e2345]: Name
+                    - textbox "Name" [ref=e2346]: Pedro Duarte
+                  - generic [ref=e2347]:
+                    - generic [ref=e2348]: Username
+                    - textbox "Username" [ref=e2349]: "@peduarte"
+                - button "Save changes" [ref=e2351]
+          - tablist [ref=e2353]:
+            - tab "Home" [selected] [ref=e2354]
+            - tab "Settings" [ref=e2355]
+          - tablist [ref=e2357]:
+            - tab "Home" [selected] [ref=e2358]
+            - tab "Disabled" [disabled]
+          - tablist [ref=e2360]:
+            - tab "Preview" [selected] [ref=e2361]:
+              - img
+              - text: Preview
+            - tab "Code" [ref=e2362]:
+              - img
+              - text: Code
+      - generic [ref=e2363]:
+        - generic [ref=e2365]: Textarea
+        - generic [ref=e2367]:
+          - textbox "Type your message here." [ref=e2368]
+          - textbox "Type your message here." [ref=e2369]
+          - generic [ref=e2370]:
+            - generic [ref=e2371]: Label
+            - textbox "Label" [ref=e2372]
+          - generic [ref=e2373]:
+            - generic [ref=e2374]: With label and description
+            - textbox "With label and description" [ref=e2375]
+            - generic [ref=e2376]: Type your message and press enter to send.
+          - generic [ref=e2377]:
+            - generic [ref=e2378]: Disabled
+            - textbox "Disabled" [disabled] [ref=e2379]
+      - generic [ref=e2380]:
+        - generic [ref=e2382]: Toggle
+        - generic [ref=e2384]:
+          - button "Toggle italic" [ref=e2385]:
+            - img
+          - button "Toggle italic" [ref=e2386]:
+            - img
+          - button "Toggle italic" [disabled]: Disabled
+          - button "Toggle italic" [ref=e2387]:
+            - img
+            - text: Italic
+          - button "Toggle book" [ref=e2388]:
+            - img
+          - button "Toggle italic" [ref=e2389]: Small
+          - button "Toggle italic" [ref=e2390]: Large
+      - generic [ref=e2391]:
+        - generic [ref=e2393]: Toggle Group
+        - generic [ref=e2395]:
+          - group [ref=e2396]:
+            - button "Toggle bold" [ref=e2397]:
+              - img
+            - button "Toggle italic" [ref=e2398]:
+              - img
+            - button "Toggle strikethrough" [ref=e2399]:
+              - img
+          - group [ref=e2400]:
+            - radio "Toggle all" [checked] [ref=e2401]: All
+            - radio "Toggle missed" [ref=e2402]: Missed
+          - group [ref=e2403]:
+            - radio "Toggle last 24 hours" [checked] [ref=e2404]: Last 24 hours
+            - radio "Toggle last 7 days" [ref=e2405]: Last 7 days
+          - group [ref=e2406]:
+            - radio "Toggle last 24 hours" [checked] [ref=e2407]: Last 24 hours
+            - radio "Toggle last 7 days" [ref=e2408]: Last 7 days
+      - generic [ref=e2409]:
+        - generic [ref=e2411]: Tooltip
+        - generic [ref=e2413]:
+          - button "Hover" [ref=e2414]
+          - generic [ref=e2415]:
+            - button "top" [ref=e2416]
+            - button "right" [ref=e2417]
+            - button "bottom" [ref=e2418]
+            - button "left" [ref=e2419]
+          - button "Info" [ref=e2420]:
+            - img
+            - generic [ref=e2421]: Info
+  - region "Notifications alt+T"
+  - alert [ref=e2422]
+  - generic [ref=e2428] [cursor=pointer]:
+    - button "Open issues overlay" [ref=e2429] [cursor=pointer]:
+      - img [ref=e2431] [cursor=pointer]
+      - generic [ref=e2433] [cursor=pointer]:
+        - generic [ref=e2434] [cursor=pointer]: "0"
+        - generic [ref=e2435] [cursor=pointer]: "1"
+      - generic [ref=e2436] [cursor=pointer]: Issue
+    - button "Collapse issues badge" [ref=e2437] [cursor=pointer]:
+      - img [ref=e2438] [cursor=pointer]
+  - generic [ref=e2440]: Chrome
+```
