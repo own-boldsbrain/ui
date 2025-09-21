@@ -31,11 +31,11 @@ Barra de ferramentas vertical com tooltips e animações de hover.
 
 ```tsx
 const tools: Tool[] = [
-  { 
-    id: "suggest-edits", 
-    label: "Sugerir edições", 
-    icon: Wand2, 
-    onClick: () => handleToolClick("suggest-edits") 
+  {
+    id: "suggest-edits",
+    label: "Sugerir edições",
+    icon: Wand2,
+    onClick: () => handleToolClick("suggest-edits")
   },
   // mais ferramentas...
 ]
@@ -48,10 +48,10 @@ const tools: Tool[] = [
 Menu de atalhos no estilo palette de comandos.
 
 ```tsx
-<ShortcutMenu 
-  open={showMenu} 
-  onOpenChange={setShowMenu} 
-  onAction={(id) => handleAction(id)} 
+<ShortcutMenu
+  open={showMenu}
+  onOpenChange={setShowMenu}
+  onAction={(id) => handleAction(id)}
 />
 ```
 
@@ -114,13 +114,13 @@ const versions = [
 1. Importe os componentes:
 
 ```tsx
-import { 
-  CanvasShell, 
-  VerticalToolbar, 
+import {
+  CanvasShell,
+  VerticalToolbar,
   ShortcutMenu,
   InlineSuggestion,
   InlineCommentThread,
-  VersionHistoryTimeline 
+  VersionHistoryTimeline
 } from "@/components/canvas"
 ```
 

@@ -3,26 +3,71 @@
 import { CanvasShell } from "@/components/canvas/CanvasShell"
 import { InlineCommentThread } from "@/components/canvas/InlineCommentThread"
 import { InlineSuggestion } from "@/components/canvas/InlineSuggestion"
-import { ShortcutMenu, ShortcutMenuAction } from "@/components/canvas/ShortcutMenu"
-import { VerticalToolbar, Tool, ToolId } from "@/components/canvas/VerticalToolbar"
-import { Version, VersionHistoryTimeline } from "@/components/canvas/VersionHistoryTimeline"
+import {
+  ShortcutMenu,
+  ShortcutMenuAction,
+} from "@/components/canvas/ShortcutMenu"
+import {
+  VerticalToolbar,
+  Tool,
+  ToolId,
+} from "@/components/canvas/VerticalToolbar"
+import {
+  Version,
+  VersionHistoryTimeline,
+} from "@/components/canvas/VersionHistoryTimeline"
 import { Button } from "@/registry/new-york-v4/ui/button"
 import { Separator } from "@/registry/new-york-v4/ui/separator"
-import { PanelRightIcon, CornerDownLeftIcon, Wand2, AlignLeft, FileCode2, Bug, Languages } from "lucide-react"
+import {
+  PanelRightIcon,
+  CornerDownLeftIcon,
+  Wand2,
+  AlignLeft,
+  FileCode2,
+  Bug,
+  Languages,
+} from "lucide-react"
 import { useState } from "react"
 
 export default function CanvasExamplePage() {
   const [showShortcutMenu, setShowShortcutMenu] = useState(false)
   const [showRightPanel, setShowRightPanel] = useState(false)
-  const [activeToolId, setActiveToolId] = useState<ToolId | undefined>(undefined)
+  const [activeToolId, setActiveToolId] = useState<ToolId | undefined>(
+    undefined
+  )
 
   // Ferramentas de exemplo para a barra vertical
   const tools: Tool[] = [
-    { id: "suggest-edits", label: "Sugerir edições", icon: Wand2, onClick: () => setActiveToolId("suggest-edits") },
-    { id: "adjust-length-shorter", label: "Encurtar texto", icon: AlignLeft, onClick: () => setActiveToolId("adjust-length-shorter") },
-    { id: "review-code", label: "Revisar código", icon: FileCode2, onClick: () => setActiveToolId("review-code") },
-    { id: "fix-bugs", label: "Corrigir bugs", icon: Bug, onClick: () => setActiveToolId("fix-bugs") },
-    { id: "port-language", label: "Portar linguagem", icon: Languages, onClick: () => setActiveToolId("port-language") },
+    {
+      id: "suggest-edits",
+      label: "Sugerir edições",
+      icon: Wand2,
+      onClick: () => setActiveToolId("suggest-edits"),
+    },
+    {
+      id: "adjust-length-shorter",
+      label: "Encurtar texto",
+      icon: AlignLeft,
+      onClick: () => setActiveToolId("adjust-length-shorter"),
+    },
+    {
+      id: "review-code",
+      label: "Revisar código",
+      icon: FileCode2,
+      onClick: () => setActiveToolId("review-code"),
+    },
+    {
+      id: "fix-bugs",
+      label: "Corrigir bugs",
+      icon: Bug,
+      onClick: () => setActiveToolId("fix-bugs"),
+    },
+    {
+      id: "port-language",
+      label: "Portar linguagem",
+      icon: Languages,
+      onClick: () => setActiveToolId("port-language"),
+    },
   ]
 
   // Comentários de exemplo
@@ -75,10 +120,10 @@ export default function CanvasExamplePage() {
       onOpenVersions={() => setShowRightPanel(true)}
       right={
         showRightPanel ? (
-          <div className="p-4 space-y-6">
+          <div className="space-y-6 p-4">
             <div>
-              <h3 className="text-lg font-medium mb-2">Comentários</h3>
-              <InlineCommentThread 
+              <h3 className="mb-2 text-lg font-medium">Comentários</h3>
+              <InlineCommentThread
                 comments={comments}
                 onReply={(text) => {
                   console.log("Enviando resposta:", text)
@@ -87,8 +132,8 @@ export default function CanvasExamplePage() {
             </div>
             <Separator />
             <div>
-              <h3 className="text-lg font-medium mb-2">Histórico de Versões</h3>
-              <VersionHistoryTimeline 
+              <h3 className="mb-2 text-lg font-medium">Histórico de Versões</h3>
+              <VersionHistoryTimeline
                 versions={versions}
                 onRestore={(id) => {
                   console.log("Restaurando versão:", id)
@@ -99,15 +144,17 @@ export default function CanvasExamplePage() {
         ) : null
       }
     >
-      <div className="p-8 space-y-8">
-        <h1 className="text-3xl font-bold">Demonstração dos Componentes Canvas</h1>
-        <p className="text-lg text-muted-foreground">
-          Esta página demonstra os componentes Canvas-like para Next.js 15 com Radix (via shadcn/ui),
-          Framer Motion, Lucide Icons e Geist Fonts.
+      <div className="space-y-8 p-8">
+        <h1 className="text-3xl font-bold">
+          Demonstração dos Componentes Canvas
+        </h1>
+        <p className="text-muted-foreground text-lg">
+          Esta página demonstra os componentes Canvas-like para Next.js 15 com
+          Radix (via shadcn/ui), Framer Motion, Lucide Icons e Geist Fonts.
         </p>
 
-        <div className="p-4 border rounded-lg">
-          <h2 className="text-xl font-semibold mb-4">Sugestão Inline</h2>
+        <div className="rounded-lg border p-4">
+          <h2 className="mb-4 text-xl font-semibold">Sugestão Inline</h2>
           <InlineSuggestion
             text="Este texto será substituído pela sugestão."
             suggestion="Este é o novo texto sugerido pelo assistente."
@@ -116,52 +163,55 @@ export default function CanvasExamplePage() {
           />
         </div>
 
-        <div className="p-4 border rounded-lg">
-          <h2 className="text-xl font-semibold mb-4">Barra de Ferramentas Vertical</h2>
+        <div className="rounded-lg border p-4">
+          <h2 className="mb-4 text-xl font-semibold">
+            Barra de Ferramentas Vertical
+          </h2>
           <p>
-            A barra de ferramentas vertical está visível no lado esquerdo da tela.
-            Passe o mouse sobre os ícones para ver os tooltips.
+            A barra de ferramentas vertical está visível no lado esquerdo da
+            tela. Passe o mouse sobre os ícones para ver os tooltips.
           </p>
         </div>
 
-        <div className="p-4 border rounded-lg">
-          <h2 className="text-xl font-semibold mb-4">Menu de Atalhos</h2>
+        <div className="rounded-lg border p-4">
+          <h2 className="mb-4 text-xl font-semibold">Menu de Atalhos</h2>
           <p>
-            Clique no botão abaixo para abrir o menu de atalhos,
-            ou pressione <kbd className="px-2 py-1 border rounded">Ctrl</kbd>+<kbd className="px-2 py-1 border rounded">K</kbd>.
+            Clique no botão abaixo para abrir o menu de atalhos, ou pressione{" "}
+            <kbd className="rounded border px-2 py-1">Ctrl</kbd>+
+            <kbd className="rounded border px-2 py-1">K</kbd>.
           </p>
-          <Button 
-            variant="outline" 
-            className="mt-2" 
+          <Button
+            variant="outline"
+            className="mt-2"
             onClick={() => setShowShortcutMenu(true)}
           >
-            <CornerDownLeftIcon className="h-4 w-4 mr-2" />
+            <CornerDownLeftIcon className="mr-2 h-4 w-4" />
             Abrir Menu de Atalhos
           </Button>
         </div>
 
-        <div className="p-4 border rounded-lg">
-          <h2 className="text-xl font-semibold mb-4">Painel Lateral</h2>
+        <div className="rounded-lg border p-4">
+          <h2 className="mb-4 text-xl font-semibold">Painel Lateral</h2>
           <p>
             Clique no botão "Versões" no cabeçalho para mostrar o painel lateral
             com comentários e histórico de versões.
           </p>
-          <Button 
-            variant="outline" 
-            className="mt-2" 
+          <Button
+            variant="outline"
+            className="mt-2"
             onClick={() => setShowRightPanel(!showRightPanel)}
           >
-            <PanelRightIcon className="h-4 w-4 mr-2" />
+            <PanelRightIcon className="mr-2 h-4 w-4" />
             {showRightPanel ? "Fechar Painel" : "Abrir Painel"}
           </Button>
         </div>
       </div>
 
       {/* Menu de atalhos */}
-      <ShortcutMenu 
-        open={showShortcutMenu} 
-        onOpenChange={setShowShortcutMenu} 
-        onAction={handleShortcutAction} 
+      <ShortcutMenu
+        open={showShortcutMenu}
+        onOpenChange={setShowShortcutMenu}
+        onAction={handleShortcutAction}
       />
     </CanvasShell>
   )

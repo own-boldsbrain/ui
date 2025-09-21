@@ -7,11 +7,11 @@ export type ShortcutMenuAction =
   | "reading-level" | "final-polish" | "add-emojis"
   | "review-code" | "add-logs" | "add-comments" | "fix-bugs" | "port-language"
 
-export function ShortcutMenu({ 
+export function ShortcutMenu({
   onAction,
   open,
-  onOpenChange 
-}: { 
+  onOpenChange,
+}: {
   onAction: (id: ShortcutMenuAction) => void
   open?: boolean
   onOpenChange?: (open: boolean) => void
@@ -23,19 +23,41 @@ export function ShortcutMenu({
         <CommandList>
           <CommandEmpty>Nada encontrado.</CommandEmpty>
           <CommandGroup heading="Escrita">
-            <CommandItem onSelect={() => onAction("suggest-edits")}>Sugerir edições</CommandItem>
-            <CommandItem onSelect={() => onAction("adjust-length-shorter")}>Encurtar texto</CommandItem>
-            <CommandItem onSelect={() => onAction("adjust-length-longer")}>Alongar texto</CommandItem>
-            <CommandItem onSelect={() => onAction("reading-level")}>Alterar nível de leitura</CommandItem>
-            <CommandItem onSelect={() => onAction("final-polish")}>Ajustes finais</CommandItem>
-            <CommandItem onSelect={() => onAction("add-emojis")}>Adicionar emojis</CommandItem>
+            <CommandItem onSelect={() => onAction("suggest-edits")}>
+              Sugerir edições
+            </CommandItem>
+            <CommandItem onSelect={() => onAction("adjust-length-shorter")}>
+              Encurtar texto
+            </CommandItem>
+            <CommandItem onSelect={() => onAction("adjust-length-longer")}>
+              Alongar texto
+            </CommandItem>
+            <CommandItem onSelect={() => onAction("reading-level")}>
+              Alterar nível de leitura
+            </CommandItem>
+            <CommandItem onSelect={() => onAction("final-polish")}>
+              Ajustes finais
+            </CommandItem>
+            <CommandItem onSelect={() => onAction("add-emojis")}>
+              Adicionar emojis
+            </CommandItem>
           </CommandGroup>
           <CommandGroup heading="Código">
-            <CommandItem onSelect={() => onAction("review-code")}>Revisar código</CommandItem>
-            <CommandItem onSelect={() => onAction("add-logs")}>Adicionar logs</CommandItem>
-            <CommandItem onSelect={() => onAction("add-comments")}>Adicionar comentários</CommandItem>
-            <CommandItem onSelect={() => onAction("fix-bugs")}>Corrigir bugs</CommandItem>
-            <CommandItem onSelect={() => onAction("port-language")}>Portar linguagem</CommandItem>
+            <CommandItem onSelect={() => onAction("review-code")}>
+              Revisar código
+            </CommandItem>
+            <CommandItem onSelect={() => onAction("add-logs")}>
+              Adicionar logs
+            </CommandItem>
+            <CommandItem onSelect={() => onAction("add-comments")}>
+              Adicionar comentários
+            </CommandItem>
+            <CommandItem onSelect={() => onAction("fix-bugs")}>
+              Corrigir bugs
+            </CommandItem>
+            <CommandItem onSelect={() => onAction("port-language")}>
+              Portar linguagem
+            </CommandItem>
           </CommandGroup>
         </CommandList>
       </Command>
