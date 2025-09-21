@@ -332,3 +332,27 @@
     --sidebar-ring: var(--color-violet-900);
   }
 }
+
+.theme-ysh .theme-container {
+  /* Utiliza as variáveis do tema YSH definidas em ysh-theme.css */
+  --primary: var(--ysh-primary);
+  --primary-foreground: var(--ysh-primary-foreground);
+  --ring: var(--ysh-accent);
+  --chart-1: var(--ysh-accent-light);
+  --chart-2: var(--ysh-accent);
+  --chart-3: var(--ysh-accent-dark);
+  --chart-4: var(--ysh-accent-darker);
+  --chart-5: var(--ysh-accent-darkest);
+  --sidebar-primary: var(--ysh-primary);
+  --sidebar-primary-foreground: var(--ysh-primary-foreground);
+  --sidebar-ring: var(--ysh-accent);
+
+  @variant dark {
+    --primary: var(--ysh-primary-dark);
+    --primary-foreground: var(--ysh-primary-foreground-dark);
+    --ring: var(--ysh-accent-dark);
+    --sidebar-primary: var(--ysh-primary-dark);
+    --sidebar-primary-foreground: var(--ysh-primary-foreground-dark);
+    --sidebar-ring: var(--ysh-accent-dark);
+  }
+}

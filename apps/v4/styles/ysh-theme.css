@@ -20,6 +20,19 @@
   --ysh-gold:  #FAB013;
   --ysh-cream: #F9DFCA;
 
+  /* Variáveis para integração com o sistema de temas */
+  --ysh-primary: var(--ysh-pink);
+  --ysh-primary-foreground: white;
+  --ysh-accent: var(--ysh-orange);
+  --ysh-accent-light: var(--ysh-cream);
+  --ysh-accent-dark: var(--ysh-amber);
+  --ysh-accent-darker: var(--ysh-orange);
+  --ysh-accent-darkest: var(--ysh-pink);
+
+  /* Variáveis para modo escuro */
+  --ysh-primary-dark: var(--ysh-gold);
+  --ysh-primary-foreground-dark: black;
+
   /* Gradients */
   --ysh-linear: linear-gradient(135deg,
       var(--ysh-pink) 0%,

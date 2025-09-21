@@ -27,5 +27,9 @@ export const THEMES = [
     name: "Scaled",
     value: "scaled",
   },
+  {
+    name: "YSH",
+    value: "ysh",
+  },
 ]
 export type Theme = (typeof THEMES)[number]
