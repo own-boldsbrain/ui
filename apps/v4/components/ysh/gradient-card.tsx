@@ -6,13 +6,25 @@ export function GradientCard({
   title,
   children,
   className,
-}: { title: string; children: React.ReactNode; className?: string }) {
+}: {
+  title?: string
+  children: React.ReactNode
+  className?: string
+}) {
   return (
-    <section className={cn("rounded-2xl ysh-gradient-border bg-elev", className)}>
+    <section
+      className={cn("ysh-gradient-border bg-elev rounded-2xl", className)}
+    >
       <div className="p-4">
-        <h3 className="text-lg font-semibold ysh-text-gradient">{title}</h3>
-        <div className="mt-2 text-[var(--geist-fg-muted)]">{children}</div>
+        {title && (
+          <h3 className="ysh-text-gradient text-lg font-semibold">{title}</h3>
+        )}
+        <div
+          className={cn(title ? "mt-2" : "", "text-[var(--geist-fg-muted)]")}
+        >
+          {children}
+        </div>
       </div>
     </section>
-  );
+  )
 }

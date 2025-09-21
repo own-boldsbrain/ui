@@ -19,10 +19,7 @@ export default function Page() {
           <h1 className="ysh-text-gradient text-3xl font-semibold">
             Yello · Canvas Kit
           </h1>
-          <Select 
-            defaultValue={activeTheme} 
-            onValueChange={setActiveTheme}
-          >
+          <Select defaultValue={activeTheme} onValueChange={setActiveTheme}>
             <SelectTrigger className="w-[180px]">
               <SelectValue placeholder="Selecione um tema" />
             </SelectTrigger>
@@ -49,20 +46,23 @@ export default function Page() {
 
         <GradientCard title="Cores primárias do tema">
           <div className="grid grid-cols-3 gap-4">
-            <div className="flex h-20 items-center justify-center rounded-md bg-primary text-primary-foreground">
+            <div className="bg-primary text-primary-foreground flex h-20 items-center justify-center rounded-md">
               Primary
             </div>
-            <div className="flex h-20 items-center justify-center rounded-md border border-border">
+            <div className="border-border flex h-20 items-center justify-center rounded-md border">
               Border
             </div>
-            <div className="flex h-20 items-center justify-center rounded-md ring-2 ring-ring">
+            <div className="ring-ring flex h-20 items-center justify-center rounded-md ring-2">
               Ring
             </div>
           </div>
         </GradientCard>
 
-        <p className="text-center text-sm text-muted-foreground">
-          Tema atual: <span className="font-medium">{THEMES.find(t => t.value === activeTheme)?.name}</span>
+        <p className="text-muted-foreground text-center text-sm">
+          Tema atual:{" "}
+          <span className="font-medium">
+            {THEMES.find((t) => t.value === activeTheme)?.name}
+          </span>
         </p>
       </div>
     </main>
